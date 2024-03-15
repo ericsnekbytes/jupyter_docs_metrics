@@ -4,10 +4,6 @@
 import collections
 import csv
 import io
-import matplotlib as mpl
-import matplotlib.pyplot as plt
-import numpy as np
-import re
 
 from types import SimpleNamespace
 
