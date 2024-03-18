@@ -166,8 +166,8 @@ class Metrics(RowColumnView):
     def _normalize_sheet(sheet):
         """Take a RowColumnView and return plain rows of string lists, normalized"""
         # Keep only expected columns in expected order
-        if (not set(sheet.headers()) >= set(Metrics.TRAFFIC_HDR_LIST)
-                and not (set(sheet.headers()) >= set(Metrics.SEARCH_HDR_LIST))):
+        if not (set(sheet.headers()) >= set(Metrics.TRAFFIC_HDR_LIST)
+                or (set(sheet.headers()) >= set(Metrics.SEARCH_HDR_LIST))):
             raise ValueError('Must provide valid traffic or search CSV data')
 
         # Figure out which columns we need to pull data from
