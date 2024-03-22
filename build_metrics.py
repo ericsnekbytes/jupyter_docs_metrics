@@ -1,10 +1,12 @@
 """Read and merge subproject metrics CSVs and build metrics outputs"""
 
 
+import csv
 import json
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import os
+import re
 import shutil
 import traceback
 
@@ -143,27 +145,40 @@ def build_metrics():
     # Build outputs/reporting for each subproject
     print('\n[BldMetrics] ---- Begin output generation ----')
     for proj_name, proj_metrics in all_subproj_metrics.items():
+
+        print(f'[BldMetrics] Making output folder for: {os.path.basename(proj_name)}')
+        try:
+            proj_output_dir = os.path.join(OUTPUT_DIR, os.path.basename(proj_name))
+            os.makedirs(proj_output_dir, exist_ok=True)
+        except Exception:
+            pass
+        if not os.path.exists(proj_output_dir):
+            raise Exception('  Could not make output directory!')
+
         traffic_metrics = proj_metrics[Metrics.TYPES.TRAFFIC]
         search_metrics = proj_metrics[Metrics.TYPES.SEARCH]
 
         # Determine/prep the output folder for this subproject
-        if traffic_metrics or search_metrics:
-            print(f'[BldMetrics] Making output folder for: {os.path.basename(proj_name)}')
-            try:
-                proj_output_dir = os.path.join(OUTPUT_DIR, os.path.basename(proj_name))
-                os.makedirs(proj_output_dir, exist_ok=True)
-            except Exception:
-                pass
-
-            if not os.path.exists(proj_output_dir):
-                raise Exception('  Could not make output directory!')
-        else:
-            print(f'[BldMetrics] Warning, this project has no metrics! Skipping: {os.path.basename(proj_name)}')
+        if not traffic_metrics and not search_metrics:
+            print(f'[BldMetrics]   Warning, this project has no metrics: {os.path.basename(proj_name)}')
             continue
 
         # Write any traffic metrics
         if traffic_metrics:
             try:
+
+                print(f'[BldMetrics]   Write merged traffic csv file')
+                merged_csv_path = os.path.join(
+                    proj_output_dir,
+                    re.sub(r'[^A-Za-z0-9]', '_', os.path.basename(proj_name)) + '_traffic.csv'
+                )
+                with open(merged_csv_path, 'w', encoding='utf8', newline='') as csvfile:
+                    writer = csv.writer(csvfile)
+                    writer.writerow(traffic_metrics.headers())
+                    for row in traffic_metrics:
+                        writer.writerow(row)
+
+                # Write HTML plots for some basic stats
                 output_path = os.path.join(proj_output_dir, 'popular_pages.html')
 
                 # Gather plot data
@@ -187,6 +202,19 @@ def build_metrics():
         # Write any search metrics
         if search_metrics:
             try:
+
+                print(f'[BldMetrics]   Write merged search csv file')
+                merged_csv_path = os.path.join(
+                    proj_output_dir,
+                    re.sub(r'[^A-Za-z0-9]', '_', os.path.basename(proj_name)) + '_search.csv'
+                )
+                with open(merged_csv_path, 'w', encoding='utf8', newline='') as csvfile:
+                    writer = csv.writer(csvfile)
+                    writer.writerow(search_metrics.headers())
+                    for row in search_metrics:
+                        writer.writerow(row)
+
+                # Write HTML plots for some basic stats
                 output_path = os.path.join( proj_output_dir, 'popular_queries.html')
 
                 # Gather plot data

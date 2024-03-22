@@ -276,7 +276,7 @@ class Metrics(RowColumnView):
             for fhandle in filehandle:
                 sources.append({
                     'type': Metrics.INPUTS.FILEHANDLE,
-                    'data': RowColuimnView(csv_to_rows_of_strings(filehandle=fhandle)),
+                    'data': RowColumnView(csv_to_rows_of_strings(filehandle=fhandle)),
                     'source': fhandle
                 })
         if path is not None:
