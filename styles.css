@@ -19,6 +19,7 @@ body {
     text-align: center;
     /* letter-spacing: .1rem; */
     /* color: #e65100; */
+    white-space: nowrap;
     background-color: #fff;
 }
 
@@ -101,4 +102,15 @@ a {
     /* padding: 1rem; */
     background-color: #eee;
     border-radius: .2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: clip;
+}
+
+.plot {
+    height: 25rem;
+    margin: 0 1rem 0 0;
+    border: 1px solid black;
 }
