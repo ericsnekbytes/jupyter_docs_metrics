@@ -101,7 +101,7 @@ def build_metrics():
                     err_info = {'tag': 'ERROR_READING_FILE', 'data': fpath, 'traceback': tb}
                     log_data['errors'].append(err_info)
                     files_errors.append(fpath)
-                    print(f'[BldMetrics]     Error during file read')
+                    print(f'[BldMetrics]       Error during file read')
 
                     continue
 
