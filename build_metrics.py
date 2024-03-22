@@ -168,7 +168,7 @@ def build_metrics():
 
                 # Gather plot data
                 views = traffic_metrics.total_views()
-                most_pop = traffic_metrics.most_popular_pages(10)
+                most_pop = traffic_metrics.most_popular_pages(25)
                 # pop_versions = traffic_metrics.most_popular_versions(25)
 
                 # Build/write the plot to the project output folder
