@@ -111,6 +111,7 @@ a {
 
 .plot {
     height: 25rem;
+    width: 40rem;
     margin: 0 1rem 0 0;
     border: 1px solid black;
 }

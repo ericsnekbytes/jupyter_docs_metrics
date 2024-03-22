@@ -11,6 +11,8 @@ import traceback
 from pprint import pprint
 from types import SimpleNamespace
 
+from bokeh.plotting import figure, show, output_file, save, output_notebook, output_file
+
 from doc_metrics import csv_to_rows_of_strings, RowColumnView, Metrics
 
 
@@ -162,22 +164,20 @@ def build_metrics():
         # Write any traffic metrics
         if traffic_metrics:
             try:
-                output_path = os.path.join(proj_output_dir, 'popular_pages.png')
+                output_path = os.path.join(proj_output_dir, 'popular_pages.html')
 
                 # Gather plot data
                 views = traffic_metrics.total_views()
-                pop_pages = traffic_metrics.most_popular_pages(25)
+                most_pop = traffic_metrics.most_popular_pages(10)
                 # pop_versions = traffic_metrics.most_popular_versions(25)
 
                 # Build/write the plot to the project output folder
-                fig = plt.figure()
-                ax = fig.subplots()
-                # ....
-                fig.suptitle('Most Popular Pages')
-                ax.invert_yaxis()
-                ax.barh([i[0] for i in pop_pages], [i[1] for i in pop_pages])
-                plt.savefig(output_path, bbox_inches="tight")
-                print('[BldMetrics]   Traffic metrics write success')
+                p = figure(y_range=[i[0] for i in most_pop], title="Popular Pages", x_axis_label='Views', y_axis_label='Page')
+                p.hbar(y=[i[0] for i in most_pop], right=[i[1] for i in most_pop])
+
+                output_file(filename=output_path, title="Static HTML file")
+                save(p)
+
             except Exception as err:
                 tb = traceback.format_exc()
                 err_info = {'tag': 'ERROR_WRITING_TRAFFIC_OUTPUT', 'data': proj_name, 'traceback': tb}
@@ -187,20 +187,18 @@ def build_metrics():
         # Write any search metrics
         if search_metrics:
             try:
-                output_path = os.path.join( proj_output_dir, 'popular_queries.png')
+                output_path = os.path.join( proj_output_dir, 'popular_queries.html')
 
                 # Gather plot data
-                pop_queries = search_metrics.most_popular_queries(25)
+                most_pop = search_metrics.most_popular_queries(25)
 
                 # Build/write the plot to the project output folder
-                fig = plt.figure()
-                ax = fig.subplots()
-                # ....
-                fig.suptitle('Most Popular Queries')
-                ax.invert_yaxis()
-                ax.barh([i[0] for i in pop_queries], [i[1] for i in pop_queries])
-                plt.savefig(output_path, bbox_inches="tight")
-                print('[BldMetrics]   Search metrics write success')
+                p = figure(y_range=[i[0] for i in most_pop], title="Popular Queries", x_axis_label='Views', y_axis_label='Page')
+                p.hbar(y=[i[0] for i in most_pop], right=[i[1] for i in most_pop])
+
+                output_file(filename=output_path, title="Static HTML file")
+                save(p)
+
             except Exception as err:
                 tb = traceback.format_exc()
                 err_info = {'tag': 'ERROR_WRITING_SEARCH_OUTPUT', 'data': proj_name, 'traceback': tb}
