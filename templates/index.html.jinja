@@ -1,0 +1,34 @@
+<!doctype html>
+<head>
+    <meta encoding="utf8" />
+    <title>Jupyter Docs Site Stats</title>
+    <link rel="stylesheet" href="style/styles.css" />
+</head>
+<body>
+    <!-- Full width top of page banner -->
+    <div class="page_header">
+        <img class="jup_logo" src="style/rectanglelogo-greytext-orangebody-greymoons.svg" />
+        <div class="page_title">Jupyter Subproject documentation stats</div>
+    </div>
+    <div class="divider"></div>
+    {% for item in subprojects %}
+    <!-- >>> Subproject layout -->
+    <div class="subproj_upper_bar">
+        <div class="subproj_title">{{ item.name }}</div>
+    </div>
+    <div class="subproj_container">
+        <!-- <div class="spacer"></div> -->
+        <div class="downloads_area">
+            <div class="download_btn"><a href="{{ item.merged_traffic_csv_path }}" download>Get traffic CSV</a></div>
+            <div class="download_btn"><a href="{{ item.merged_search_csv_path }}" download>Get search CSV</a></div>
+            <div class="download_btn"><a href="./jupyter_docs_metrics_v1.ipynb" download>Get Notebook</a></div>
+        </div>
+        <div class="image_container">
+            <iframe class="plot" src="./metrics_output/JupyterLab/popular_pages.html"></iframe>
+            <iframe class="plot" src="./metrics_output/JupyterLab/popular_queries.html"></iframe>
+        </div>
+    </div>
+    <!-- <<< end Subproject layout -->
+    {% endfor %}
+</body>
+</html>

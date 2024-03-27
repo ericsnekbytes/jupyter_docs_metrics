@@ -13,6 +13,7 @@ import traceback
 from pprint import pprint
 from types import SimpleNamespace
 
+from jinja2 import Environment, FileSystemLoader, select_autoescape
 from bokeh.plotting import figure, show, output_file, save, output_notebook, output_file
 
 from doc_metrics import csv_to_rows_of_strings, RowColumnView, Metrics
@@ -20,13 +21,25 @@ from doc_metrics import csv_to_rows_of_strings, RowColumnView, Metrics
 
 DATA_DIR = 'subproject_csvs'
 OUTPUT_DIR = 'metrics_output'
+jinja_environ = Environment(
+    loader=FileSystemLoader('templates'),
+    autoescape=select_autoescape()
+)
+# WEB_INFO = SimpleNamespace(
+#     WEB='WEB',
+#     traffic_csv_link='traffic_csv_link',
+#     search_csv_link='search_csv_link',
+#     notebook_link='notebook_link',
+#     popular_pages_link='popular_pages_link',
+#     popular_queries_link='popular_queries_link',
+# )
 
 
 def build_metrics():
     print("[BldMetrics] **** Begin metrics build ****")
 
-    # Build separate metrics for each subproject
-    all_subproj_metrics = {}
+    # Hold/build compiled info about every project here
+    all_project_metadata = {}
     log_data = {  # Holds metadata and errors about the build process
         'metadata': [],
         'errors': [],
@@ -52,71 +65,86 @@ def build_metrics():
             raise Exception('Error removing old output files') from err
 
     # Start looking for subproject folders in the data dir
-    for fpath in os.listdir(DATA_DIR):
-        proj_dir = os.path.join(os.path.abspath(DATA_DIR), fpath)
-        print(f'\n[BldMetrics] Checking item in data path: {fpath}')
+    for proj_path in os.listdir(DATA_DIR):
+        proj_dir = os.path.join(os.path.abspath(DATA_DIR), proj_path)
+        print(f'\n[BldMetrics] Checking item in data path: {proj_path}')
 
         # CSV files should only be inside a subproj folder
         if not os.path.isdir(proj_dir):
             files_skipped.append(proj_dir)
-            print('[BldMetrics]   Skipped')
+            print(f'[BldMetrics]   Skipped orphan file in project folder: {proj_dir}')
             continue
+
+        # Compile project metadata here
+        proj_metadata = {
+            'traffic_data': None,
+            'traffic_inputs': None,
+            'merged_traffic_csv_path': None,
+
+            'search_data': None,
+            'search_inputs': None,
+            'merged_search_csv_path': None,
+
+            'plot1_path': None,
+            'plot2_path': None,
+        }
+        all_project_metadata[proj_path] = proj_metadata
 
         # Traverse all subdirs and grab any CSVs
         print('[BldMetrics]   Searching...')
-        subproj_metrics = {
-            Metrics.TYPES.TRAFFIC: None,
-            Metrics.TYPES.SEARCH: None,
-        }
-        all_subproj_metrics[proj_dir] = subproj_metrics
-        traffic_files = []
-        search_files = []
+        proj_traffic_csvs = []
+        proj_search_csvs = []
+        proj_metadata['traffic_inputs'] = proj_traffic_csvs
+        proj_metadata['search_inputs'] = proj_search_csvs
         for dirpath, dirnames, filenames in os.walk(proj_dir):
-            for fname in filenames:
-                fpath = os.path.join(dirpath, fname)
-                if not fname.lower().endswith('.csv'):
-                    print(f'[BldMetrics]     Skip file: {os.path.relpath(os.path.join(dirpath, fname), DATA_DIR)}')
-                    files_skipped.append(fpath)
+            for target in filenames:
+                tgt_path = os.path.join(dirpath, target)
+                if not target.lower().endswith('.csv'):
+                    print(f'[BldMetrics]     Skip file: {os.path.relpath(os.path.join(dirpath, target), DATA_DIR)}')
+                    files_skipped.append(tgt_path)
                     continue
 
                 # Load the CSV and check if it's valid
                 try:
-                    print(f'[BldMetrics]     Load CSV: {os.path.relpath(os.path.join(dirpath, fname), DATA_DIR)}')
-                    met = Metrics.build(path=fpath)
+                    print(f'[BldMetrics]     Load CSV: {os.path.relpath(os.path.join(dirpath, tgt_path), DATA_DIR)}')
+                    met = Metrics.build(path=tgt_path)
                     if not (met.is_traffic() or met.is_search()):
-                        err_info = {'tag': 'BAD_CSV_FORMAT', 'data': fpath}
+                        err_info = {'tag': 'BAD_CSV_FORMAT', 'data': tgt_path}
                         log_data['errors'].append(err_info)
-                        files_errors.append(fpath)
+                        files_errors.append(tgt_path)
                         print(f'[BldMetrics]       Bad CSV format')
 
                         continue
 
                     # Add the path to the right target path list
                     if met.is_traffic():
-                        traffic_files.append(fpath)
+                        proj_traffic_csvs.append(tgt_path)
                         print(f'[BldMetrics]       Traffic data found')
                     if met.is_search():
-                        search_files.append(fpath)
+                        proj_search_csvs.append(tgt_path)
                         print(f'[BldMetrics]       Search data found')
-                    files_success.append(fpath)
+                    files_success.append(tgt_path)
 
                 except Exception as err:
                     tb = traceback.format_exc()
-                    err_info = {'tag': 'ERROR_READING_FILE', 'data': fpath, 'traceback': tb}
+                    err_info = {'tag': 'ERROR_READING_FILE', 'data': tgt_path, 'traceback': tb}
                     log_data['errors'].append(err_info)
-                    files_errors.append(fpath)
+                    files_errors.append(tgt_path)
                     print(f'[BldMetrics]       Error during file read')
 
                     continue
 
+        if not (proj_traffic_csvs or proj_search_csvs):
+            print('[BldMetrics]   Warning: No valid metrics were found for this project...')
+            continue
+
         # Merge/compile metrics by type
         print('[BldMetrics]   Begin metrics merge...')
-        # ....
-        # Traffic
         try:
-            if traffic_files:
-                traffic_metrics = Metrics.build(path=traffic_files)
-                subproj_metrics[Metrics.TYPES.TRAFFIC] = traffic_metrics
+            # Build aggregated traffic data
+            if proj_traffic_csvs:
+                traffic_metrics = Metrics.build(path=proj_traffic_csvs)
+                proj_metadata['traffic_data'] = traffic_metrics
                 print('[BldMetrics]     ...merged traffic CSVs')
             else:
                 print(f'[BldMetrics]     Warning: no traffic metrics!')
@@ -125,12 +153,11 @@ def build_metrics():
             err_info = {'tag': 'ERROR_MERGING_PROJ_TRAFFIC_CSVS', 'data': proj_dir, 'traceback': tb}
             log_data['errors'].append(err_info)
             print(f'[BldMetrics]     Error merging/building traffic CSVs!')
-        # ....
-        # Search
         try:
-            if search_files:
-                search_metrics = Metrics.build(path=search_files)
-                subproj_metrics[Metrics.TYPES.SEARCH] = search_metrics
+            # Build aggregated search data
+            if proj_search_csvs:
+                search_metrics = Metrics.build(path=proj_search_csvs)
+                proj_metadata['search_data'] = search_metrics
                 print('[BldMetrics]     ...merged search CSVs')
             else:
                 print(f'[BldMetrics]     Warning: no search metrics!')
@@ -140,14 +167,18 @@ def build_metrics():
             log_data['errors'].append(err_info)
             print(f'[BldMetrics]     Error merging/building search CSVs!')
 
-        all_subproj_metrics[proj_dir] = subproj_metrics
-
     # Build outputs/reporting for each subproject
     print('\n[BldMetrics] ---- Begin output generation ----')
-    for proj_name, proj_metrics in all_subproj_metrics.items():
+    for proj_name, proj_metadata in all_project_metadata.items():
+        traffic_metrics = proj_metadata['traffic_data']
+        search_metrics = proj_metadata['search_data']
+        if traffic_metrics is None and search_metrics is None:
+            print(f'[BldMetrics] Skipping outputs for project without valid data: {proj_name}')
+            continue
 
-        print(f'[BldMetrics] Making output folder for: {os.path.basename(proj_name)}')
+        # Ensure destination/output dirs exist before writing outputs to disk
         try:
+            print(f'[BldMetrics] Making output folder for: {os.path.basename(proj_name)}')
             proj_output_dir = os.path.join(OUTPUT_DIR, os.path.basename(proj_name))
             os.makedirs(proj_output_dir, exist_ok=True)
         except Exception:
@@ -155,18 +186,11 @@ def build_metrics():
         if not os.path.exists(proj_output_dir):
             raise Exception('  Could not make output directory!')
 
-        traffic_metrics = proj_metrics[Metrics.TYPES.TRAFFIC]
-        search_metrics = proj_metrics[Metrics.TYPES.SEARCH]
-
-        # Determine/prep the output folder for this subproject
-        if not traffic_metrics and not search_metrics:
-            print(f'[BldMetrics]   Warning, this project has no metrics: {os.path.basename(proj_name)}')
-            continue
-
-        # Write any traffic metrics
+        # Build outputs for traffic data
         if traffic_metrics:
             try:
 
+                # Write merged CSV data for users to tinker with if desired
                 print(f'[BldMetrics]   Write merged traffic csv file')
                 merged_csv_path = os.path.join(
                     proj_output_dir,
@@ -177,20 +201,21 @@ def build_metrics():
                     writer.writerow(traffic_metrics.headers())
                     for row in traffic_metrics:
                         writer.writerow(row)
+                proj_metadata['merged_traffic_csv_path'] = merged_csv_path
 
-                # Write HTML plots for some basic stats
-                output_path = os.path.join(proj_output_dir, 'popular_pages.html')
+                # Write interactive HTML plots
+                plot1_path = os.path.join(proj_output_dir, 'popular_pages.html')
+                proj_metadata['plot1_path'] = plot1_path
 
-                # Gather plot data
-                views = traffic_metrics.total_views()
                 most_pop = traffic_metrics.most_popular_pages(25)
+                # views = traffic_metrics.total_views()
                 # pop_versions = traffic_metrics.most_popular_versions(25)
 
                 # Build/write the plot to the project output folder
                 p = figure(y_range=[i[0] for i in most_pop], title="Popular Pages", x_axis_label='Views', y_axis_label='Page')
                 p.hbar(y=[i[0] for i in most_pop], right=[i[1] for i in most_pop])
 
-                output_file(filename=output_path, title="Static HTML file")
+                output_file(filename=plot1_path, title="Static HTML file")
                 save(p)
 
             except Exception as err:
@@ -199,10 +224,11 @@ def build_metrics():
                 log_data['errors'].append(err_info)
                 print(f'[BldMetrics]   Error writing traffic outputs!')
 
-        # Write any search metrics
+        # Build outputs for search data
         if search_metrics:
             try:
 
+                # Write merged CSV data for users to tinker with if desired
                 print(f'[BldMetrics]   Write merged search csv file')
                 merged_csv_path = os.path.join(
                     proj_output_dir,
@@ -213,18 +239,19 @@ def build_metrics():
                     writer.writerow(search_metrics.headers())
                     for row in search_metrics:
                         writer.writerow(row)
+                proj_metadata['merged_search_csv_path'] = merged_csv_path
 
-                # Write HTML plots for some basic stats
-                output_path = os.path.join( proj_output_dir, 'popular_queries.html')
+                # Write interactive HTML plots
+                plot2_path = os.path.join( proj_output_dir, 'popular_queries.html')
+                proj_metadata['plot2_path'] = plot2_path
 
-                # Gather plot data
                 most_pop = search_metrics.most_popular_queries(25)
 
                 # Build/write the plot to the project output folder
                 p = figure(y_range=[i[0] for i in most_pop], title="Popular Queries", x_axis_label='Views', y_axis_label='Page')
                 p.hbar(y=[i[0] for i in most_pop], right=[i[1] for i in most_pop])
 
-                output_file(filename=output_path, title="Static HTML file")
+                output_file(filename=plot2_path, title="Static HTML file")
                 save(p)
 
             except Exception as err:
@@ -232,6 +259,25 @@ def build_metrics():
                 err_info = {'tag': 'ERROR_WRITING_SEARCH_OUTPUT', 'data': proj_name, 'traceback': tb}
                 log_data['errors'].append(err_info)
                 print(f'[BldMetrics]   Error writing search outputs!')
+
+    # Build the summary page, with a section for each subproject found in the DATA_DIR
+    # (Jinja consumes the homepage HTML template file and adds entries per subproject)
+    metrics_page_tmpl = jinja_environ.get_template("index.html.jinja")
+    project_page_values = [
+        SimpleNamespace(
+            name=key,
+
+            merged_traffic_csv_path=val['merged_traffic_csv_path'],
+            merged_search_csv_path=val['merged_search_csv_path'],
+            plot1_path=val['plot1_path'],
+            plot2_path=val['plot2_path'],
+        ) for key, val in all_project_metadata.items()
+    ]
+    output_page = metrics_page_tmpl.render(
+        subprojects=project_page_values
+    )
+    with open(r'home_metrics.html', 'w', encoding='utf8') as fhandle:
+        fhandle.write(output_page)
 
     with open(os.path.join(OUTPUT_DIR, 'metrics_build.log'), 'wb') as fhandle:
         fhandle.write(json.dumps(log_data).encode('utf8'))
