@@ -13,18 +13,15 @@ import traceback
 from pprint import pprint
 from types import SimpleNamespace
 
-from jinja2 import Environment, FileSystemLoader, select_autoescape
 from bokeh.plotting import figure, show, output_file, save, output_notebook, output_file
+from mako.lookup import TemplateLookup
+from mako.template import Template
 
 from doc_metrics import csv_to_rows_of_strings, RowColumnView, Metrics
 
 
 DATA_DIR = 'subproject_csvs'
 OUTPUT_DIR = 'metrics_output'
-jinja_environ = Environment(
-    loader=FileSystemLoader('templates'),
-    autoescape=select_autoescape()
-)
 # WEB_INFO = SimpleNamespace(
 #     WEB='WEB',
 #     traffic_csv_link='traffic_csv_link',
@@ -201,11 +198,11 @@ def build_metrics():
                     writer.writerow(traffic_metrics.headers())
                     for row in traffic_metrics:
                         writer.writerow(row)
-                proj_metadata['merged_traffic_csv_path'] = merged_csv_path
+                proj_metadata['merged_traffic_csv_path'] = os.path.join('.', merged_csv_path)
 
                 # Write interactive HTML plots
                 plot1_path = os.path.join(proj_output_dir, 'popular_pages.html')
-                proj_metadata['plot1_path'] = plot1_path
+                proj_metadata['plot1_path'] = os.path.join('.', plot1_path)
 
                 most_pop = traffic_metrics.most_popular_pages(25)
                 # views = traffic_metrics.total_views()
@@ -239,11 +236,11 @@ def build_metrics():
                     writer.writerow(search_metrics.headers())
                     for row in search_metrics:
                         writer.writerow(row)
-                proj_metadata['merged_search_csv_path'] = merged_csv_path
+                proj_metadata['merged_search_csv_path'] = os.path.join('.', merged_csv_path)
 
                 # Write interactive HTML plots
                 plot2_path = os.path.join( proj_output_dir, 'popular_queries.html')
-                proj_metadata['plot2_path'] = plot2_path
+                proj_metadata['plot2_path'] = os.path.join('.', plot2_path)
 
                 most_pop = search_metrics.most_popular_queries(25)
 
@@ -261,22 +258,20 @@ def build_metrics():
                 print(f'[BldMetrics]   Error writing search outputs!')
 
     # Build the summary page, with a section for each subproject found in the DATA_DIR
-    # (Jinja consumes the homepage HTML template file and adds entries per subproject)
-    metrics_page_tmpl = jinja_environ.get_template("index.html.jinja")
+    # (Mako consumes the homepage HTML template file and adds entries per subproject)
+    metrics_lookup = TemplateLookup(directories=['templates'])
+    metrics_page_templ = metrics_lookup.get_template("index.html.template")
+    # Turn project dicts into objects for easy access in the template
     project_page_values = [
         SimpleNamespace(
             name=key,
-
-            merged_traffic_csv_path=val['merged_traffic_csv_path'],
-            merged_search_csv_path=val['merged_search_csv_path'],
-            plot1_path=val['plot1_path'],
-            plot2_path=val['plot2_path'],
+            **val
         ) for key, val in all_project_metadata.items()
     ]
-    output_page = metrics_page_tmpl.render(
+    output_page = metrics_page_templ.render(
         subprojects=project_page_values
     )
-    with open(r'home_metrics.html', 'w', encoding='utf8') as fhandle:
+    with open(r'index.html', 'w', encoding='utf8') as fhandle:
         fhandle.write(output_page)
 
     with open(os.path.join(OUTPUT_DIR, 'metrics_build.log'), 'wb') as fhandle:
