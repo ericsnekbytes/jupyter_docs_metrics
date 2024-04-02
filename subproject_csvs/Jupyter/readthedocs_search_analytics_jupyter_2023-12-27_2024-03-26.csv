@@ -1,0 +1,5337 @@
+Created Date,Query,Total Results
+2024-03-26 18:58:18,references,2
+2024-03-26 18:57:17,cite,1
+2024-03-26 18:56:30,bibliography,0
+2024-03-26 18:56:15,reference,10
+2024-03-26 18:47:02,complete,7
+2024-03-26 18:35:33,postgres,0
+2024-03-26 17:49:04,instal anaconda,5
+2024-03-26 17:37:34,tornado,2
+2024-03-26 16:12:23,environment variable,18
+2024-03-26 16:08:36,nbconvert,10
+2024-03-26 15:56:17,settings,7
+2024-03-26 15:56:11,formatter,0
+2024-03-26 15:56:02,code formatter,56
+2024-03-26 15:55:56,jupyterlab code formatter,64
+2024-03-26 15:48:42,version,20
+2024-03-26 15:21:25,change runtime type,27
+2024-03-26 15:21:20,changeruntime type,13
+2024-03-26 15:21:05,runtime type,16
+2024-03-26 15:20:37,runtime settings,13
+2024-03-26 15:18:04,cell tag,9
+2024-03-26 14:52:36,sentimen_analysis,0
+2024-03-26 14:52:20,sentimen komentar,0
+2024-03-26 14:51:36,cell all,37
+2024-03-26 14:51:24,cell,6
+2024-03-26 14:42:56,maximum likelihood estimation,0
+2024-03-26 14:29:57,pythonstartup,0
+2024-03-26 14:05:39,debug,0
+2024-03-26 14:01:39,pandas,0
+2024-03-26 13:38:13,javascript,8
+2024-03-26 13:19:05,can't save files,23
+2024-03-26 13:18:27,"""file save error""",0
+2024-03-26 13:18:19,"""file save error permission denied:""",0
+2024-03-26 13:18:00,"""file save error for test-jupyter-notebook.ipynb permission denied:""",0
+2024-03-26 13:17:33,file save error for test-jupyter-notebook.ipynb permission denied: test-jupyter-notebook.ipynb,102
+2024-03-26 13:14:20,python dersleri,42
+2024-03-26 13:03:49,%run,27
+2024-03-26 12:58:11,json,9
+2024-03-26 12:25:11,tensorflow,0
+2024-03-26 12:24:24,export,4
+2024-03-26 12:24:06,docker,11
+2024-03-26 12:12:21,exporter,1
+2024-03-26 12:12:00,veri tipleri,0
+2024-03-26 12:11:52,pyhton,0
+2024-03-26 10:36:15,environment variable,18
+2024-03-26 10:29:59,line numbers,13
+2024-03-26 10:23:24,google colab,13
+2024-03-26 09:28:18,uninstall jupyterlab,41
+2024-03-26 09:17:53,offline,1
+2024-03-26 09:14:10,keyboard,2
+2024-03-26 09:14:09,shortcuts,1
+2024-03-26 09:14:03,dir(),4
+2024-03-26 08:36:35,代码补全怎么弄,0
+2024-03-26 08:08:47,contribute,9
+2024-03-26 07:20:11,citation,1
+2024-03-26 07:20:05,cited,0
+2024-03-26 07:01:14,kw45,0
+2024-03-26 07:01:10,nxp,0
+2024-03-26 06:54:42,localhost,2
+2024-03-26 06:48:00,errors and exceptions,100
+2024-03-26 06:37:34,nbformat,8
+2024-03-26 06:21:39,kernel remove,33
+2024-03-26 05:42:25,version,20
+2024-03-26 03:44:38,stable baseline3,3
+2024-03-26 03:44:03,stable,3
+2024-03-26 03:16:39,config,9
+2024-03-26 03:16:30,login,3
+2024-03-26 03:16:23,token,1
+2024-03-26 03:16:18,password,0
+2024-03-26 02:44:00,traitlets,6
+2024-03-26 02:43:50,version,20
+2024-03-26 02:30:39,metadata,7
+2024-03-26 01:43:33,localhost,2
+2024-03-26 01:32:36,lvezic testbook,1
+2024-03-26 01:32:27,lvezic textbook,0
+2024-03-26 00:55:48,public jupyter servers,86
+2024-03-26 00:40:29,linux,5
+2024-03-25 23:07:35,modulenotfounderror: no module named 'pint',29
+2024-03-25 21:44:17,user interface,41
+2024-03-25 20:51:00,git,16
+2024-03-25 20:38:39,working with markdown,78
+2024-03-25 20:36:49,markdown,7
+2024-03-25 19:27:50,single-user,36
+2024-03-25 19:27:03,single user,36
+2024-03-25 19:18:43,collab,0
+2024-03-25 19:00:44,install,21
+2024-03-25 18:51:00,pip,17
+2024-03-25 18:34:24,installing jupyter using anaconda and conda,105
+2024-03-25 17:54:28,linux,5
+2024-03-25 17:13:47,voila,7
+2024-03-25 16:46:25,license,1
+2024-03-25 16:44:17,end the notebook server,106
+2024-03-25 16:42:33,terminate jupyter notebook on terminal,107
+2024-03-25 16:42:10,terminate,0
+2024-03-25 16:41:49,stop jupyter notebook in terminal,104
+2024-03-25 16:39:45,token,1
+2024-03-25 16:39:34,auth,3
+2024-03-25 16:39:25,password,0
+2024-03-25 16:30:19,mermaid,0
+2024-03-25 15:53:51,git,16
+2024-03-25 15:25:13,r,10
+2024-03-25 15:17:47,change working dir,33
+2024-03-25 15:07:11,data source,107
+2024-03-25 15:07:09,ms sql,1
+2024-03-25 15:04:46,fft,0
+2024-03-25 14:55:37,root,3
+2024-03-25 14:55:25,drive,2
+2024-03-25 14:44:46,jupital note book online types,52
+2024-03-25 14:40:53,license,1
+2024-03-25 14:33:39,theme,4
+2024-03-25 14:32:34,minio,0
+2024-03-25 14:23:50,d,4
+2024-03-25 14:03:32,pdf,5
+2024-03-25 13:49:18,block,2
+2024-03-25 13:49:14,admonition,0
+2024-03-25 13:21:51,keyboard shurtcuts,2
+2024-03-25 13:21:36,keyboard,2
+2024-03-25 13:21:20,key,5
+2024-03-25 13:21:11,shortcuts,1
+2024-03-25 12:54:31,sympy,1
+2024-03-25 12:54:08,dynamics and control,100
+2024-03-25 12:40:47,import,7
+2024-03-25 12:01:25,edit shortcuts,106
+2024-03-25 12:01:04,keyboard shortcuts,3
+2024-03-25 11:15:36,django working,21
+2024-03-25 11:14:41,django,1
+2024-03-25 11:14:26,install django,21
+2024-03-25 10:35:06,openmc,0
+2024-03-25 10:25:04,install package,24
+2024-03-25 10:24:49,installa package,8
+2024-03-25 10:12:42,lists,5
+2024-03-25 10:12:32,table,4
+2024-03-25 10:12:27,matrix,0
+2024-03-25 10:12:14,tables,2
+2024-03-25 10:09:59,short keys,38
+2024-03-25 09:08:13,docker,11
+2024-03-25 07:25:20,version,20
+2024-03-25 06:27:13,api,8
+2024-03-25 06:18:47,version,20
+2024-03-25 06:15:45,shortcut,2
+2024-03-25 06:14:58,shrut cut,0
+2024-03-25 05:59:00,/api/kernels,31
+2024-03-25 05:58:11,jupyterwebsocketpersonality,0
+2024-03-25 04:40:55,markdown,7
+2024-03-25 04:07:59,scale notebook,66
+2024-03-25 03:30:15,s3,1
+2024-03-25 03:26:22,installation,13
+2024-03-25 02:40:43,code completed,56
+2024-03-25 02:35:58,kernel connecting,32
+2024-03-25 02:09:18,html,15
+2024-03-25 02:08:57,style,6
+2024-03-25 02:08:41,css,1
+2024-03-25 01:54:08,extension,21
+2024-03-25 01:39:53,magic,3
+2024-03-25 01:15:46,unhandled,0
+2024-03-25 01:15:32,unhandled error,10
+2024-03-25 01:15:07,sslcertverificationerror,0
+2024-03-25 01:14:48,pythonhttpsverify,0
+2024-03-25 00:14:03,customization of text wihin notebooks,101
+2024-03-25 00:06:21,linera elgibra,0
+2024-03-25 00:06:18,matrix,0
+2024-03-25 00:05:10,hermitian,0
+2024-03-25 00:01:19,hermitian matrix,0
+2024-03-24 23:24:59,markdown cell,12
+2024-03-24 23:24:49,markdown cell jupyter notebook,89
+2024-03-24 23:15:05,kernel,32
+2024-03-24 23:14:11,"""virtualenv""",1
+2024-03-24 23:14:05,"""virtual envionment""",0
+2024-03-24 23:13:53,virtual envionment,33
+2024-03-24 20:23:03,apiori,0
+2024-03-24 18:55:09,ruby,1
+2024-03-24 18:10:25,tag,3
+2024-03-24 16:06:59,"""could not determine jupyterlab build status without nodejs""",0
+2024-03-24 16:06:39,could not determine jupyterlab build status without nodejs,78
+2024-03-24 16:05:26,extensions install,30
+2024-03-24 16:05:09,jupyter_contrib_nbextensions,1
+2024-03-24 16:04:50,extensions,15
+2024-03-24 16:04:33,arange,0
+2024-03-24 16:04:31,extension,21
+2024-03-24 15:41:45,pdf,5
+2024-03-24 15:30:10,tweepy,0
+2024-03-24 15:30:05,seaborn,0
+2024-03-24 15:26:30,folder_path,0
+2024-03-24 15:04:56,password,0
+2024-03-24 14:27:49,lite,0
+2024-03-24 14:01:03,config keyboard shortcut,12
+2024-03-24 13:59:28,what to pay attention to when installing windows 10,101
+2024-03-24 13:24:04,run notebook,70
+2024-03-24 12:38:21,move jupyter to d: drive,105
+2024-03-24 12:14:02,chatgpt request api,26
+2024-03-24 12:13:47,chatgpt request,19
+2024-03-24 10:57:33,checkpoints,1
+2024-03-24 10:57:19,checkpoint,1
+2024-03-24 10:57:05,checkpioint,0
+2024-03-24 10:01:14,docker,11
+2024-03-24 07:50:18,lsp,4
+2024-03-24 07:50:11,lps,0
+2024-03-24 06:28:07,extensions,15
+2024-03-24 05:45:54,에어드랍,0
+2024-03-24 05:12:03,string accessories,3
+2024-03-24 04:57:07,magic,3
+2024-03-24 04:56:53,matplotlib,4
+2024-03-24 04:15:05,visual studio,3
+2024-03-24 04:14:50,vs code,56
+2024-03-24 03:07:42,hidden files,22
+2024-03-24 02:55:07,python version,48
+2024-03-24 02:54:48,requirements,1
+2024-03-23 19:08:24,time cell,27
+2024-03-23 19:08:18,%%time,26
+2024-03-23 15:41:22,labextension,2
+2024-03-23 15:39:19,nbextension,1
+2024-03-23 14:44:19,packages,8
+2024-03-23 13:14:01,short cuts,38
+2024-03-23 13:13:52,shortcuts,1
+2024-03-23 11:12:12,%%capture,0
+2024-03-23 11:12:06,%%capture stored_output,0
+2024-03-23 10:59:08,plot,1
+2024-03-23 10:53:54,pip3 install,21
+2024-03-23 10:52:59,c:\users\shrin\desktop\helthcare-system-main\helthcare-system-main\helthcare-system-main\sqark and visualization,100
+2024-03-23 10:20:29,docker run,35
+2024-03-23 10:15:17,docker,11
+2024-03-23 09:40:46,share+notebook,21
+2024-03-23 09:40:04,how to share a notebook,107
+2024-03-23 09:28:53,latex,5
+2024-03-23 09:09:10,install pandas,21
+2024-03-23 08:56:18,explorer,2
+2024-03-23 08:46:11,migrate,1
+2024-03-23 07:02:40,special future of communication,102
+2024-03-23 07:02:23,special future od,11
+2024-03-23 06:14:47,xelatex,0
+2024-03-23 06:02:52,debug,0
+2024-03-23 05:26:16,uninstall,1
+2024-03-23 05:26:07,uninstall notebook,63
+2024-03-23 03:34:14,load_ext,0
+2024-03-23 03:26:13,apriori algorithm,0
+2024-03-23 02:31:47,convert,4
+2024-03-22 23:12:07,auto complete,8
+2024-03-22 22:50:37,complete,7
+2024-03-22 22:33:28,pdf,5
+2024-03-22 22:31:19,markdown cells,9
+2024-03-22 22:30:42,distribution,4
+2024-03-22 20:47:46,kernel,32
+2024-03-22 20:15:21,config,9
+2024-03-22 19:30:23,windows path variable,19
+2024-03-22 19:30:19,windoes path variable,15
+2024-03-22 19:29:43,path variable,15
+2024-03-22 18:47:54,pip install,24
+2024-03-22 18:34:05,how to set path,101
+2024-03-22 18:08:38,docker,11
+2024-03-22 17:13:18,autoreload,0
+2024-03-22 14:42:05,shortcut,2
+2024-03-22 14:13:57,changelog,5
+2024-03-22 14:08:06,render,3
+2024-03-22 13:17:50,idle,2
+2024-03-22 13:17:47,idel,0
+2024-03-22 13:16:39,apport,0
+2024-03-22 12:22:45,language server,32
+2024-03-22 12:22:03,memory,2
+2024-03-22 11:56:27,typescript,2
+2024-03-22 11:30:54,ipynb,9
+2024-03-22 11:13:23,eikon api,8
+2024-03-22 10:43:21,virual environment,16
+2024-03-22 10:27:35,advanced settings,14
+2024-03-22 10:22:48,conan,0
+2024-03-22 09:59:10,transform.rescale,0
+2024-03-22 09:15:00,nbconvert,10
+2024-03-22 08:53:45,jupyter nbconvert --to html  --template,106
+2024-03-22 08:53:07,--template basic,10
+2024-03-22 08:41:34,kernel interrupt,32
+2024-03-22 08:40:20,http://localhost:8888/notebooks/speech%20to%20speech.ipynb,37
+2024-03-22 08:28:10,pytorch,0
+2024-03-22 07:33:09,update,21
+2024-03-22 07:27:24,irkernel,3
+2024-03-22 07:07:35,jupyter6,0
+2024-03-22 07:07:17,jupyter 6,88
+2024-03-22 07:06:48,notebook6,0
+2024-03-22 06:50:16,how to create a new file,105
+2024-03-22 04:02:04,token,1
+2024-03-22 03:56:41,nbextension,1
+2024-03-22 03:47:11,shortcuts,1
+2024-03-22 03:39:12,c.jupyterhub.base_url,0
+2024-03-22 03:38:58,base_url,0
+2024-03-22 03:38:51,base url,12
+2024-03-22 03:37:56,notebook.ipynb,1
+2024-03-22 03:37:34,subdomain,0
+2024-03-22 03:37:28,domain,0
+2024-03-22 03:36:56,path prefix,13
+2024-03-22 01:35:54,http://localhost:8888/notebooks/week4%201%201.ipynb,40
+2024-03-22 00:38:54,nbconvert,10
+2024-03-21 23:56:44,define,2
+2024-03-21 23:56:06,languages,12
+2024-03-21 23:52:10,static_dir,0
+2024-03-21 23:51:39,chinese,1
+2024-03-21 23:50:53,language,17
+2024-03-21 22:50:30,np.flipud,0
+2024-03-21 22:49:09,how to flip an image,100
+2024-03-21 21:46:31,string split(),9
+2024-03-21 21:44:04,.split(),6
+2024-03-21 21:43:23,split,6
+2024-03-21 21:02:47,hook,0
+2024-03-21 20:04:43,run a cell,96
+2024-03-21 20:04:38,runa cell,6
+2024-03-21 19:46:05,serverproxy,0
+2024-03-21 19:45:57,c.serverproxy.servers,0
+2024-03-21 19:32:06,event,9
+2024-03-21 17:02:09,python reference guide,55
+2024-03-21 16:58:25,lda,0
+2024-03-21 16:58:13,lda主题聚类,0
+2024-03-21 16:54:58,jupyter_notebook_config.py,1
+2024-03-21 15:48:31,pandas,0
+2024-03-21 15:39:46,matplotlib,4
+2024-03-21 14:23:53,password,0
+2024-03-21 14:12:56,docker,11
+2024-03-21 13:55:02,pytorch_geometric,0
+2024-03-21 13:54:50,pytorch_geometric基本使用,0
+2024-03-21 13:45:39,environment variable,18
+2024-03-21 13:08:49,an_spsdk,0
+2024-03-21 13:08:28,nxp,0
+2024-03-21 13:06:20,comms,0
+2024-03-21 13:03:38,jupyter ai,85
+2024-03-21 12:46:59,helm,1
+2024-03-21 12:31:53,local files,24
+2024-03-21 12:31:47,http,10
+2024-03-21 12:31:36,serve,5
+2024-03-21 12:31:26,static,6
+2024-03-21 12:24:24,kernel,32
+2024-03-21 12:24:10,environment,16
+2024-03-21 12:11:58,authentication,3
+2024-03-21 12:11:56,authenticatin,0
+2024-03-21 12:06:50,import,7
+2024-03-21 12:06:46,include,14
+2024-03-21 10:44:05,azure,2
+2024-03-21 10:06:48,terminal,10
+2024-03-21 09:57:39,jupyter notebook,89
+2024-03-21 09:56:06,integer,0
+2024-03-21 09:55:52,integer part,27
+2024-03-21 09:52:33,"""--ip""",3
+2024-03-21 09:52:15,--ip,3
+2024-03-21 09:36:37,nbextensions,2
+2024-03-21 09:21:19,sample random numbers,4
+2024-03-21 09:20:28,服务器端安装jupyter notebook,89
+2024-03-21 09:19:36,服务器上安装jupyter,85
+2024-03-21 08:44:24,list,24
+2024-03-21 08:21:04,file storage,27
+2024-03-21 08:18:43,folder stucture,2
+2024-03-21 05:48:41,kernel service,36
+2024-03-21 05:48:06,remote kernel,34
+2024-03-21 05:47:05,server,22
+2024-03-21 05:05:22,ldap,1
+2024-03-21 05:02:46,sudo,2
+2024-03-21 02:43:43,c.notebookapp.terminado_settings,0
+2024-03-21 00:27:27,分析股票交易数据,0
+2024-03-21 00:26:20,项目三,0
+2024-03-21 00:09:29,button,6
+2024-03-21 00:03:56,;;'m[0o[-==-,5
+2024-03-20 23:33:54,not run a cell,99
+2024-03-20 23:08:27,supported languages,16
+2024-03-20 21:57:28,assert,0
+2024-03-20 21:09:09,debug,0
+2024-03-20 20:11:36,environment,16
+2024-03-20 19:47:46,multiple lines cursor,10
+2024-03-20 19:33:00,docker stacks,11
+2024-03-20 19:09:01,clear outputs,8
+2024-03-20 18:47:59,modulenotfounderror: no module named 'torchvision',29
+2024-03-20 18:42:09,copy cell,11
+2024-03-20 18:31:39,uninstall,1
+2024-03-20 17:58:51,keyboard shortcut,3
+2024-03-20 17:58:46,keyboard dhortcut,2
+2024-03-20 16:34:29,environment variable,18
+2024-03-20 16:17:55,radio,0
+2024-03-20 16:17:06,radioactive,0
+2024-03-20 15:38:26,python,42
+2024-03-20 15:09:02,convert to py file,100
+2024-03-20 15:06:51,ipython,47
+2024-03-20 14:57:07,vim,1
+2024-03-20 14:40:33,dashboards,5
+2024-03-20 14:36:23,voila,7
+2024-03-20 14:33:54,print,11
+2024-03-20 14:31:55,shortkeys,0
+2024-03-20 14:26:32,""".format""",45
+2024-03-20 14:25:53,.format,45
+2024-03-20 14:25:38,+ str{: .2e}.function,4
+2024-03-20 14:25:20,{: .2e},0
+2024-03-20 14:17:28,not starting,43
+2024-03-20 13:58:56,ipywidgets,15
+2024-03-20 13:24:35,sendioreply,0
+2024-03-20 13:20:18,comment line,17
+2024-03-20 13:20:02,comment,4
+2024-03-20 13:12:50,tensorflow,0
+2024-03-20 12:54:05,environment variable,18
+2024-03-20 12:52:11,autocompletion,1
+2024-03-20 12:13:21,voila,7
+2024-03-20 12:12:18,notebook,63
+2024-03-20 11:50:57,java,2
+2024-03-20 11:15:44,token,1
+2024-03-20 11:13:41,password,0
+2024-03-20 11:13:37,passwrod,0
+2024-03-20 11:07:55,pdf,5
+2024-03-20 10:06:11,jp-mainmenu,0
+2024-03-20 09:59:36,docker,11
+2024-03-20 09:50:00,license,1
+2024-03-20 08:54:39,.format,45
+2024-03-20 08:52:17,format,45
+2024-03-20 08:30:39,pip search,26
+2024-03-20 08:28:50,pip search jupyter,91
+2024-03-20 08:27:21,skywise,0
+2024-03-20 07:58:35,graph,1
+2024-03-20 07:11:46,tokenizer,0
+2024-03-20 07:11:33,sudo,2
+2024-03-20 07:08:13,linux,5
+2024-03-20 07:02:54,youtube_tutorial1,0
+2024-03-20 07:02:43,localhost:8888/notebooks/untitled78.ipynb,36
+2024-03-20 07:02:29,youtube,35
+2024-03-20 06:38:19,config,9
+2024-03-20 06:37:46,notebookapp,1
+2024-03-20 06:37:30,ip,3
+2024-03-20 05:36:08,language chinese,17
+2024-03-20 05:34:41,chinese content,13
+2024-03-20 05:30:09,pandas,0
+2024-03-20 05:29:49,install pandas,21
+2024-03-20 05:28:50,python dictionaries,42
+2024-03-20 05:26:31,windows path,16
+2024-03-20 03:51:21,"#6 syawal 1444h fisika fmipa unej import numpy as np import coolingroutine as cr import matplotlib.pyplot as plt #%matplotlib inline  times = np.linspace(0, 20, 201)  #kasus ke 1 temps_beforecooling = cr.cube_before_cooling(times, **cr.cooling_parameters)  plt.plot(times, temps_beforecooling) plt.xlabel('time (min)') plt.ylabel('coffee temperature (degrees celcius)') plt.show()  #kasus ke 2 temps_aftercooling = cr.cube_after_cooling(times, **cr.cooling_parameters)  plt.plot(times, temps_aftercooling) plt.xlabel('time (min)') plt.ylabel('coffee temperature (degrees celcius)') plt.show()  #kasus ke 3 temps_cont = cr.continuous_sugar_cooling(times, **cr.cooling_parameters)  plt.plot(times, temps_cont) plt.xlabel('time (min)') plt.ylabel('coffee temperature (degrees celcius)') plt.show()  #kasus ke 4 temps_n = cr.sugar_specifiedtime_cooling(times, [50, 100, 150], **cr.cooling_parameters)  plt.plot(times, temps_n) plt.xlabel('time (min)') plt.ylabel('coffee temperature (degrees celcius)') plt.show()  #kasus ke 5 plt.plot(times, temps_beforecooling, label='cube before cooling') plt.plot(times, temps_aftercooling, label='cube after cooling') plt.plot(times, temps_cont, label='continuous') plt.plot(times, temps_n, label='3 times of dropping cube') plt.xlabel('time (min)') plt.ylabel('coffee temperature (degrees celcius)') plt.legend()  plt.show()",103
+2024-03-20 03:39:32,nbconvert,10
+2024-03-20 03:36:11,r,10
+2024-03-20 02:52:16,install jupyter,88
+2024-03-20 01:34:45,numpy,3
+2024-03-20 00:15:01,comment,4
+2024-03-20 00:14:54,coment multiple,8
+2024-03-20 00:14:43,coment multiple,8
+2024-03-19 23:46:30,jupyter install,88
+2024-03-19 23:45:26,instalar jupyter,85
+2024-03-19 23:43:57,install jupyter,88
+2024-03-19 23:27:49,line duplicate,15
+2024-03-19 23:27:34,duplicate,2
+2024-03-19 21:34:45,plotly,3
+2024-03-19 21:34:16,cad automation,2
+2024-03-19 21:33:27,cad,0
+2024-03-19 21:33:14,continuous beam,2
+2024-03-19 21:07:57,uninstall,1
+2024-03-19 20:44:44,trash,0
+2024-03-19 20:04:38,scipy.stats,0
+2024-03-19 20:03:38,statsmodels,0
+2024-03-19 20:01:32,statsmodels.formula,0
+2024-03-19 19:41:01,slideshow,0
+2024-03-19 19:28:22,comment out,45
+2024-03-19 19:15:52,environments,3
+2024-03-19 18:18:07,shortcut,2
+2024-03-19 17:51:43,regreção linear,0
+2024-03-19 17:39:24,arguments,5
+2024-03-19 16:54:34,%run,27
+2024-03-19 16:50:53,themes,3
+2024-03-19 16:23:04,comment,4
+2024-03-19 16:21:39,line_numbers,0
+2024-03-19 16:20:44,c.codecell.line_numbers,0
+2024-03-19 16:17:36,c.notebookapp.default_show_line_numbers,0
+2024-03-19 16:08:06,token,1
+2024-03-19 16:07:56,notebookapp.token,0
+2024-03-19 16:06:48,notebookapp,1
+2024-03-19 16:04:34,keyboard shortcuts,3
+2024-03-19 15:48:55,auto complete,8
+2024-03-19 14:49:10,template,6
+2024-03-19 14:49:06,hands on data,107
+2024-03-19 14:48:53,shortcut,2
+2024-03-19 14:26:53,join,8
+2024-03-19 14:26:42,concatenate,0
+2024-03-19 13:52:52,install,21
+2024-03-19 13:46:59,kernelspec,2
+2024-03-19 13:39:03,audio,1
+2024-03-19 13:27:56,frame-ancestors,0
+2024-03-19 13:25:35,kernel,32
+2024-03-19 12:51:36,install,21
+2024-03-19 12:51:33,instakk,0
+2024-03-19 11:59:40,tkinter,0
+2024-03-19 11:42:02,environments,3
+2024-03-19 11:41:55,python and environments,101
+2024-03-19 11:41:42,"""python environments""",0
+2024-03-19 11:41:32,python environments,44
+2024-03-19 11:33:45,patience_diff_v2,0
+2024-03-19 11:33:22,patience,5
+2024-03-19 11:33:15,patiencediff,0
+2024-03-19 11:33:09,patience_diff,0
+2024-03-19 11:32:51,patience diff,6
+2024-03-19 10:55:03,token,1
+2024-03-19 10:50:45,git,16
+2024-03-19 10:49:35,collaborate,0
+2024-03-19 10:49:23,share,40
+2024-03-19 09:45:17,environment,16
+2024-03-19 09:14:15,jupyterlab,40
+2024-03-19 09:14:00,authentication,3
+2024-03-19 09:13:28,debug,0
+2024-03-19 08:48:25,autocomplete,2
+2024-03-19 08:03:59,sympy,1
+2024-03-19 07:59:05,output,11
+2024-03-19 07:40:24,presentation,4
+2024-03-19 06:57:04,markdown,7
+2024-03-19 06:51:52,binning function,4
+2024-03-19 06:13:33,docker,11
+2024-03-19 05:42:21,ldavis.v1.0.0.css,1
+2024-03-19 04:26:25,serch,0
+2024-03-19 03:59:51,c,14
+2024-03-19 03:31:18,rest api,11
+2024-03-19 03:30:54,rest,4
+2024-03-19 03:09:10,change dir,18
+2024-03-19 03:09:04,cd,8
+2024-03-19 02:01:23,scala,0
+2024-03-19 02:01:15,kernel scala,32
+2024-03-19 02:01:04,kernel,32
+2024-03-19 01:56:45,file save hooks,25
+2024-03-19 01:55:55,save hooks,7
+2024-03-19 01:44:36,recover,0
+2024-03-19 01:44:27,undelete,0
+2024-03-19 01:37:32,unisntall,0
+2024-03-19 01:37:11,uninstall,1
+2024-03-19 00:31:06,how to open a new project,105
+2024-03-19 00:30:57,new project,66
+2024-03-19 00:07:40,r,10
+2024-03-18 23:51:41,map location,8
+2024-03-18 23:06:43,server,22
+2024-03-18 23:06:31,servers,3
+2024-03-18 22:18:06,remote access,10
+2024-03-18 22:17:57,allow_remote_access,0
+2024-03-18 22:17:52,serverapp.allow_remote_access,0
+2024-03-18 21:53:38,cuda,0
+2024-03-18 21:21:51,jupyter lab,88
+2024-03-18 21:01:41,keyboard shortcuts,3
+2024-03-18 19:57:26,ignition,0
+2024-03-18 17:12:44,pdf,5
+2024-03-18 16:46:21,extensions,15
+2024-03-18 16:30:27,vscode,1
+2024-03-18 16:06:06,jupyter distance,85
+2024-03-18 16:06:00,jupyterdistance,0
+2024-03-18 16:05:34,jupyter on a rig,107
+2024-03-18 15:41:12,github,106
+2024-03-18 15:41:09,githib,0
+2024-03-18 15:21:26,%pip,17
+2024-03-18 15:19:59,jupyterlab lsp,40
+2024-03-18 15:18:39,import notebook,67
+2024-03-18 15:18:21,jlab root import,12
+2024-03-18 15:18:08,jlab root,6
+2024-03-18 15:12:43,package,8
+2024-03-18 15:12:17,install,21
+2024-03-18 14:54:24,cite,1
+2024-03-18 14:54:11,citing,0
+2024-03-18 14:48:06,kernelspec,2
+2024-03-18 14:09:04,requests_pkcs12,0
+2024-03-18 14:08:38,no module named 'requests_pkcs12',29
+2024-03-18 13:41:00,ios,0
+2024-03-18 13:40:56,swift,0
+2024-03-18 12:26:02,hide code export,58
+2024-03-18 12:06:44,add kernel,45
+2024-03-18 12:06:41,bash,2
+2024-03-18 12:03:05,notebook,63
+2024-03-18 12:02:40,password,0
+2024-03-18 11:43:36,how to save .py,99
+2024-03-18 11:16:08,version,20
+2024-03-18 11:09:44,git,16
+2024-03-18 11:09:40,gitlab,0
+2024-03-18 11:08:27,autocomplete,2
+2024-03-18 10:34:57,voila,7
+2024-03-18 09:43:52,auto complete,8
+2024-03-18 09:43:28,auto suggest,3
+2024-03-18 09:30:46,importing function,5
+2024-03-18 09:30:19,libary,0
+2024-03-18 09:28:16,module,6
+2024-03-18 09:20:40,database,2
+2024-03-18 08:50:28,--allow-root,13
+2024-03-18 08:50:16,"""--allow-root""",0
+2024-03-18 08:49:47,allow-root,13
+2024-03-18 08:26:48,jupyter_client,6
+2024-03-18 07:58:46,password,0
+2024-03-18 07:58:30,configuration,12
+2024-03-18 07:48:05,extention,0
+2024-03-18 07:47:20,licence,0
+2024-03-18 07:26:14,ipython,47
+2024-03-18 07:25:18,ipythonhandler,0
+2024-03-18 07:00:41,latex,5
+2024-03-18 06:32:52,change view,19
+2024-03-18 05:14:26,/tree,2
+2024-03-18 05:14:19,tree,2
+2024-03-18 05:14:12,lab,19
+2024-03-18 05:14:04,jupyter_enable_lab,0
+2024-03-18 04:38:11,xelatex,0
+2024-03-18 03:09:18,pytorch,0
+2024-03-18 03:09:13,pyhorch,0
+2024-03-18 03:00:29,docker,11
+2024-03-18 02:50:48,slide,0
+2024-03-18 02:50:28,cell inspector,6
+2024-03-18 02:50:15,flip the array,104
+2024-03-18 02:49:30,cell inspector,6
+2024-03-18 02:40:12,slideshow,0
+2024-03-18 02:40:07,slideshiw,0
+2024-03-18 02:39:41,slide,0
+2024-03-18 02:39:33,presentation,4
+2024-03-18 01:52:26,nbextension,1
+2024-03-18 00:36:14,trust notebook,63
+2024-03-18 00:35:47,trust,0
+2024-03-17 23:45:18,nbconvert,10
+2024-03-17 23:02:07,tutorial,4
+2024-03-17 23:00:24,notebook tutorial,65
+2024-03-17 20:56:28,select cells,7
+2024-03-17 17:12:27,extra_static_paths,0
+2024-03-17 17:03:09,csv,1
+2024-03-17 17:03:05,xlsx,0
+2024-03-17 16:59:25,jupyter_notebook_config.py,1
+2024-03-17 16:05:21,download jupyter,87
+2024-03-17 15:41:58,function power,4
+2024-03-17 15:41:16,power,0
+2024-03-17 15:19:46,docker,11
+2024-03-17 13:59:09,nbconvert,10
+2024-03-17 13:58:54,convert  notebook to .py,104
+2024-03-17 13:58:40,convert jupyter notebook to .py,105
+2024-03-17 13:11:23,terminal,10
+2024-03-17 12:37:13,sql,1
+2024-03-17 10:21:58,nbconvert failed: 'state',18
+2024-03-17 10:21:30,widgets,14
+2024-03-17 09:53:25,widgets,14
+2024-03-17 08:58:50,import passwd,7
+2024-03-17 08:58:11,from notebook.auth import passwd,65
+2024-03-17 07:40:23,javascript,8
+2024-03-17 06:05:34,html img,15
+2024-03-17 04:28:33,opencv,0
+2024-03-17 04:14:43,jupyter,85
+2024-03-17 04:09:07,password,0
+2024-03-17 03:49:37,jupyter lab --ip,90
+2024-03-17 02:35:01,panel,1
+2024-03-17 01:28:50,create cell,19
+2024-03-17 01:28:40,cell,6
+2024-03-17 00:34:51,directory,20
+2024-03-17 00:34:46,notebook_dir,0
+2024-03-17 00:06:00,meta data,35
+2024-03-16 23:43:47,tag,3
+2024-03-16 21:11:27,install jupyter,88
+2024-03-16 20:16:39,2025,0
+2024-03-16 18:17:40,debugger,0
+2024-03-16 17:32:21,shell,10
+2024-03-16 17:31:55,command,16
+2024-03-16 17:15:08,javascript,8
+2024-03-16 17:14:15,gpu,0
+2024-03-16 16:55:47,password,0
+2024-03-16 15:56:38,optional lab,22
+2024-03-16 15:54:23,axiomas of probability,101
+2024-03-16 15:22:36,magic,3
+2024-03-16 15:09:35,.ipynb appears to have died. it will restart automatically.,100
+2024-03-16 14:36:13,export,4
+2024-03-16 14:09:46,password,0
+2024-03-16 14:09:38,passwordidentityprovider,0
+2024-03-16 14:04:49,jupyter lab --ip,90
+2024-03-16 13:55:24,csv,1
+2024-03-16 13:54:50,how to read csv files,100
+2024-03-16 13:54:32,read,18
+2024-03-16 13:54:28,readcsv,0
+2024-03-16 13:54:07,import csv,7
+2024-03-16 13:02:49,latex,5
+2024-03-16 12:16:12,scatter,0
+2024-03-16 11:21:49,change notebook default browser,75
+2024-03-16 11:20:28,change default browser,33
+2024-03-16 11:11:40,voila,7
+2024-03-16 10:38:36,version,20
+2024-03-16 08:45:57,vscode,1
+2024-03-16 08:45:53,password,0
+2024-03-16 08:14:23,data,32
+2024-03-16 07:24:35,jupyter notebook online,89
+2024-03-16 06:35:17,cuda,0
+2024-03-16 06:02:48,remote,3
+2024-03-16 06:02:31,ssh,0
+2024-03-16 05:36:07,installing package,16
+2024-03-16 05:35:55,dependency,1
+2024-03-16 04:21:31,--generate-config,13
+2024-03-16 04:20:57,jupyter server --generate-config,90
+2024-03-16 04:19:03,configure,4
+2024-03-16 04:18:56,congiguration,0
+2024-03-16 04:15:51,jupyter server,88
+2024-03-16 03:45:08,chang dir,4
+2024-03-16 03:21:44,trust notebook,63
+2024-03-16 03:13:16,install package,24
+2024-03-16 03:13:04,pip install,24
+2024-03-16 02:30:34,unicode error,12
+2024-03-15 23:34:29,debugger,0
+2024-03-15 23:23:35,table of contents,103
+2024-03-15 22:40:26,hdfs,0
+2024-03-15 22:40:19,hadoop,0
+2024-03-15 22:05:17,install nbconvert,29
+2024-03-15 21:19:56,sagemath,0
+2024-03-15 21:08:04,%time,26
+2024-03-15 20:31:40,docker,11
+2024-03-15 20:28:00,python3,3
+2024-03-15 18:27:09,--project,46
+2024-03-15 18:27:05,-kernel,110
+2024-03-15 18:18:07,monokai,0
+2024-03-15 18:18:04,monokia,0
+2024-03-15 18:18:00,colorscheme,0
+2024-03-15 18:17:49,theme,4
+2024-03-15 17:48:05,pandas,0
+2024-03-15 17:16:18,eta,0
+2024-03-15 17:16:09,progress bar,10
+2024-03-15 16:33:03,scala,0
+2024-03-15 16:01:49,web framework,23
+2024-03-15 16:01:35,streamlite,0
+2024-03-15 15:45:11,virtual environment,46
+2024-03-15 14:57:22,database url,10
+2024-03-15 14:57:15,database_url,0
+2024-03-15 14:11:18,kernelspec install,22
+2024-03-15 13:54:48,keywords,0
+2024-03-15 13:10:36,lucifer-ml,1
+2024-03-15 13:10:32,luciferml,0
+2024-03-15 13:10:25,from luciferml,65
+2024-03-15 13:10:19,from luciferml.supervised,65
+2024-03-15 13:10:05,from luciferml.supervised import regression,65
+2024-03-15 12:47:43,kernel,32
+2024-03-15 12:33:03,scala,0
+2024-03-15 12:32:39,kernel,32
+2024-03-15 12:28:57,kernel,32
+2024-03-15 12:18:15,variables,7
+2024-03-15 12:09:03,terminal cmd,10
+2024-03-15 12:00:21,cmd jupyter notebook,89
+2024-03-15 11:40:32,python3,3
+2024-03-15 11:40:08,new,54
+2024-03-15 11:39:58,cmd,0
+2024-03-15 09:53:07,virtual env,35
+2024-03-15 09:41:08,json,9
+2024-03-15 09:40:59,config,9
+2024-03-15 09:28:09,show line,107
+2024-03-15 09:06:17,code completed,56
+2024-03-15 09:03:31,用户文档,0
+2024-03-15 08:46:32,jupyterhub,30
+2024-03-15 08:08:58,server,22
+2024-03-15 07:53:56,--host,5
+2024-03-15 07:53:42,host,5
+2024-03-15 07:51:06,字段截取,0
+2024-03-15 07:46:21,save notebook exclude output,68
+2024-03-15 06:47:50,code completed,56
+2024-03-15 06:38:28,extension,21
+2024-03-15 06:19:23,go,16
+2024-03-15 06:16:14,nbextension,1
+2024-03-15 06:10:00,online payment fraud detection,4
+2024-03-15 05:59:34,theme,4
+2024-03-15 04:48:33,kernel restarting,32
+2024-03-15 04:47:23,kernel died,32
+2024-03-15 04:22:41,beautifulsoup,0
+2024-03-15 04:04:00,data frame,32
+2024-03-15 02:58:35,version,20
+2024-03-15 02:31:57,gwnu,0
+2024-03-15 02:10:00,go,16
+2024-03-15 02:06:15,password,0
+2024-03-15 01:21:33,docker,11
+2024-03-15 00:22:57,ipython,47
+2024-03-15 00:16:43,google,13
+2024-03-14 22:45:07,outline,1
+2024-03-14 21:40:26,keyboard shortcuts,3
+2024-03-14 21:40:13,kernel,32
+2024-03-14 21:33:22,realtimeobjectdetection,0
+2024-03-14 21:31:34,nicholas renotte,1
+2024-03-14 20:31:17,magic,3
+2024-03-14 20:31:13,magics,2
+2024-03-14 19:57:24,gateway,4
+2024-03-14 17:53:39,space required,26
+2024-03-14 17:30:40,coding for robots,96
+2024-03-14 16:38:18,keywords,0
+2024-03-14 16:38:11,graphic,0
+2024-03-14 16:37:57,graphics,0
+2024-03-14 15:57:15,nbconvert,10
+2024-03-14 15:28:11,numpy,3
+2024-03-14 15:17:21,bard,0
+2024-03-14 15:17:15,gemini,0
+2024-03-14 15:08:21,shortcut,2
+2024-03-14 14:35:44,environment,16
+2024-03-14 14:08:53,running command line in a notebook,106
+2024-03-14 14:08:21,command line in a notebook,106
+2024-03-14 14:07:51,rise,2
+2024-03-14 14:07:21,extension,21
+2024-03-14 13:28:24,config,9
+2024-03-14 13:27:45,localhost,2
+2024-03-14 13:27:38,0.0.0.0,1
+2024-03-14 10:42:45,path,11
+2024-03-14 10:39:35,"""server error""",0
+2024-03-14 10:39:23,server error,30
+2024-03-14 10:38:55,500,1
+2024-03-14 10:06:59,shared access to folder,99
+2024-03-14 09:26:53,server configuration,28
+2024-03-14 09:21:39,n=int(input('enter a number:')),95
+2024-03-14 09:19:41,"list=[2,3,4,5,6]",24
+2024-03-14 09:18:37,read file,37
+2024-03-14 09:18:23,open file,50
+2024-03-14 09:08:47,ipython,47
+2024-03-14 08:46:13,background,5
+2024-03-14 08:43:24,jupyter anoconda,85
+2024-03-14 08:37:02,sql,1
+2024-03-14 08:17:16,events,7
+2024-03-14 07:47:38,font,0
+2024-03-14 06:43:52,download a copy,94
+2024-03-14 06:35:56,next-generation,105
+2024-03-14 06:26:01,remote,3
+2024-03-14 06:25:56,remopte,0
+2024-03-14 06:16:38,add kernel,45
+2024-03-14 06:16:19,kernel,32
+2024-03-14 05:03:07,dark mode,2
+2024-03-14 04:35:18,uninstall,1
+2024-03-14 03:43:05,install macos,21
+2024-03-14 03:42:12,installing tex,11
+2024-03-14 03:41:31,latex,5
+2024-03-14 03:41:14,replace,2
+2024-03-14 03:41:00,f,4
+2024-03-14 03:31:45,extensions,15
+2024-03-14 02:30:38,jupyterlab code formatter,64
+2024-03-14 02:29:27,code format,67
+2024-03-14 01:06:14,docker,11
+2024-03-14 00:52:17,home,6
+2024-03-14 00:36:15,language,17
+2024-03-14 00:13:50,update,21
+2024-03-14 00:06:45,jupyter_port,0
+2024-03-13 23:34:07,security,11
+2024-03-13 23:32:00,blockly,0
+2024-03-13 23:07:44,tensor,0
+2024-03-13 22:21:27,boot file,25
+2024-03-13 21:37:06,spawners,1
+2024-03-13 21:17:34,csv,1
+2024-03-13 20:32:04,open jupyter,95
+2024-03-13 20:30:44,magic,3
+2024-03-13 20:20:00,entering text,13
+2024-03-13 20:03:33,italics,0
+2024-03-13 19:27:17,multiple class regression,18
+2024-03-13 19:27:11,multipleclassregression,0
+2024-03-13 19:20:45,producing latex output,16
+2024-03-13 18:15:50,brackets,0
+2024-03-13 17:56:47,int,0
+2024-03-13 17:39:19,license,1
+2024-03-13 16:22:42,brand,0
+2024-03-13 15:41:07,display html,15
+2024-03-13 15:40:52,webgl,0
+2024-03-13 15:32:54,terminal,10
+2024-03-13 15:09:24,loop,2
+2024-03-13 14:19:47,正态分布,0
+2024-03-13 13:50:00,magic,3
+2024-03-13 13:11:28,nbconvert,10
+2024-03-13 12:34:08,table of content in jupyter notebook,106
+2024-03-13 12:33:56,the table of content in jupyter notebook,107
+2024-03-13 12:33:11,where is the table of content in jupyter notebook,107
+2024-03-13 11:52:18,security,11
+2024-03-13 11:47:49,architecture,14
+2024-03-13 11:35:32,table of contents,103
+2024-03-13 11:03:18,pop,0
+2024-03-13 10:58:36,shortcuts,1
+2024-03-13 10:55:47,gulshan sir,0
+2024-03-13 10:53:54,hello,5
+2024-03-13 10:09:06,cmdlet,0
+2024-03-13 09:37:55,jypiter notebook,63
+2024-03-13 09:36:33,latex,5
+2024-03-13 09:32:19,ssl,0
+2024-03-13 09:27:09,uppercase,0
+2024-03-13 09:07:55,find route,16
+2024-03-13 08:48:56,mathjax,1
+2024-03-13 08:35:47,cartpole,0
+2024-03-13 08:35:41,cart pole,0
+2024-03-13 08:28:59,export kernel,35
+2024-03-13 07:18:02,password,0
+2024-03-13 07:04:15,pandas_intro,0
+2024-03-13 06:55:36,ipython,47
+2024-03-13 06:55:10,remote,3
+2024-03-13 06:54:56,ssh,0
+2024-03-13 06:21:57,c++,14
+2024-03-13 05:30:12,neural network,3
+2024-03-13 05:09:48,jupyter lab --collaborative,88
+2024-03-13 05:08:43,collaborative,4
+2024-03-13 04:48:52,help,26
+2024-03-13 04:45:56,machine learning,8
+2024-03-13 04:01:06,kubernetes,3
+2024-03-13 03:08:34,xlwings,0
+2024-03-13 03:08:33,xxlwings,0
+2024-03-13 02:08:24,github,106
+2024-03-13 01:42:38,pytorch,0
+2024-03-13 01:42:31,pytroch,0
+2024-03-13 01:21:37,猫狗分类数据预处理,0
+2024-03-13 00:58:31,replace,2
+2024-03-13 00:58:17,ctl+f,0
+2024-03-12 23:38:56,slides,3
+2024-03-12 23:38:42,slideshow,0
+2024-03-12 23:37:09,cell toolbar,6
+2024-03-12 22:31:14,allow-root,13
+2024-03-12 22:12:54,install packages,23
+2024-03-12 22:12:07,packages,8
+2024-03-12 21:51:58,markdown formatation,7
+2024-03-12 21:51:03,markdown tutorial,11
+2024-03-12 21:20:13,yjs,1
+2024-03-12 20:29:44,xelates,0
+2024-03-12 20:26:27,sqlalchemy,0
+2024-03-12 20:16:23,node.js,0
+2024-03-12 20:16:19,nodejs,0
+2024-03-12 20:15:58,node,3
+2024-03-12 20:07:53,export to pdf,99
+2024-03-12 20:07:43,export as pdf,74
+2024-03-12 19:55:33,cotangent,0
+2024-03-12 19:11:11,debug,0
+2024-03-12 18:55:47,csrf,0
+2024-03-12 18:35:40,dex,0
+2024-03-12 18:35:31,oauth,1
+2024-03-12 18:06:06,jupyter notebook,89
+2024-03-12 17:59:46,debugger,0
+2024-03-12 17:36:42,http request fails,26
+2024-03-12 17:14:43,install,21
+2024-03-12 17:13:36,local file,28
+2024-03-12 17:08:23,slides,3
+2024-03-12 17:08:19,slideshow,0
+2024-03-12 16:56:34,shortcut,2
+2024-03-12 16:54:59,edit mode,106
+2024-03-12 16:45:47,iam,0
+2024-03-12 16:45:37,role,3
+2024-03-12 16:14:12,xml,0
+2024-03-12 15:46:36,os,5
+2024-03-12 15:45:41,collapse,0
+2024-03-12 15:34:05,dark,0
+2024-03-12 15:33:54,thema,0
+2024-03-12 15:26:29,custom mimetypes,12
+2024-03-12 15:11:18,visual studio code,58
+2024-03-12 14:44:57,if then else,52
+2024-03-12 14:44:14,if-then,52
+2024-03-12 14:44:00,if,50
+2024-03-12 14:41:31,conditioninal,0
+2024-03-12 14:40:12,if then,52
+2024-03-12 13:24:27,iris,0
+2024-03-12 12:57:58,sage,0
+2024-03-12 12:57:47,vidusage,0
+2024-03-12 12:57:42,vidusahe,0
+2024-03-12 12:54:21,opensap_python1_week_0_unit_4_helloworld.ipynb,0
+2024-03-12 12:49:33,--allow-root,13
+2024-03-12 12:39:32,stage,0
+2024-03-12 12:28:37,q learning,7
+2024-03-12 11:08:53,ssl,0
+2024-03-12 11:06:41,python 3.11,42
+2024-03-12 10:43:04,labapp,1
+2024-03-12 10:05:22,kernel,32
+2024-03-12 09:52:03,array,1
+2024-03-12 09:47:41,bibliotheque,0
+2024-03-12 09:36:31,markdown,7
+2024-03-12 07:30:35,compiler,0
+2024-03-12 07:08:55,trash,0
+2024-03-12 06:41:45,license,1
+2024-03-12 06:33:46,token,1
+2024-03-12 06:33:42,password,0
+2024-03-12 06:33:38,pasword,0
+2024-03-12 06:31:19,equation,0
+2024-03-12 06:23:12,c++,14
+2024-03-12 06:03:21,online payments fraud detection with machine learning,75
+2024-03-12 05:24:51,server,22
+2024-03-12 04:14:41,subcommand,2
+2024-03-12 04:14:22,subcommands,1
+2024-03-12 02:42:34,language,17
+2024-03-12 02:41:11,jupyterlab language,48
+2024-03-12 02:39:18,jupyterlab-language,48
+2024-03-12 02:37:52,jupyterlab-language-pack-zh-cn,48
+2024-03-12 01:02:55,windows shortcut,9
+2024-03-11 23:52:24,widgets,14
+2024-03-11 23:51:41,syntax,5
+2024-03-11 23:45:32,notebook ai,63
+2024-03-11 23:24:51,how to run large files,101
+2024-03-11 23:08:46,ethinfo,0
+2024-03-11 23:08:31,0.0.0.0,1
+2024-03-11 23:08:03,ip address,8
+2024-03-11 22:29:41,pool,0
+2024-03-11 22:29:36,multiprocess,0
+2024-03-11 22:29:31,multiprocessing,0
+2024-03-11 21:36:18,current directory,27
+2024-03-11 20:48:54,crisp,0
+2024-03-11 20:26:57,completer,1
+2024-03-11 19:21:52,powerbi,0
+2024-03-11 19:14:10,debug,0
+2024-03-11 18:52:15,output directory,27
+2024-03-11 18:20:53,jupyter lab,88
+2024-03-11 18:07:44,comment,4
+2024-03-11 17:43:43,voir version ctuel de phython dans jupyter,90
+2024-03-11 17:40:42,notebooks,30
+2024-03-11 17:39:45,markdown cells,9
+2024-03-11 16:47:14,javascript,8
+2024-03-11 16:44:34,remote,3
+2024-03-11 16:23:57,remote server,24
+2024-03-11 16:05:41,bash,2
+2024-03-11 16:05:29,shell,10
+2024-03-11 15:45:59,oracle,0
+2024-03-11 15:40:56,dark theme,4
+2024-03-11 15:40:43,theme,4
+2024-03-11 15:10:59,file doesn't exist,25
+2024-03-11 15:09:34,nbformat,8
+2024-03-11 14:46:11,jupyter,85
+2024-03-11 14:06:56,release note,54
+2024-03-11 13:51:38,git,16
+2024-03-11 13:45:49,pair,0
+2024-03-11 13:45:40,paired,0
+2024-03-11 13:26:24,nbclassic,1
+2024-03-11 13:14:50,environment variable,18
+2024-03-11 13:14:10,environment,16
+2024-03-11 12:58:42,sta,0
+2024-03-11 12:56:01,javascript,8
+2024-03-11 12:55:33,html,15
+2024-03-11 12:36:18,pip install,24
+2024-03-11 12:36:11,cohere,0
+2024-03-11 11:50:05,pyinstaller,0
+2024-03-11 11:45:41,introduction to tuples,99
+2024-03-11 11:16:06,spark magic,4
+2024-03-11 11:15:54,"""magic command""",0
+2024-03-11 11:15:07,find and replace,101
+2024-03-11 11:15:01,magic command,19
+2024-03-11 11:13:57,config,9
+2024-03-11 11:13:48,allow_origin,0
+2024-03-11 11:13:35,c.serverapp.allow_origin,0
+2024-03-11 11:12:08,jupyter_notebook_config,0
+2024-03-11 11:02:18,kernel,32
+2024-03-11 11:01:37,show environment name in upper right,107
+2024-03-11 11:01:12,environment,16
+2024-03-11 11:00:36,virtual,33
+2024-03-11 10:54:14,jlpm,0
+2024-03-11 10:46:51,matplotlib,4
+2024-03-11 10:44:42,avogadro,0
+2024-03-11 10:40:27,import data,38
+2024-03-11 10:28:39,api,8
+2024-03-11 10:28:28,call api,40
+2024-03-11 10:28:08,http,10
+2024-03-11 09:55:34,voila,7
+2024-03-11 09:54:06,security,11
+2024-03-11 09:40:45,%run,27
+2024-03-11 09:25:14,remote access,10
+2024-03-11 09:24:48,server secu,22
+2024-03-11 09:22:53,server,22
+2024-03-11 09:06:43,remote,3
+2024-03-11 09:03:52,nbconvert,10
+2024-03-11 09:03:51,convert,4
+2024-03-11 08:49:17,create new user,69
+2024-03-11 08:46:10,markdown,7
+2024-03-11 08:46:04,math,0
+2024-03-11 08:45:58,mathjax,1
+2024-03-11 08:45:45,latex,5
+2024-03-11 08:38:37,nativeauthenticator,0
+2024-03-11 08:11:32,install package,24
+2024-03-11 08:11:17,numpy,3
+2024-03-11 08:10:54,replace,2
+2024-03-11 08:05:00,syntax highlighting,5
+2024-03-11 07:48:00,bashrc,0
+2024-03-11 07:47:16,password,0
+2024-03-11 07:43:22,authenticator,1
+2024-03-11 06:34:11,dark,0
+2024-03-11 06:34:01,theme,4
+2024-03-11 06:14:05,time,26
+2024-03-11 06:09:43,configuration,12
+2024-03-11 06:05:37,tuple datatype,0
+2024-03-11 03:25:57,ipyparallel,4
+2024-03-11 02:35:04,update,21
+2024-03-11 01:57:46,jupyter_server.auth,0
+2024-03-11 01:57:31,auth,3
+2024-03-11 01:10:06,pip,17
+2024-03-11 01:00:24,password,0
+2024-03-11 01:00:17,passwd,0
+2024-03-11 00:41:47,cell toolbar,6
+2024-03-11 00:41:39,cell slide,6
+2024-03-10 23:32:55,describe,6
+2024-03-10 23:05:36,feature importance,4
+2024-03-10 22:58:53,shortcuts,1
+2024-03-10 22:17:43,text,13
+2024-03-10 21:56:16,"import matplotlib.pyplot as plt  # definir los datos hitos_completados = 70 entregables_defectuosos = 15  # etiquetas para las barras categorias = ['progreso del proyecto', 'calidad de los entregables']  # alturas de las barras alturas = [hitos_completados, entregables_defectuosos]  # colores para las barras colores = ['blue', 'orange']  # crear el gráfico de barras plt.figure(figsize=(8, 6)) plt.bar(categorias, alturas, color=colores)  # agregar etiquetas y título plt.xlabel('indicadores') plt.ylabel('porcentaje') plt.title('progreso del proyecto vs. calidad de los entregables')  # mostrar el gráfico plt.ylim(0, 100) plt.grid(axis='y', linestyle='--', alpha=0.7) plt.show()",73
+2024-03-10 20:26:22,remote,3
+2024-03-10 20:04:05,debug,0
+2024-03-10 19:46:07,r,10
+2024-03-10 19:21:38,widgets,14
+2024-03-10 18:38:53,a star,94
+2024-03-10 18:16:50,comentar,0
+2024-03-10 15:18:47,esc,0
+2024-03-10 15:16:14,theme,4
+2024-03-10 14:58:21,theme,4
+2024-03-10 14:47:00,input,10
+2024-03-10 12:32:05,how to change jupyter theme,105
+2024-03-10 12:20:22,jupyter notebook,89
+2024-03-10 11:43:27,markdown cells,9
+2024-03-10 11:13:09,jupyter client,86
+2024-03-10 10:33:10,notebook_dir,0
+2024-03-10 09:45:23,remote,3
+2024-03-10 09:34:24,datasets,1
+2024-03-10 09:34:21,datasaets,0
+2024-03-10 09:34:06,api,8
+2024-03-10 09:33:59,kaggle,0
+2024-03-10 09:27:41,nbextensions,2
+2024-03-10 08:54:02,without root privilege,35
+2024-03-10 08:53:43,root privilege,3
+2024-03-10 08:53:20,root privalege,3
+2024-03-10 08:52:57,less priv,3
+2024-03-10 08:25:18,requirement,1
+2024-03-10 04:39:18,hide code,56
+2024-03-10 03:40:55,congfiguratio,0
+2024-03-10 02:41:29,colab,5
+2024-03-10 01:06:00,syntax,5
+2024-03-10 01:05:36,suggestion,4
+2024-03-10 01:05:26,syntex,0
+2024-03-10 00:15:36,windows sub system for linux,97
+2024-03-10 00:14:51,wsl,0
+2024-03-09 22:15:36,versions,6
+2024-03-09 21:14:47,kernel,32
+2024-03-09 19:59:31,encod,0
+2024-03-09 18:16:14,iloc,0
+2024-03-09 17:05:57,jupyter lab commands,91
+2024-03-09 17:05:45,hotkeys,0
+2024-03-09 14:44:00,extension,21
+2024-03-09 14:42:44,kernel install,45
+2024-03-09 14:42:01,js kernel,34
+2024-03-09 14:21:52,extension,21
+2024-03-09 13:53:04,seaborn,0
+2024-03-09 09:48:58,shortcut,2
+2024-03-09 09:48:50,keymap,0
+2024-03-09 09:36:26,machine learning,8
+2024-03-09 09:31:55,debug,0
+2024-03-09 09:29:18,public apis,10
+2024-03-09 07:36:35,format output,51
+2024-03-09 07:04:14,cursos,0
+2024-03-09 07:02:50,couse,0
+2024-03-09 07:02:25,documentacao,0
+2024-03-09 07:01:46,notebook variables,66
+2024-03-09 07:01:34,variables,7
+2024-03-09 07:00:57,try jup,15
+2024-03-09 06:26:44,data analysis,32
+2024-03-09 06:25:24,data analysis,32
+2024-03-09 05:53:15,browser,16
+2024-03-09 05:33:15,jupyter phythonbasicsday1,85
+2024-03-09 04:24:32,x11,0
+2024-03-09 03:07:33,engine design,10
+2024-03-09 02:58:58,rocket engine,2
+2024-03-09 02:58:36,engine,1
+2024-03-09 02:57:38,engine design,10
+2024-03-09 02:54:09,kernel,32
+2024-03-09 01:58:19,remote,3
+2024-03-09 01:57:58,ip,3
+2024-03-08 23:43:38,spectrometer,0
+2024-03-08 23:43:26,libs,0
+2024-03-08 21:06:49,icon,0
+2024-03-08 20:03:32,git,16
+2024-03-08 17:27:51,server config,27
+2024-03-08 17:27:39,config,9
+2024-03-08 17:00:04,ydoc,0
+2024-03-08 16:20:26,implement selenium dot methods  in jupyter lab,103
+2024-03-08 16:19:30,implement dot methods,9
+2024-03-08 16:04:19,numpy,3
+2024-03-08 15:56:19,sharing,8
+2024-03-08 15:22:22,database,2
+2024-03-08 15:22:15,state db,6
+2024-03-08 15:22:10,statedb,0
+2024-03-08 14:59:47,jupyter server,88
+2024-03-08 14:18:54,cci,0
+2024-03-08 14:10:14,ocatave,0
+2024-03-08 14:09:22,install module,26
+2024-03-08 13:57:32,markdown cells,9
+2024-03-08 13:57:19,markdown,7
+2024-03-08 13:54:23,spectroscopy,0
+2024-03-08 13:29:13,shortcuts,1
+2024-03-08 13:11:14,jupyter,85
+2024-03-08 12:37:14,comandos magic,3
+2024-03-08 12:36:58,comandos mágicos,0
+2024-03-08 12:13:27,version,20
+2024-03-08 11:29:48,ruby,1
+2024-03-08 11:04:03,help,26
+2024-03-08 10:40:23,install,21
+2024-03-08 10:35:34,jupyter,85
+2024-03-08 09:37:51,how to copy cells from one notebook to another notebook,106
+2024-03-08 08:46:58,nbextensions,2
+2024-03-08 07:37:07,kuber,0
+2024-03-08 07:36:57,k8s,1
+2024-03-08 07:32:22,venv,1
+2024-03-08 07:21:29,nvidia,0
+2024-03-08 07:19:52,docker,11
+2024-03-08 07:19:30,jetson nano,0
+2024-03-08 07:07:14,magic,3
+2024-03-08 07:05:59,javascript,8
+2024-03-08 07:00:55,markdown square bracket,8
+2024-03-08 07:00:43,markdown,7
+2024-03-08 06:59:56,left square bracket,2
+2024-03-08 06:52:48,"""jupyter_lab_config""",0
+2024-03-08 06:51:13,jupyter_lab_config.py,0
+2024-03-08 06:49:40,jupyterlab confiuraton,40
+2024-03-08 06:27:49,kernel.json,1
+2024-03-08 06:26:17,using filepicker widget in jupyter notebook,104
+2024-03-08 06:24:21,ipykernel_launcher,0
+2024-03-08 06:09:13,server,22
+2024-03-08 06:08:08,execute,8
+2024-03-08 06:07:28,excecute,0
+2024-03-08 05:01:58,conda,11
+2024-03-08 04:15:06,os,5
+2024-03-08 04:03:48,docker image download,20
+2024-03-08 04:03:35,docker,11
+2024-03-08 03:15:04,config_file,0
+2024-03-08 03:12:19,auth,3
+2024-03-08 03:11:55,token,1
+2024-03-08 03:10:27,jupyter,85
+2024-03-08 02:37:54,--ip,3
+2024-03-08 01:14:32,r,10
+2024-03-08 00:04:46,markdown,7
+2024-03-07 23:04:37,slideshow,0
+2024-03-07 22:50:57,shortcuts,1
+2024-03-07 22:42:55,nbconvert,10
+2024-03-07 20:14:31,no me aparece el in,93
+2024-03-07 19:16:03,ruler,0
+2024-03-07 17:05:59,getting started,25
+2024-03-07 17:04:52,change directory,27
+2024-03-07 16:58:57,change default directory,31
+2024-03-07 16:58:26,gpu,0
+2024-03-07 16:28:40,aws,5
+2024-03-07 16:04:34,shortcuts,1
+2024-03-07 16:04:20,keystrokes,0
+2024-03-07 15:29:32,set password,15
+2024-03-07 15:19:19,jupyternotebookapp,0
+2024-03-07 15:18:39,lpohl,0
+2024-03-07 14:19:49,widgets,14
+2024-03-07 14:19:18,embed-jupyter-widgets,86
+2024-03-07 14:12:40,authenticators,1
+2024-03-07 13:41:50,django dosser,1
+2024-03-07 13:09:55,spock,0
+2024-03-07 12:36:42,hidden,1
+2024-03-07 12:36:33,hide,0
+2024-03-07 12:36:27,toggle,0
+2024-03-07 12:35:59,version,20
+2024-03-07 12:30:11,debug,0
+2024-03-07 12:26:52,tools,20
+2024-03-07 11:39:54,eclipse che,1
+2024-03-07 11:27:15,%run,27
+2024-03-07 11:12:45,docker,11
+2024-03-07 10:27:40,pieces,4
+2024-03-07 10:01:59,extensions,15
+2024-03-07 10:00:54,coding co-pilot,7
+2024-03-07 10:00:25,coding assist,3
+2024-03-07 09:47:05,coding assistant,4
+2024-03-07 09:38:27,markdown,7
+2024-03-07 09:35:24,figure,2
+2024-03-07 09:33:05,set password,15
+2024-03-07 08:39:43,venv,1
+2024-03-07 08:39:04,virtual environment,46
+2024-03-07 07:56:40,autocomplete,2
+2024-03-07 07:54:44,jupyterhub,30
+2024-03-07 07:34:46,slide,0
+2024-03-07 06:52:56,release,23
+2024-03-07 06:49:18,staging,0
+2024-03-07 05:52:14,kernelspec,2
+2024-03-07 05:46:10,kernelspic,0
+2024-03-07 05:27:50,password,0
+2024-03-07 05:12:10,password,0
+2024-03-07 04:42:54,kernelspec,2
+2024-03-07 04:40:47,kernel.json,1
+2024-03-07 04:23:35,notebookapp.browser,0
+2024-03-07 04:23:23,c.notebookapp.browser,0
+2024-03-07 04:22:47,config,9
+2024-03-07 04:21:16,browser config,23
+2024-03-07 03:52:09,table of contents,103
+2024-03-07 02:02:42,language,17
+2024-03-07 01:27:43,cull_internal,0
+2024-03-07 01:11:35,森林火灾,0
+2024-03-07 00:32:35,ctrl,1
+2024-03-07 00:32:23,key,5
+2024-03-07 00:08:04,lad,0
+2024-03-06 23:58:06,'find and replace',101
+2024-03-06 23:57:55,"""find and replace""",0
+2024-03-06 23:57:08,find and replace,101
+2024-03-06 23:30:35,edit mode,106
+2024-03-06 23:28:43,keyboard shortcut,3
+2024-03-06 23:28:37,keyboard shortcuts,3
+2024-03-06 23:28:25,shortcuts,1
+2024-03-06 21:20:48,base_url,0
+2024-03-06 21:19:47,nb_prefix,0
+2024-03-06 20:53:53,jupyter notebook documentation pdf,98
+2024-03-06 20:21:23,to pdf,99
+2024-03-06 20:03:20,nb-mermaid,2
+2024-03-06 20:03:15,mermaid,0
+2024-03-06 19:59:08,napari,1
+2024-03-06 19:58:21,napari,1
+2024-03-06 19:45:35,export,4
+2024-03-06 19:24:03,logo,0
+2024-03-06 19:18:16,phyton,0
+2024-03-06 19:11:28,markdown,7
+2024-03-06 19:10:28,path,11
+2024-03-06 19:06:58,path to notebook,104
+2024-03-06 17:28:53,language,17
+2024-03-06 17:23:42,download as .py,74
+2024-03-06 17:23:10,download as python,81
+2024-03-06 17:19:13,download as,74
+2024-03-06 17:17:25,share,40
+2024-03-06 17:10:07,singularity,0
+2024-03-06 17:09:54,overlay,0
+2024-03-06 16:59:21,widget,4
+2024-03-06 16:42:40,ruby,1
+2024-03-06 16:40:09,jira,0
+2024-03-06 16:35:40,octave,0
+2024-03-06 16:19:38,"""jupyter lab""",4
+2024-03-06 16:19:28,jupyter lab,88
+2024-03-06 16:18:53,lab,19
+2024-03-06 15:23:51,cell-toolbar,6
+2024-03-06 14:50:01,repositorios,0
+2024-03-06 14:49:52,panda,0
+2024-03-06 14:49:49,pandas,0
+2024-03-06 14:35:02,byes,0
+2024-03-06 14:15:53,图像处理,0
+2024-03-06 14:06:39,argparse,0
+2024-03-06 14:06:35,argmarse,0
+2024-03-06 14:05:56,run from command prompt,72
+2024-03-06 14:05:38,downloand,0
+2024-03-06 14:04:28,!pwd,2
+2024-03-06 14:04:06,magic command,19
+2024-03-06 14:03:21,shell command,24
+2024-03-06 13:44:43,mime types,10
+2024-03-06 13:31:44,insert image,7
+2024-03-06 13:30:52,markdown,7
+2024-03-06 13:30:06,insert image markdown,14
+2024-03-06 13:19:28,image,6
+2024-03-06 13:19:22,image_loader,0
+2024-03-06 12:23:44,terminal,10
+2024-03-06 11:56:09,import,7
+2024-03-06 11:49:49,make environments,39
+2024-03-06 11:48:31,environments,3
+2024-03-06 11:38:20,password,0
+2024-03-06 11:14:10,pyroot,0
+2024-03-06 11:13:59,root,3
+2024-03-06 11:11:50,license,1
+2024-03-06 10:23:15,uninstall,1
+2024-03-06 10:09:20,remote access,10
+2024-03-06 10:07:10,debug,0
+2024-03-06 09:59:11,writting code in markdown page,103
+2024-03-06 09:31:22,hide,0
+2024-03-06 09:14:16,ipyleaflet,0
+2024-03-06 08:56:21,pylops,0
+2024-03-06 08:53:44,listen,3
+2024-03-06 08:34:19,license,1
+2024-03-06 08:19:50,upgrade python,43
+2024-03-06 08:13:02,permissions,1
+2024-03-06 08:06:44,files,21
+2024-03-06 07:52:25,_url =,0
+2024-03-06 07:33:00,latex,5
+2024-03-06 07:06:51,ipython,47
+2024-03-06 07:06:07,magic,3
+2024-03-06 06:58:59,inser tab,7
+2024-03-06 06:58:48,inser a tab,94
+2024-03-06 06:58:28,how to inser a tab,104
+2024-03-06 06:57:58,tab,7
+2024-03-06 06:57:38,insert tab,9
+2024-03-06 06:39:35,sysml,0
+2024-03-06 06:39:13,sysml language,17
+2024-03-06 06:38:52,sysml language kernel,36
+2024-03-06 06:38:36,sysml,0
+2024-03-06 06:25:11,vali,0
+2024-03-06 06:25:00,nbval,0
+2024-03-06 06:14:40,introduction to pandas,99
+2024-03-06 05:05:59,markdown,7
+2024-03-06 04:17:50,nbextension,1
+2024-03-06 03:15:09,jupyter.askforkernelrestart,0
+2024-03-06 01:05:20,password,0
+2024-03-06 00:56:14,dataframe,0
+2024-03-05 23:17:44,%matplotlib inline,7
+2024-03-05 23:17:31,%matplot,0
+2024-03-05 23:14:54,how to install jupyter notebook,105
+2024-03-05 22:21:36,root folder,5
+2024-03-05 21:31:17,port,3
+2024-03-05 20:44:51,jupyter lab,88
+2024-03-05 20:27:57,how to connect to python,101
+2024-03-05 20:13:48,proxy,4
+2024-03-05 19:13:07,figure color,3
+2024-03-05 19:12:36,color of a figure,104
+2024-03-05 19:06:01,schedule,1
+2024-03-05 18:38:16,change port,18
+2024-03-05 17:59:13,edit mode,106
+2024-03-05 17:58:24,code mode,57
+2024-03-05 17:49:03,ctrl + shift + tab,0
+2024-03-05 17:48:46,tool tips,15
+2024-03-05 17:41:20,debugger,0
+2024-03-05 17:30:38,refresh,1
+2024-03-05 16:44:18,cells,5
+2024-03-05 15:15:20,password,0
+2024-03-05 15:13:58,kernel,32
+2024-03-05 14:40:07,server,22
+2024-03-05 14:25:29,seaborn,0
+2024-03-05 14:24:27,kernel,32
+2024-03-05 14:24:17,remote,3
+2024-03-05 13:24:08,install,21
+2024-03-05 13:21:06,color,1
+2024-03-05 12:33:44,docker,11
+2024-03-05 12:22:55,language install spaning,34
+2024-03-05 12:22:29,language,17
+2024-03-05 12:21:58,lenguage,0
+2024-03-05 11:26:18,subcommands,1
+2024-03-05 10:12:13,json schema,9
+2024-03-05 07:45:50,file,25
+2024-03-05 07:37:26,security,11
+2024-03-05 07:37:07,cve,1
+2024-03-05 07:35:07,environment,16
+2024-03-05 07:26:57,wrapspawner,1
+2024-03-05 07:23:31,extension,21
+2024-03-05 07:19:34,extention,0
+2024-03-05 07:12:10,split,6
+2024-03-05 07:11:00,前端,0
+2024-03-05 07:10:37,database,2
+2024-03-05 07:10:19,connect database,4
+2024-03-05 06:49:35,insert dataframe,3
+2024-03-05 06:46:36,insert data,35
+2024-03-05 06:41:20,account,2
+2024-03-05 06:41:03,setting,9
+2024-03-05 06:40:50,password,0
+2024-03-05 05:20:31,keyboard shortcuts,3
+2024-03-05 04:16:00,xelatex,0
+2024-03-05 04:11:13,server,22
+2024-03-05 01:46:43,create environment,26
+2024-03-05 01:30:46,jar,0
+2024-03-05 01:30:12,maven,0
+2024-03-05 01:29:50,jar,0
+2024-03-05 01:29:15,add jar,23
+2024-03-05 01:28:27,remove,2
+2024-03-05 01:28:12,uninstall,1
+2024-03-05 00:26:22,"""hidden cells""",0
+2024-03-05 00:26:06,hidden cells,6
+2024-03-04 23:55:43,show line number,107
+2024-03-04 23:55:39,show linr number,106
+2024-03-04 23:55:35,show linr numnrt,106
+2024-03-04 21:35:07,environment variables,19
+2024-03-04 19:52:21,kotlin,0
+2024-03-04 19:45:52,jupyterlite,12
+2024-03-04 19:45:39,jupyterlight,0
+2024-03-04 19:27:56,token,1
+2024-03-04 19:27:47,security,11
+2024-03-04 18:54:56,password,0
+2024-03-04 18:54:30,loggin,0
+2024-03-04 18:23:47,pandas,0
+2024-03-04 18:22:42,install pyarrow,21
+2024-03-04 18:22:30,pyarrow,0
+2024-03-04 18:21:06,!pip install --upgrade pip,24
+2024-03-04 18:20:49,!,0
+2024-03-04 17:33:18,kotlin,0
+2024-03-04 17:31:59,kernel,32
+2024-03-04 16:48:47,bah,0
+2024-03-04 16:14:25,import pandas,7
+2024-03-04 16:13:45,access pandas,7
+2024-03-04 16:05:58,jupyter-notebook,89
+2024-03-04 15:46:11,passwd,0
+2024-03-04 15:28:26,password,0
+2024-03-04 14:28:03,html,15
+2024-03-04 14:19:41,zh,0
+2024-03-04 14:19:32,langpack,0
+2024-03-04 14:14:00,language,17
+2024-03-04 14:13:38,langch,0
+2024-03-04 14:13:31,中文,0
+2024-03-04 14:13:28,、中文,0
+2024-03-04 14:13:22,c中文,14
+2024-03-04 14:13:14,china,0
+2024-03-04 14:06:18,log in,93
+2024-03-04 13:56:35,install library,29
+2024-03-04 13:44:49,keymap,0
+2024-03-04 13:44:32,key,5
+2024-03-04 12:41:28,mustafamuratcoskun,0
+2024-03-04 12:38:59,jupyter notebook,89
+2024-03-04 12:37:29,julia1.5.1,0
+2024-03-04 12:37:09,julia1.5.1,0
+2024-03-04 12:17:12,anaconda,5
+2024-03-04 11:55:35,mac,4
+2024-03-04 11:13:30,docker,11
+2024-03-04 11:08:06,ellipse,0
+2024-03-04 11:07:41,ellips,0
+2024-03-04 11:01:51,markdown,7
+2024-03-04 10:48:22,linear,0
+2024-03-04 10:47:30,ipyparallel,4
+2024-03-04 10:46:41,ipywidgets,15
+2024-03-04 10:28:21,法华寺,0
+2024-03-04 10:25:37,ipydatagrid,0
+2024-03-04 10:14:39,notebook 6.5.2,63
+2024-03-04 09:38:34,extension,21
+2024-03-04 09:35:36,%% commands,11
+2024-03-04 09:12:50,kernel_interrupt_mode,0
+2024-03-04 08:51:14,settings,7
+2024-03-04 08:48:15,cache,4
+2024-03-04 08:18:51,license,1
+2024-03-04 07:51:57,mac,4
+2024-03-04 07:12:14,keyboard shortcuts,3
+2024-03-04 06:59:30,autocomplete,2
+2024-03-04 06:58:41,cull,0
+2024-03-04 06:01:37,scala,0
+2024-03-04 05:25:31,variable,7
+2024-03-04 03:31:58,code formatting,59
+2024-03-04 03:31:47,formatting,8
+2024-03-04 03:05:49,pip,17
+2024-03-04 02:25:06,privacy policy,5
+2024-03-04 02:24:39,privacy,1
+2024-03-04 02:24:16,data processing agreement,33
+2024-03-04 01:17:44,magic,3
+2024-03-04 01:13:16,python libraries,44
+2024-03-04 01:11:59,python libraries,44
+2024-03-04 01:11:41,what are libraries,79
+2024-03-04 01:11:23,libraries,6
+2024-03-04 01:11:17,liraries,0
+2024-03-04 01:06:42,latex,5
+2024-03-04 01:04:10,latex,5
+2024-03-04 00:47:25,slide,0
+2024-03-04 00:21:32,jupyter_notebook_config.py,1
+2024-03-03 22:30:40,venv,1
+2024-03-03 22:22:36,version,20
+2024-03-03 20:57:53,average,0
+2024-03-03 20:20:04,hide,0
+2024-03-03 20:11:43,path to a file,105
+2024-03-03 19:24:20,collaborative,4
+2024-03-03 19:24:17,colaborative,0
+2024-03-03 19:24:12,colaboratve,0
+2024-03-03 19:24:09,collab,0
+2024-03-03 18:35:17,julia,5
+2024-03-03 18:34:57,language,17
+2024-03-03 16:36:52,themes,3
+2024-03-03 11:56:35,gpu,0
+2024-03-03 11:37:29,python,42
+2024-03-03 11:36:37,jupiter,2
+2024-03-03 11:02:28,codes,0
+2024-03-03 11:02:22,#q1,0
+2024-03-03 11:02:13,jypter,0
+2024-03-03 10:24:06,installation pip,27
+2024-03-03 10:23:39,install,21
+2024-03-03 08:18:06,python,42
+2024-03-03 07:52:13,decode,1
+2024-03-03 07:52:07,aztec,0
+2024-03-03 07:11:03,encoding utf-8,10
+2024-03-03 07:06:25,median,0
+2024-03-03 07:06:00,median,0
+2024-03-03 07:05:38,medina,0
+2024-03-03 05:29:32,extension,21
+2024-03-03 04:13:01,indent,0
+2024-03-03 03:13:53,extensions,15
+2024-03-03 03:13:46,bextensions,0
+2024-03-03 03:12:11,jupyter-contrib-nbextensions,85
+2024-03-03 03:11:28,pip install jupyter-contrib-nbextensions,88
+2024-03-03 02:35:30,knime,0
+2024-03-03 01:00:29,password,0
+2024-03-03 00:57:46,password,0
+2024-03-02 23:52:06,jupyter dashboard,87
+2024-03-02 23:51:38,dashboard,10
+2024-03-02 22:24:07,jupyter on replit,107
+2024-03-02 21:06:57,variables,7
+2024-03-02 19:42:11,enviroment variables,7
+2024-03-02 18:17:12,404 get,25
+2024-03-02 18:16:56,connect with vm,74
+2024-03-02 17:44:29,server,22
+2024-03-02 17:05:38,title,4
+2024-03-02 16:17:08,workspace,0
+2024-03-02 15:59:26,timeit,0
+2024-03-02 15:51:29,setup server,27
+2024-03-02 15:51:23,visit server,24
+2024-03-02 15:49:41,server,22
+2024-03-02 15:09:02,remote,3
+2024-03-02 14:36:06,set environment,24
+2024-03-02 14:21:39,upload file,26
+2024-03-02 13:50:52,extension,21
+2024-03-02 13:39:50,list of % commands,101
+2024-03-02 13:39:43,%%,0
+2024-03-02 13:39:31,magic,3
+2024-03-02 13:39:10,bash,2
+2024-03-02 13:31:26,venv,1
+2024-03-02 13:11:03,reveal,0
+2024-03-02 13:10:55,slides,3
+2024-03-02 12:20:11,install,21
+2024-03-02 11:38:42,problems with square parentesi,73
+2024-03-02 11:36:25,[],0
+2024-03-02 11:27:29,tag,3
+2024-03-02 10:08:30,maixll-dock,0
+2024-03-02 10:08:07,m2dock,0
+2024-03-02 09:58:02,server,22
+2024-03-02 08:51:10,test,11
+2024-03-02 08:51:04,pytest,0
+2024-03-02 08:43:08,nbdime,2
+2024-03-02 08:32:47,text,13
+2024-03-02 08:31:48,mark text,17
+2024-03-02 08:08:16,connect to webservice,99
+2024-03-02 07:12:01,debug,0
+2024-03-02 06:39:03,kaggle,0
+2024-03-02 05:20:59,jupyterla,0
+2024-03-02 04:38:51,kiligin,0
+2024-03-02 03:08:18,/data/js95,32
+2024-03-02 02:59:58,text size,13
+2024-03-02 02:58:28,shortcut,2
+2024-03-02 01:56:07,err no2,1
+2024-03-02 01:43:34,directory,20
+2024-03-01 23:17:39,c++,14
+2024-03-01 23:16:35,ipykernel install,27
+2024-03-01 21:40:06,project,46
+2024-03-01 21:28:45,token,1
+2024-03-01 21:22:40,languages,12
+2024-03-01 21:11:11,trust,0
+2024-03-01 20:50:10,--port=8888,4
+2024-03-01 19:19:38,type hints,13
+2024-03-01 18:05:08,installing,11
+2024-03-01 17:41:32,markdown,7
+2024-03-01 17:39:30,markdown,7
+2024-03-01 17:38:42,language,17
+2024-03-01 17:38:34,token,1
+2024-03-01 16:47:36,"# import کتابخانه مورد نیاز import matplotlib.pyplot as plt  # تعریف مختصات ستاره x = [1, 2, 4, 1, 3] y = [4, 3, 2, 1, 1]  # ترسیم ستاره plt.figure() plt.plot(x, y) plt.show()",80
+2024-03-01 16:41:27,nbextensions,2
+2024-03-01 15:55:31,scheduler,2
+2024-03-01 15:49:07,covert to pdf,99
+2024-03-01 15:41:16,keyboard,2
+2024-03-01 14:50:06,encoding utf-8,10
+2024-03-01 14:45:45,uninstall,1
+2024-03-01 14:37:34,cell toolbar,6
+2024-03-01 14:26:50,python crash course,44
+2024-03-01 14:09:36,uninstall,1
+2024-03-01 13:22:41,docker,11
+2024-03-01 12:38:13,%run,27
+2024-03-01 12:29:06,password,0
+2024-03-01 11:43:33,password,0
+2024-03-01 11:43:24,passwd,0
+2024-03-01 11:31:13,fonction,0
+2024-03-01 11:25:14,pivot,0
+2024-03-01 11:25:06,pivot table,4
+2024-03-01 11:21:16,installation using conda,50
+2024-03-01 11:21:05,conda,11
+2024-03-01 09:54:16,size,0
+2024-03-01 09:54:08,.size,0
+2024-03-01 09:15:59,grading,3
+2024-03-01 08:48:06,to display line number,101
+2024-03-01 08:47:44,line number,19
+2024-03-01 08:47:33,line #,13
+2024-03-01 08:45:42,new,54
+2024-03-01 07:50:05,url,8
+2024-03-01 07:05:55,grading,3
+2024-03-01 05:59:49,colab,5
+2024-03-01 05:52:12,startup,1
+2024-03-01 05:27:13,refers to a non-existing file,105
+2024-03-01 05:02:38,r,10
+2024-03-01 03:56:21,plot.,1
+2024-03-01 03:37:12,recover,0
+2024-03-01 03:37:06,delete,1
+2024-03-01 03:36:49,deletes files,21
+2024-03-01 03:07:56,pip,17
+2024-03-01 02:48:39,%%timeit,0
+2024-03-01 02:41:49,unin,0
+2024-03-01 02:41:22,uninstall,1
+2024-03-01 02:34:28,codecellconfig,0
+2024-03-01 02:34:11,notebook-extension,69
+2024-03-01 02:04:09,time,26
+2024-03-01 01:27:16,python,42
+2024-03-01 01:12:27,cron,0
+2024-03-01 01:00:25,deeplearning.ai,0
+2024-03-01 00:59:51,%matplotlib inline,7
+2024-03-01 00:09:47,console,8
+2024-02-29 23:51:52,remote kernels,30
+2024-02-29 23:51:41,kernels,28
+2024-02-29 23:11:21,title,4
+2024-02-29 23:11:15,subtitle,0
+2024-02-29 22:58:36,kernelspecmanager,0
+2024-02-29 22:19:18,environment variables,19
+2024-02-29 21:47:48,clear output,14
+2024-02-29 20:23:14,cite,1
+2024-02-29 20:14:25,ipython,47
+2024-02-29 20:11:40,nbextension,1
+2024-02-29 19:37:20,highlighting of matching parentheses,101
+2024-02-29 19:37:03,nbextension,1
+2024-02-29 19:33:03,brackets highlighting,0
+2024-02-29 19:32:50,disable brackets highlighting,1
+2024-02-29 19:24:15,samples,0
+2024-02-29 19:23:57,matplotlib,4
+2024-02-29 19:07:08,display,3
+2024-02-29 17:03:43,comments,10
+2024-02-29 16:36:56,sql union,1
+2024-02-29 16:33:38,display,3
+2024-02-29 16:16:00,squared,0
+2024-02-29 16:15:55,brackets,0
+2024-02-29 16:03:52,languages,12
+2024-02-29 15:10:37,go into definition,33
+2024-02-29 14:43:56,pandas and preprocssing in scikit-learn,102
+2024-02-29 14:43:36,pandas and preprocssing,100
+2024-02-29 14:40:48,dataframe,0
+2024-02-29 14:21:34,%,0
+2024-02-29 14:11:26,ipython terminal,52
+2024-02-29 14:10:31,timeline,1
+2024-02-29 14:10:08,file modified history,26
+2024-02-29 14:10:04,file save modified history,26
+2024-02-29 14:09:52,file save history,26
+2024-02-29 12:06:50,token,1
+2024-02-29 12:06:34,downgrade jupyter,85
+2024-02-29 12:06:34,downhgrade jupyter,85
+2024-02-29 09:35:03,matplotlib,4
+2024-02-29 09:34:48,matlibplot,0
+2024-02-29 09:34:42,matlab,1
+2024-02-29 08:46:08,jupyterlab-lsp,40
+2024-02-29 08:45:29,lsp,4
+2024-02-29 08:24:57,парсинг,0
+2024-02-29 08:24:42,parsing,0
+2024-02-29 08:18:12,memory,2
+2024-02-29 08:17:46,内存,0
+2024-02-29 08:16:38,!rm,1
+2024-02-29 08:14:36,!rm,1
+2024-02-29 07:46:54,select kernel,33
+2024-02-29 07:46:28,jupyter hub docker,86
+2024-02-29 06:46:30,r,10
+2024-02-29 06:25:07,_ctypes,0
+2024-02-29 06:24:52,modulenotfounderror: no module named '_ctypes',29
+2024-02-29 06:21:49,panda,0
+2024-02-29 06:21:44,pands,0
+2024-02-29 06:15:06,jupyter notebook,89
+2024-02-29 05:33:58,jupyter hub,85
+2024-02-29 05:31:15,virtual environment,46
+2024-02-29 05:00:26,lsp,4
+2024-02-29 03:23:18,structural equation model,4
+2024-02-29 03:18:27,virtual environment,46
+2024-02-29 03:07:31,remote,3
+2024-02-29 02:43:23,home,6
+2024-02-29 02:28:28,extention,0
+2024-02-29 02:11:49,pass,7
+2024-02-29 01:50:36,line numbers,13
+2024-02-29 01:50:31,linenumbers,0
+2024-02-29 01:50:20,linenumber,0
+2024-02-29 01:49:03,number,11
+2024-02-29 00:32:15,extending,2
+2024-02-29 00:29:46,open config file,51
+2024-02-29 00:28:01,config width 100%,12
+2024-02-29 00:27:36,config width,10
+2024-02-29 00:27:21,width,1
+2024-02-28 23:29:04,micropython,0
+2024-02-28 23:28:25,esp32,0
+2024-02-28 23:27:32,esp,0
+2024-02-28 22:56:58,password,0
+2024-02-28 21:37:57,widgets,14
+2024-02-28 21:12:07,terminal,10
+2024-02-28 20:47:10,virtual env,35
+2024-02-28 20:40:22,code completion,56
+2024-02-28 19:48:42,change directory,27
+2024-02-28 19:48:00,directory,20
+2024-02-28 18:56:58,cell tags,10
+2024-02-28 18:41:42,hide code,56
+2024-02-28 18:23:12,virtual,33
+2024-02-28 18:22:18,create notebook from terminal,90
+2024-02-28 18:19:41,terminal,10
+2024-02-28 17:54:56,notebook examples,67
+2024-02-28 17:54:08,stable,3
+2024-02-28 17:15:30,debugging,1
+2024-02-28 16:28:49,ipynb,9
+2024-02-28 16:28:46,ipynb_checkpoint,0
+2024-02-28 16:28:44,ipynb_checkpoints,0
+2024-02-28 16:24:28,dictionary,0
+2024-02-28 16:23:36,dictionary,0
+2024-02-28 16:13:41,csv,1
+2024-02-28 16:13:22,csv file change,33
+2024-02-28 16:11:50,dictionary,0
+2024-02-28 16:11:04,dictionary,0
+2024-02-28 16:09:54,dictionary,0
+2024-02-28 16:01:01,dictionary,0
+2024-02-28 14:32:15,"""working directory""",1
+2024-02-28 14:31:56,working directory,36
+2024-02-28 14:06:07,html,15
+2024-02-28 14:05:35,style,6
+2024-02-28 14:05:21,css,1
+2024-02-28 13:34:08,collaborat*,8
+2024-02-28 13:33:26,collaboration,4
+2024-02-28 12:52:05,vscode,1
+2024-02-28 12:46:45,add r kernel,47
+2024-02-28 11:57:44,input,10
+2024-02-28 11:37:11,custom authenticator,12
+2024-02-28 10:16:46,extensions,15
+2024-02-28 10:13:38,conda environment,23
+2024-02-28 10:13:35,condn environment,16
+2024-02-28 10:13:15,environment,16
+2024-02-28 10:04:18,menufactory,0
+2024-02-28 10:03:29,c.serverapp.local_hostnames,0
+2024-02-28 09:59:32,extension,21
+2024-02-28 09:45:46,the kernel for cifar10/cifar10.ipynb appears to have died. it will restart automatically.,107
+2024-02-28 08:32:01,kernel,32
+2024-02-28 08:19:08,怎么进入,0
+2024-02-28 08:16:04,matplotlib,4
+2024-02-28 08:15:42,import matplotlib.pyplot as plt,72
+2024-02-28 08:15:20,matplot,0
+2024-02-28 07:37:29,max,0
+2024-02-28 07:37:19,sam,0
+2024-02-28 07:36:33,python iterabili,42
+2024-02-28 07:36:15,iterable,0
+2024-02-28 07:34:32,iterabili,0
+2024-02-28 07:03:54,python,42
+2024-02-28 06:54:09,kernel.json,1
+2024-02-28 06:53:26,kernelspec,2
+2024-02-28 06:49:31,hdf5,5
+2024-02-28 06:30:53,css,1
+2024-02-28 04:45:21,'standard deviation',7
+2024-02-28 04:45:05,standard deviation,7
+2024-02-28 04:43:48,keyboard shortcut,3
+2024-02-28 04:43:34,keyboard,2
+2024-02-28 04:16:51,shortcuts,1
+2024-02-28 04:15:47,install,21
+2024-02-28 03:28:22,r,10
+2024-02-28 03:25:16,notebook password,63
+2024-02-28 03:24:42,jupyter notebook,89
+2024-02-28 03:24:18,password,0
+2024-02-28 02:00:05,classification,0
+2024-02-28 01:32:38,octave,0
+2024-02-28 01:24:18,python,42
+2024-02-27 23:28:23,open notebook,78
+2024-02-27 23:23:50,enviornment,0
+2024-02-27 22:50:01,markdown,7
+2024-02-27 22:00:43,markdown,7
+2024-02-27 21:05:27,file format,60
+2024-02-27 20:29:52,ydata-profiling,0
+2024-02-27 20:10:23,user guide,51
+2024-02-27 20:00:42,syntax,5
+2024-02-27 19:48:30,sso,0
+2024-02-27 18:42:29,memory,2
+2024-02-27 18:36:13,encoding,0
+2024-02-27 18:36:06,utf-8 encoding,10
+2024-02-27 18:12:29,password,0
+2024-02-27 18:11:05,cos,0
+2024-02-27 17:51:01,auth_state,0
+2024-02-27 17:50:57,pre_spawn_start,0
+2024-02-27 17:44:53,accessibility,9
+2024-02-27 17:34:09,classification,0
+2024-02-27 17:11:27,arcgis,0
+2024-02-27 17:11:00,arcgis online,4
+2024-02-27 16:36:54,untitled folder,3
+2024-02-27 16:15:22,completition,0
+2024-02-27 16:15:13,autocompletition,0
+2024-02-27 16:12:41,r,10
+2024-02-27 15:38:10,http://kpk-nnga.sinp.msu.ru/data/uploads/nnga-seminar-python.ipynb,38
+2024-02-27 15:17:31,español,0
+2024-02-27 15:17:02,algebra,0
+2024-02-27 15:16:54,álgebra,0
+2024-02-27 15:16:37,cálculo,1
+2024-02-27 15:16:29,calculo,0
+2024-02-27 14:39:57,pygments,0
+2024-02-27 13:38:07,kernel port,33
+2024-02-27 13:13:41,shortcut,2
+2024-02-27 13:13:26,keyboard,2
+2024-02-27 13:13:22,keybaord,0
+2024-02-27 12:33:43,optional lab brief introduction to python,101
+2024-02-27 11:55:04,install,21
+2024-02-27 11:50:48,keyboard,2
+2024-02-27 11:50:44,keybaord,0
+2024-02-27 11:31:22,extensions,15
+2024-02-27 10:19:29,r,10
+2024-02-27 09:15:17,object storage,5
+2024-02-27 09:15:17,object st#,3
+2024-02-27 09:15:17,s3,1
+2024-02-27 09:15:16,bucket,0
+2024-02-27 09:14:58,remote,3
+2024-02-27 09:14:57,server,22
+2024-02-27 09:14:47,jupyterlab-execute-time,59
+2024-02-27 08:37:22,input,10
+2024-02-27 07:16:05,application.logging_config,0
+2024-02-27 07:12:03,logging_config,0
+2024-02-27 07:11:44,jupyterapp,0
+2024-02-27 07:11:38,jupyterapp.logging_config,0
+2024-02-27 06:57:36,大苏打,0
+2024-02-27 06:50:27,bash,2
+2024-02-27 06:43:47,pygcp,0
+2024-02-27 06:16:02,menufactory,0
+2024-02-27 05:41:14,mojo,0
+2024-02-27 05:03:10,enable intellisense,4
+2024-02-27 04:12:27,file,25
+2024-02-27 04:07:36,file,25
+2024-02-27 03:42:55,extension,21
+2024-02-27 03:08:51,kernel,32
+2024-02-27 03:08:17,open from path,75
+2024-02-27 02:35:24,visual studio,3
+2024-02-27 02:35:20,visutal,0
+2024-02-27 02:35:03,vscode,1
+2024-02-27 02:33:28,nginx,0
+2024-02-27 02:00:18,moving average forecast,3
+2024-02-27 01:31:56,rbac,0
+2024-02-27 01:31:49,hub rbac,8
+2024-02-27 00:19:50,venv,1
+2024-02-27 00:19:17,python runtime,44
+2024-02-27 00:03:19,classic notebook?,63
+2024-02-27 00:01:59,happen,5
+2024-02-26 22:18:50,hide,0
+2024-02-26 21:35:31,display,3
+2024-02-26 21:11:43,how to download .ipynb file to.pdf file foormat,100
+2024-02-26 20:14:58,clear,4
+2024-02-26 20:14:55,clean,2
+2024-02-26 20:14:49,reset,1
+2024-02-26 19:24:13,changelog,5
+2024-02-26 18:48:12,version,20
+2024-02-26 18:27:24,oop,0
+2024-02-26 18:26:58,object oriented programming,11
+2024-02-26 18:24:55,how to upload folder,99
+2024-02-26 18:24:23,upload folder,5
+2024-02-26 18:19:54,candel,0
+2024-02-26 18:19:49,candle,0
+2024-02-26 18:13:18,utils,1
+2024-02-26 18:13:11,sample_batch,0
+2024-02-26 17:53:57,keyboard shortcuts,3
+2024-02-26 17:43:06,widgets,14
+2024-02-26 17:41:41,library path,19
+2024-02-26 17:31:25,threading jupyter lab,88
+2024-02-26 17:31:02,threading,0
+2024-02-26 17:17:59,resourceusedisplay,0
+2024-02-26 17:14:58,voila,7
+2024-02-26 17:14:06,kill port:8888,5
+2024-02-26 17:12:59,latex,5
+2024-02-26 16:58:50,tags,5
+2024-02-26 16:51:47,port,3
+2024-02-26 16:16:54,cannot open a new file,95
+2024-02-26 16:16:42,permission,2
+2024-02-26 16:06:34,dictionary,0
+2024-02-26 15:48:43,nbconvert,10
+2024-02-26 15:36:08,widgets,14
+2024-02-26 15:21:35,voice assistant,1
+2024-02-26 15:19:46,joupyter notebook,63
+2024-02-26 14:46:22,nbextension,1
+2024-02-26 14:24:57,cell types,14
+2024-02-26 14:04:43,%autoreload,0
+2024-02-26 14:00:13,download notebook,64
+2024-02-26 13:59:47,download,5
+2024-02-26 13:55:45,input,10
+2024-02-26 13:37:08,markdown cell,12
+2024-02-26 13:36:52,kernel,32
+2024-02-26 13:25:22,change directory,27
+2024-02-26 13:25:10,directory,20
+2024-02-26 12:35:44,virtual environment,46
+2024-02-26 12:35:36,venv,1
+2024-02-26 12:28:55,sql,1
+2024-02-26 11:34:44,cmd,0
+2024-02-26 11:06:50,delimit,0
+2024-02-26 10:04:38,cell types,14
+2024-02-26 09:45:08,delete failed,3
+2024-02-26 09:44:53,api,8
+2024-02-26 09:44:49,permission denied,2
+2024-02-26 09:35:13,keyboard shortcuts,3
+2024-02-26 09:15:37,copy cell,11
+2024-02-26 08:28:48,markdown size,7
+2024-02-26 08:28:27,markdown,7
+2024-02-26 08:16:24,docker,11
+2024-02-26 07:34:40,c.notebookapp,0
+2024-02-26 07:02:21,pandas,0
+2024-02-26 06:54:42,jupyter_notebook_config.py,1
+2024-02-26 06:35:15,lsp,4
+2024-02-26 06:30:43,raspberry,0
+2024-02-26 06:30:29,raspberry pi,0
+2024-02-26 06:25:17,datalayer,1
+2024-02-26 06:22:48,python-markdown server,56
+2024-02-26 06:22:16,python-markdown,44
+2024-02-26 05:40:14,plotly,3
+2024-02-26 05:29:02,nbextension,1
+2024-02-26 03:48:12,environment variable,18
+2024-02-26 03:10:02,licensing,0
+2024-02-26 02:59:49,log,2
+2024-02-26 02:47:01,ipython,47
+2024-02-26 01:22:06,embed,2
+2024-02-26 01:11:53,r,10
+2024-02-26 00:59:16,pdf,5
+2024-02-26 00:47:12,license,1
+2024-02-26 00:42:06,my python,45
+2024-02-25 22:46:57,conda,11
+2024-02-25 20:11:28,debug,0
+2024-02-25 19:42:59,print,11
+2024-02-25 19:06:10,upgrade,2
+2024-02-25 18:33:33,language,17
+2024-02-25 18:32:30,debug,0
+2024-02-25 18:17:21,pip,17
+2024-02-25 18:16:41,install package,24
+2024-02-25 17:51:58,open new console,68
+2024-02-25 17:51:27,new console,59
+2024-02-25 17:49:55,debugging,1
+2024-02-25 17:43:08,irkernel,3
+2024-02-25 17:00:57,cmd,0
+2024-02-25 14:39:53,logo,0
+2024-02-25 13:49:39,split cells,9
+2024-02-25 13:14:31,virtual environments,35
+2024-02-25 12:42:24,input,10
+2024-02-25 11:06:49,extension,21
+2024-02-25 10:32:39,fake,0
+2024-02-25 10:31:55,faker,0
+2024-02-25 10:22:04,matplotlib,4
+2024-02-25 10:19:12,text cell,18
+2024-02-25 09:32:01,ip,3
+2024-02-25 09:31:20,command options,18
+2024-02-25 09:30:52,config-dir,9
+2024-02-25 03:46:33,remote,3
+2024-02-25 03:46:23,password,0
+2024-02-25 03:09:12,download,5
+2024-02-25 01:26:17,ai,1
+2024-02-25 01:26:02,ai,1
+2024-02-25 01:03:12,"""iopub data""",0
+2024-02-25 01:03:01,iopub data rate exceeded,33
+2024-02-25 00:34:58,new environment,60
+2024-02-25 00:27:42,yolo,0
+2024-02-25 00:27:36,pantech,0
+2024-02-25 00:27:12,yolo object detection using fpga,43
+2024-02-25 00:26:37,champ2_yolorealtime,0
+2024-02-25 00:23:51,pantech.90.90,0
+2024-02-24 23:57:40,pyqtgraph快速教程,0
+2024-02-24 23:10:20,jupyter notebook interface in browser,105
+2024-02-24 23:09:52,tour of jupyter notebook interfce,105
+2024-02-24 23:06:51,ipython,47
+2024-02-24 20:38:41,voila,7
+2024-02-24 19:10:11,clear -f,110
+2024-02-24 19:10:01,read_excel,0
+2024-02-24 19:09:54,read excel,18
+2024-02-24 19:06:26,keyboard shortcut,3
+2024-02-24 19:05:57,keyboard,2
+2024-02-24 19:04:30,keys sh,0
+2024-02-24 19:04:13,key sh,5
+2024-02-24 19:03:50,run_server,0
+2024-02-24 19:02:33,app,5
+2024-02-24 19:02:15,app.run_server,0
+2024-02-24 18:47:04,sharifi,0
+2024-02-24 18:45:43,slideshow,0
+2024-02-24 18:45:29,presentation,4
+2024-02-24 18:11:11,reset token password,2
+2024-02-24 16:37:18,ipynb,9
+2024-02-24 14:14:37,default kernel,37
+2024-02-24 14:14:22,preferred kernel,34
+2024-02-24 13:48:28,extension,21
+2024-02-24 13:00:55,jupyter ai,85
+2024-02-24 11:42:40,password,0
+2024-02-24 10:47:35,close server,28
+2024-02-24 10:47:34,close jupyter,88
+2024-02-24 09:44:00,install packages,23
+2024-02-24 09:43:05,pip install packages,26
+2024-02-24 06:25:11,pandas,0
+2024-02-24 05:42:23,latex,5
+2024-02-24 05:41:49,uninstall,1
+2024-02-24 04:08:27,jupyter lab,88
+2024-02-24 04:08:14,pylab,1
+2024-02-24 02:21:30,deep learning,5
+2024-02-24 02:21:06,吴恩达,0
+2024-02-24 02:21:00,吴恩达机器学习,0
+2024-02-24 00:26:04,classic,7
+2024-02-23 23:51:47,nbextension,1
+2024-02-23 23:51:24,labextension,2
+2024-02-23 23:49:21,nbextension activate,2
+2024-02-23 23:48:55,"""nbextension"" and ""activate""",100
+2024-02-23 22:03:48,magic cell,9
+2024-02-23 21:29:24,trust,0
+2024-02-23 20:17:01,run button greyed out,57
+2024-02-23 19:57:37,jupyter-notebook,89
+2024-02-23 19:26:54,docker,11
+2024-02-23 18:48:51,debugger,0
+2024-02-23 17:48:06,prerequisite,1
+2024-02-23 17:27:33,.ipython,47
+2024-02-23 17:18:07,config,9
+2024-02-23 17:18:04,password,0
+2024-02-23 16:49:10,tar -a -c -f,110
+2024-02-23 15:03:22,nginx,0
+2024-02-23 14:56:27,javascript,8
+2024-02-23 14:31:52,merge,5
+2024-02-23 14:10:11,open .ipynb,40
+2024-02-23 14:10:01,add files,37
+2024-02-23 13:48:35,"""notebook-dir""",0
+2024-02-23 13:48:26,notebook-dir,63
+2024-02-23 13:46:38,signature verification,0
+2024-02-23 13:38:15,hotkey,0
+2024-02-23 13:17:09,extensions,15
+2024-02-23 12:52:40,lornez,0
+2024-02-23 12:35:49,"""import python module""",0
+2024-02-23 12:35:26,import python file,52
+2024-02-23 12:26:49,notebook config,65
+2024-02-23 12:26:14,jupyter_notebook_config,0
+2024-02-23 12:26:02,remote,3
+2024-02-23 12:18:09,extension,21
+2024-02-23 12:10:53,security,11
+2024-02-23 12:10:47,token,1
+2024-02-23 12:10:43,cookie,0
+2024-02-23 11:34:39,connect kernel and virtual environment,101
+2024-02-23 11:16:05,gpu,0
+2024-02-23 11:12:05,python,42
+2024-02-23 10:52:39,cargo,0
+2024-02-23 10:52:32,cargo package,8
+2024-02-23 10:52:16,rust,0
+2024-02-23 10:49:09,rust package manager,13
+2024-02-23 10:13:34,colorleft,0
+2024-02-23 09:21:55,sql,1
+2024-02-23 08:40:17,python,42
+2024-02-23 07:46:42,rename,0
+2024-02-23 06:54:22,outputarea,0
+2024-02-23 06:54:15,ioutputarea,0
+2024-02-23 06:02:43,notebook,63
+2024-02-23 06:02:39,word2vec,0
+2024-02-23 05:15:21,markdown,7
+2024-02-23 04:15:10,"""%%time""",26
+2024-02-23 03:56:49,python,42
+2024-02-23 03:56:41,pytorch,0
+2024-02-23 03:56:15,builing models in pytorch,93
+2024-02-23 03:55:44,builing model in pytorch,93
+2024-02-23 03:36:12,markdown,7
+2024-02-23 02:09:38,sphinx,14
+2024-02-23 01:56:07,magic,3
+2024-02-22 23:27:26,calling a function,94
+2024-02-22 23:02:20,docker,11
+2024-02-22 22:37:20,language,17
+2024-02-22 21:28:20,export,4
+2024-02-22 18:48:18,open from git,75
+2024-02-22 18:07:34,auth_state,0
+2024-02-22 17:59:22,stdout,0
+2024-02-22 17:53:31,strongdm,0
+2024-02-22 17:53:19,docker,11
+2024-02-22 17:36:30,jupyter notebook --generate-config,91
+2024-02-22 17:35:03,config,9
+2024-02-22 17:27:51,shortcuts,1
+2024-02-22 16:13:20,seaborn,0
+2024-02-22 16:13:08,matplotlib,4
+2024-02-22 16:12:46,what all library it support,84
+2024-02-22 16:05:01,shortcut,2
+2024-02-22 14:53:59,ipynb,9
+2024-02-22 14:42:47,roles,3
+2024-02-22 13:59:08,version control,21
+2024-02-22 13:25:15,ip,3
+2024-02-22 13:17:41,languagepack,0
+2024-02-22 13:17:13,language pack,17
+2024-02-22 12:49:04,lfm,0
+2024-02-22 12:48:57,lfm gp,0
+2024-02-22 12:48:40,"""latent force""",0
+2024-02-22 12:48:30,"""latent force model""",0
+2024-02-22 12:48:20,latent force model,5
+2024-02-22 12:12:19,update,21
+2024-02-22 11:42:37,pip,17
+2024-02-22 11:18:13,no-browser,35
+2024-02-22 11:11:02,upload folder,5
+2024-02-22 10:43:02,np.axis,0
+2024-02-22 10:41:57,!pip,17
+2024-02-22 10:12:56,loading,1
+2024-02-22 10:12:50,spinner,0
+2024-02-22 09:48:50,create assignment,15
+2024-02-22 09:46:22,hot keys,0
+2024-02-22 09:46:09,shortcut,2
+2024-02-22 09:45:56,shortcuts,1
+2024-02-22 09:22:41,api clean memory,11
+2024-02-22 09:22:23,clean memory,4
+2024-02-22 08:58:41,combinational,0
+2024-02-22 08:57:52,api restart clear output,20
+2024-02-22 08:57:41,api clear output,20
+2024-02-22 08:55:21,version,20
+2024-02-22 08:51:35,api clear output,20
+2024-02-22 08:34:59,poppy,0
+2024-02-22 08:34:38,poppy,0
+2024-02-22 07:41:01,server,22
+2024-02-22 07:33:00,mutli object tracking,6
+2024-02-22 06:32:31,remote,3
+2024-02-22 06:32:04,remote access,10
+2024-02-22 06:24:49,list servers,26
+2024-02-22 06:07:39,jupyter download,87
+2024-02-22 06:07:36,hi,1
+2024-02-22 05:08:26,server,22
+2024-02-22 05:06:08,dagster,2
+2024-02-22 04:03:18,api/kernels,31
+2024-02-22 04:01:50,kubernetes,3
+2024-02-22 04:01:50,authorization,0
+2024-02-22 03:55:29,logs,2
+2024-02-22 03:52:22,view logs,10
+2024-02-22 03:51:20,view log,10
+2024-02-22 03:40:33,api/restart,8
+2024-02-22 03:38:22,docker,11
+2024-02-22 02:15:43,flask,0
+2024-02-22 01:57:55,notebook,63
+2024-02-22 01:37:25,ssl,0
+2024-02-22 01:04:13,checking if python installed,68
+2024-02-22 01:03:54,ldapauthenticator,1
+2024-02-22 00:09:42,00-set-up-enviroment,37
+2024-02-21 23:47:20,00-set-up-enviroment,37
+2024-02-21 23:40:08,%matplotlib inline,7
+2024-02-21 21:59:19,timeit,0
+2024-02-21 21:59:10,%timeit,0
+2024-02-21 20:05:46,roles,3
+2024-02-21 20:05:35,permissions,1
+2024-02-21 19:35:20,getting started,25
+2024-02-21 19:05:41,pair notebook,63
+2024-02-21 18:44:37,pdf,5
+2024-02-21 18:22:31,sql,1
+2024-02-21 18:22:25,scala,0
+2024-02-21 18:08:18,canvas,0
+2024-02-21 18:08:12,blackboard,0
+2024-02-21 18:08:08,virtual learning environment,49
+2024-02-21 18:08:02,lti,1
+2024-02-21 17:42:48,python comment,43
+2024-02-21 17:30:09,token,1
+2024-02-21 17:30:02,password,0
+2024-02-21 17:26:46,gr1gny20,0
+2024-02-21 17:02:33,2025,0
+2024-02-21 16:53:45,virtual environment,46
+2024-02-21 16:41:47,kernel,32
+2024-02-21 16:36:43,0.0.0.0,1
+2024-02-21 16:33:06,themes,3
+2024-02-21 16:32:41,theme,4
+2024-02-21 16:08:26,directly link  headings,37
+2024-02-21 16:08:20,directly link to headings,99
+2024-02-21 16:08:10,directly link to headings in jupyter notebook,106
+2024-02-21 16:07:50,how to create anchor links in jupyter notebook,106
+2024-02-21 15:15:37,token,1
+2024-02-21 15:08:27,security,11
+2024-02-21 15:08:26,token,1
+2024-02-21 15:08:25,password,0
+2024-02-21 14:47:07,%hide,0
+2024-02-21 14:46:58,%time,26
+2024-02-21 14:46:51,%timeit,0
+2024-02-21 14:46:28,%javascript,8
+2024-02-21 14:45:19,hide code cell,56
+2024-02-21 14:24:20,run,27
+2024-02-21 13:52:12,spark,1
+2024-02-21 13:43:22,notebook-dir,63
+2024-02-21 12:17:01,binder,16
+2024-02-21 11:46:46,restart,2
+2024-02-21 11:11:30,license,1
+2024-02-21 11:00:13,机器学习,0
+2024-02-21 10:50:45,install c kernel,49
+2024-02-21 10:45:14,tutorial,4
+2024-02-21 10:44:57,python tutorial,45
+2024-02-21 10:43:55,python,42
+2024-02-21 10:09:12,pygments,0
+2024-02-21 10:04:22,example,31
+2024-02-21 09:57:16,password,0
+2024-02-21 09:55:27,how to add extension,99
+2024-02-21 09:48:44,extensions,15
+2024-02-21 09:40:37,gpu,0
+2024-02-21 09:22:26,jupyter universal,86
+2024-02-21 09:09:34,tornado_settings,0
+2024-02-21 09:09:05,content-security-policy,26
+2024-02-21 09:09:01,content-security-policy',26
+2024-02-21 08:47:22,environment,16
+2024-02-21 08:18:17,allow_root,0
+2024-02-21 08:18:15,notebookapp.allow_root,0
+2024-02-21 08:06:57,ldapauthenticator,1
+2024-02-21 07:46:04,sql-tutorial,5
+2024-02-21 07:44:20,sql-tutorial,5
+2024-02-21 07:42:15,jupyter_lab_config.py,0
+2024-02-21 06:43:55,starting jupyter notebook,92
+2024-02-21 06:13:43,uninstall,1
+2024-02-21 03:15:06,python file code selection,78
+2024-02-21 03:12:06,--notebook-dir,63
+2024-02-21 03:09:30,markdown cells,9
+2024-02-21 02:39:10,kernel,32
+2024-02-21 02:31:11,read a sas file into python,98
+2024-02-21 02:31:01,read a sas file,96
+2024-02-21 02:30:41,read sas file,37
+2024-02-21 00:56:45,download,5
+2024-02-21 00:51:18,root_dir,0
+2024-02-20 23:50:22,hot keys,0
+2024-02-20 23:50:19,xeus,4
+2024-02-20 23:50:16,hotkeys,0
+2024-02-20 23:50:07,short cuts,38
+2024-02-20 23:50:03,octave,0
+2024-02-20 23:49:59,shortcuts,1
+2024-02-20 23:29:58,add tag,23
+2024-02-20 23:29:22,tag,3
+2024-02-20 22:53:17,whos,0
+2024-02-20 21:49:04,upgrade,2
+2024-02-20 21:08:50,h1 style,6
+2024-02-20 21:08:49,token,1
+2024-02-20 20:29:58,notebook 7,69
+2024-02-20 19:06:33,commands,11
+2024-02-20 16:53:27,pandas,0
+2024-02-20 16:27:08,extension,21
+2024-02-20 16:21:54,extensions,15
+2024-02-20 16:07:15,notebookapp.token,0
+2024-02-20 16:07:03,notebook_args,0
+2024-02-20 15:58:07,password,0
+2024-02-20 15:41:44,plotly,3
+2024-02-20 15:37:32,styles,0
+2024-02-20 15:36:54,ssc,0
+2024-02-20 14:51:37,code does not run,78
+2024-02-20 14:49:42,data source,107
+2024-02-20 14:49:36,datasource,0
+2024-02-20 14:47:39,spellchecker,0
+2024-02-20 14:47:23,no module named spellchecker,29
+2024-02-20 13:44:41,delete notebook,63
+2024-02-20 12:55:20,istio,0
+2024-02-20 12:20:31,capture,0
+2024-02-20 12:20:23,%%capture,0
+2024-02-20 11:25:26,signatures,0
+2024-02-20 11:25:16,nbsignatures,0
+2024-02-20 11:08:23,untal jupyter notebook,89
+2024-02-20 10:52:53,cell magic,9
+2024-02-20 10:50:10,server,22
+2024-02-20 10:41:50,install,21
+2024-02-20 10:41:38,downgrade,0
+2024-02-20 08:55:31,kernelspec,2
+2024-02-20 08:39:35,base64,1
+2024-02-20 07:19:20,config,9
+2024-02-20 07:13:16,verbose,1
+2024-02-20 06:55:11,ifconfig,0
+2024-02-20 06:46:15,new,54
+2024-02-20 06:40:29,memory limit,2
+2024-02-20 06:31:55,pip install,24
+2024-02-20 06:18:20,ico,0
+2024-02-20 06:17:46,localhost,2
+2024-02-20 06:17:12,bind host,5
+2024-02-20 05:25:43,voila,7
+2024-02-20 04:06:54,links,40
+2024-02-20 04:05:20,javascript,8
+2024-02-20 02:47:19,autocomplit,0
+2024-02-20 02:46:58,code complition,56
+2024-02-20 02:40:17,debug,0
+2024-02-20 02:16:16,7,13
+2024-02-20 00:11:52,jupyter_token,0
+2024-02-20 00:11:47,jupyter_port,0
+2024-02-20 00:11:22,environment variable,18
+2024-02-20 00:10:37,environment,16
+2024-02-19 23:55:20,slides,3
+2024-02-19 22:20:45,decimals,0
+2024-02-19 22:01:06,limit output,11
+2024-02-19 22:00:56,output,11
+2024-02-19 22:00:48,custom data source,107
+2024-02-19 22:00:47,limit,0
+2024-02-19 21:45:17,put the text as heading level 1,104
+2024-02-19 21:45:10,put text as heading level 1,81
+2024-02-19 21:37:01,docker,11
+2024-02-19 19:21:53,git,16
+2024-02-19 17:28:58,uninstall,1
+2024-02-19 17:23:06,initiate modbus,0
+2024-02-19 17:22:40,initiate,0
+2024-02-19 17:22:16,pymodbus,0
+2024-02-19 17:05:47,яндекс,0
+2024-02-19 17:05:40,яндекс.музыка,0
+2024-02-19 17:02:08,git,16
+2024-02-19 16:19:47,esc,0
+2024-02-19 16:19:20,command mode,17
+2024-02-19 16:08:54,square root,4
+2024-02-19 14:19:02,mappingkernelmanager,0
+2024-02-19 13:59:12,do you agree to the terms and wish to proceed [y/n]? find: ‘/dev/dri’: no such file or directory ./docker_run.sh: line 112: docker: command not found yes: standard output: broken pipe,108
+2024-02-19 13:39:59,nbextensions,2
+2024-02-19 13:32:46,install a specific version of jupyter notebook conda,106
+2024-02-19 13:32:04,install a specific version of jupyter notebook,106
+2024-02-19 13:03:09,theme,4
+2024-02-19 12:42:52,put text as heading level,77
+2024-02-19 12:42:45,put text as heading level 1,81
+2024-02-19 12:42:36,put the text as heading level 1,104
+2024-02-19 12:27:52,iopub data rate exceeded,33
+2024-02-19 11:30:08,"""import + as""",0
+2024-02-19 11:29:45,import as,72
+2024-02-19 11:27:42,import,7
+2024-02-19 11:27:02,import,7
+2024-02-19 10:52:55,jupyter_config,1
+2024-02-19 10:38:18,auto quotes,2
+2024-02-19 10:38:06,quote,0
+2024-02-19 10:18:08,logo,0
+2024-02-19 09:50:54,datasets,1
+2024-02-19 09:36:38,type to continue,99
+2024-02-19 09:36:24,tapez pour continuer,0
+2024-02-19 09:34:54,running docker,26
+2024-02-19 09:34:14,interact,5
+2024-02-19 09:34:07,interract,0
+2024-02-19 08:29:38,strip data,32
+2024-02-19 08:29:18,version control,21
+2024-02-19 08:25:12,anaconda,5
+2024-02-19 08:14:59,install,21
+2024-02-19 08:14:01,path name,50
+2024-02-19 07:54:10,configuration,12
+2024-02-19 07:53:52,remote,3
+2024-02-19 07:23:05,os.environ,0
+2024-02-19 07:22:50,environ,0
+2024-02-19 06:47:31,authorize,1
+2024-02-19 06:47:15,授权,0
+2024-02-19 06:33:52,haamidhah,0
+2024-02-19 06:30:04,firefox,1
+2024-02-19 06:29:54,safairi,0
+2024-02-19 06:29:41,ecommended browser,16
+2024-02-19 06:29:21,推奨ブラウザ,0
+2024-02-19 06:26:33,--app-dir,8
+2024-02-19 06:24:41,work dir,38
+2024-02-19 06:24:34,workspace,0
+2024-02-19 04:33:40,exploratory data analysis,32
+2024-02-19 04:32:50,eda,0
+2024-02-19 04:31:16,import modules,8
+2024-02-19 04:14:22,jupyter-notebook,89
+2024-02-19 04:14:11,token,1
+2024-02-19 04:09:21,%md,3
+2024-02-19 04:09:13,%sh,0
+2024-02-19 04:04:38,shortcut,2
+2024-02-19 03:47:28,kernel,32
+2024-02-19 03:42:47,create directory,26
+2024-02-19 03:19:25,jupyter server,88
+2024-02-19 03:12:30,--port,3
+2024-02-19 03:10:29,config,9
+2024-02-19 02:58:15,mag_cal,0
+2024-02-19 02:57:33,gyro cal,6
+2024-02-19 02:02:26,voli,0
+2024-02-19 02:02:22,volia,0
+2024-02-19 00:27:54,venv,1
+2024-02-19 00:27:41,anaconda,5
+2024-02-19 00:27:36,anconda,0
+2024-02-19 00:27:23,conda,11
+2024-02-18 20:22:11,%%,0
+2024-02-18 19:27:11,launch jupyter lab with internet connection,100
+2024-02-18 18:42:39,nbextension,1
+2024-02-18 18:42:07,lab,19
+2024-02-18 18:42:03,hiterland,0
+2024-02-18 18:38:59,magic,3
+2024-02-18 18:38:55,extension,21
+2024-02-18 18:38:44,nbextension,1
+2024-02-18 18:38:41,magic commands,13
+2024-02-18 17:28:42,jupyter lab,88
+2024-02-18 16:13:03,citing,0
+2024-02-18 15:11:54,serverapp,0
+2024-02-18 15:11:50,c.serverapp.browser,0
+2024-02-18 15:11:43,browser,16
+2024-02-18 15:11:42,chrome,1
+2024-02-18 15:11:21,default browser,25
+2024-02-18 14:26:17,nbextensions,2
+2024-02-18 13:16:57,loc,0
+2024-02-18 13:16:19,kernel,32
+2024-02-18 13:08:16,wifi fingerprint,0
+2024-02-18 08:26:40,markdown cheatsheet,8
+2024-02-18 08:16:11,pandas,0
+2024-02-18 07:43:43,download,5
+2024-02-18 05:31:12,vizualizing the normal distribution in python,104
+2024-02-18 05:30:55,vizualizing the normal distribution,104
+2024-02-18 05:30:16,vizualizing the normal distibiution,104
+2024-02-18 05:30:07,vizualizing th normal distibiution,4
+2024-02-18 05:27:45,normal distribution and,100
+2024-02-18 05:27:37,normarl distribution and,100
+2024-02-18 05:24:42,numpy,3
+2024-02-18 03:39:20,@save,7
+2024-02-18 03:28:51,nbconvert,10
+2024-02-18 02:54:52,julia,5
+2024-02-18 02:42:49,password,0
+2024-02-18 00:54:17,nodejs,0
+2024-02-18 00:18:56,!,0
+2024-02-18 00:18:52,exclamation,0
+2024-02-18 00:18:45,exclamation mark,5
+2024-02-17 23:49:41,return,6
+2024-02-17 23:12:31,cell type,15
+2024-02-17 23:12:26,celltype,0
+2024-02-17 23:11:59,change cell type,27
+2024-02-17 21:36:32,windows,7
+2024-02-17 19:31:44,mermaid,0
+2024-02-17 19:31:36,mermaid diagramm,0
+2024-02-17 18:19:58,ipython install,57
+2024-02-17 16:43:46,ipynao,0
+2024-02-17 16:43:29,nao robot,2
+2024-02-17 16:21:31,keyboard shortcut,3
+2024-02-17 16:11:04,keyboard shortcut,3
+2024-02-17 14:59:03,copy cell,11
+2024-02-17 14:24:42,manim,0
+2024-02-17 14:07:33,change jupyter default browser,95
+2024-02-17 14:03:49,config,9
+2024-02-17 14:03:07,ip,3
+2024-02-17 13:55:22,change browser,27
+2024-02-17 13:19:32,serverroot,0
+2024-02-17 13:08:33,mustafamuratcoskun,0
+2024-02-17 13:08:27,mustafamuratcoşkun,0
+2024-02-17 13:03:16,pandas,0
+2024-02-17 12:12:21,pwm,0
+2024-02-17 12:12:21,svpwm,0
+2024-02-17 11:41:39,ide,0
+2024-02-17 11:41:08,metadata,7
+2024-02-17 11:31:23,julia,5
+2024-02-17 11:03:40,allow remote,12
+2024-02-17 09:42:43,with jupyter notebook installed how do i open a new notebook?,106
+2024-02-17 09:18:14,java,2
+2024-02-17 07:48:09,"""%%time""",26
+2024-02-17 07:47:47,%%time,26
+2024-02-17 07:45:05,kernel,32
+2024-02-17 05:24:55,window 7 64bit,17
+2024-02-17 03:48:55,theme,4
+2024-02-17 03:48:28,fonts,1
+2024-02-17 03:35:36,docker,11
+2024-02-17 03:28:53,pyansys,0
+2024-02-17 03:28:47,pymapdl,0
+2024-02-17 03:28:08,ansys,0
+2024-02-17 02:02:57,fcfs,0
+2024-02-17 01:56:01,five-state process model in operating systems,93
+2024-02-16 23:50:58,pysimplegui,0
+2024-02-16 23:24:28,inspect variables,8
+2024-02-16 23:09:40,%%,0
+2024-02-16 20:18:17,alfafold,0
+2024-02-16 20:09:44,server,22
+2024-02-16 19:04:39,autocomplete,2
+2024-02-16 18:52:08,diversity,1
+2024-02-16 18:07:51,notebook 7,69
+2024-02-16 17:51:24,library,11
+2024-02-16 17:48:46,number rows,11
+2024-02-16 17:48:37,number of rows,101
+2024-02-16 17:14:37,donlo,0
+2024-02-16 17:13:30,sql,1
+2024-02-16 16:18:05,unit tests,8
+2024-02-16 16:17:02,test,11
+2024-02-16 16:06:21,python,42
+2024-02-16 16:04:56,restore,0
+2024-02-16 16:03:50,checkpoint,1
+2024-02-16 16:03:41,%%,0
+2024-02-16 16:03:40,process,25
+2024-02-16 16:03:32,multiprocessing,0
+2024-02-16 15:58:23,export,4
+2024-02-16 15:42:53,authorization,0
+2024-02-16 15:42:43,credentials,1
+2024-02-16 15:14:09,languages,12
+2024-02-16 14:46:47,executeinput,0
+2024-02-16 14:46:42,execute_result,0
+2024-02-16 14:46:30,execute_input,0
+2024-02-16 13:46:30,syntax highlighting,5
+2024-02-16 12:45:58,adding r,14
+2024-02-16 10:24:06,remove columns,2
+2024-02-16 10:20:24,r kernel for jupyter notebook,103
+2024-02-16 09:36:18,language servers,19
+2024-02-16 09:23:18,profiles,3
+2024-02-16 08:36:12,environment,16
+2024-02-16 06:42:47,hinterland,0
+2024-02-16 06:42:18,pip install jupyter_contrib_nbextensions,24
+2024-02-16 06:22:16,xp,0
+2024-02-16 06:20:57,keymaps,0
+2024-02-16 06:20:28,shortcut,2
+2024-02-16 05:25:54,environment,16
+2024-02-16 03:49:06,multiply,0
+2024-02-16 03:44:14,ravel,0
+2024-02-16 03:21:44,ipython.display,0
+2024-02-16 03:21:39,iphthon.display,0
+2024-02-16 03:18:31,list ascending,24
+2024-02-16 03:17:28,ipython.display,0
+2024-02-16 01:00:56,install nbconvert,29
+2024-02-16 01:00:41,nbconvert,10
+2024-02-16 00:26:22,--no-browser,35
+2024-02-15 23:01:00,pip,17
+2024-02-15 23:00:57,pipenv,0
+2024-02-15 22:58:40,language server,32
+2024-02-15 22:58:25,lsp,4
+2024-02-15 22:53:24,install,21
+2024-02-15 22:36:43,geo spatial gdal,1
+2024-02-15 22:36:23,gdal,0
+2024-02-15 22:35:54,gdal import,7
+2024-02-15 22:29:11,pandas,0
+2024-02-15 22:02:25,docker,11
+2024-02-15 20:22:53,install jupyter linux,89
+2024-02-15 20:22:09,linux,5
+2024-02-15 20:22:02,macos,0
+2024-02-15 19:17:59,auth_state,0
+2024-02-15 19:17:23,pre_spawn_start,0
+2024-02-15 18:44:19,authentication,3
+2024-02-15 18:37:41,jupyter notebook,89
+2024-02-15 18:34:13,%%,0
+2024-02-15 17:54:17,no machine,28
+2024-02-15 17:54:13,nomachine,0
+2024-02-15 15:54:43,comment out,45
+2024-02-15 15:54:32,comment,4
+2024-02-15 15:53:33,comment,4
+2024-02-15 15:50:39,kernelspec,2
+2024-02-15 14:53:34,machine learning,8
+2024-02-15 14:17:32,kernel,32
+2024-02-15 14:02:47,docker,11
+2024-02-15 13:40:48,terminal,10
+2024-02-15 13:39:43,docker,11
+2024-02-15 13:09:12,image,6
+2024-02-15 12:12:37,directory,20
+2024-02-15 11:24:17,base.handlers,0
+2024-02-15 11:23:59,notebook.base,0
+2024-02-15 11:23:55,otebook.base,0
+2024-02-15 11:23:30,notebook.base.handlers,0
+2024-02-15 11:12:24,jupyter notebook  not found,102
+2024-02-15 10:59:33,disable terminals,1
+2024-02-15 09:53:26,'jupyter' 不是内部或外部命令，也不是可运行的程序,85
+2024-02-15 08:49:44,password,0
+2024-02-15 08:34:23,matplotlib,4
+2024-02-15 08:34:14,%matplotlib,4
+2024-02-15 08:33:55,%matplotlib notebook,66
+2024-02-15 08:07:16,capture,0
+2024-02-15 08:07:11,%%capture,0
+2024-02-15 08:06:43,magic,3
+2024-02-15 08:05:13,run not enabled,54
+2024-02-15 06:51:53,horizontal separator,1
+2024-02-15 06:51:43,horizontal line,13
+2024-02-15 06:39:57,gpu,0
+2024-02-15 05:48:17,install packages,23
+2024-02-15 04:57:37,nbconvert,10
+2024-02-15 02:24:06,jupyter lab heading,88
+2024-02-15 02:23:06,region,1
+2024-02-15 01:57:38,python,42
+2024-02-15 01:57:31,install,21
+2024-02-14 23:58:47,system,16
+2024-02-14 23:58:21,os.system,0
+2024-02-14 22:51:39,open,35
+2024-02-14 22:43:02,read,18
+2024-02-14 22:13:52,colab,5
+2024-02-14 21:58:45,widgets,14
+2024-02-14 21:57:59,widgets,14
+2024-02-14 21:10:31,notebook,63
+2024-02-14 21:08:48,config,9
+2024-02-14 20:53:11,c.authenticator.auto_login,0
+2024-02-14 20:49:50,versions,6
+2024-02-14 20:08:27,cull,0
+2024-02-14 20:06:14,stop,2
+2024-02-14 20:06:01,stop running jupyter server,89
+2024-02-14 20:05:43,running jupyter server,89
+2024-02-14 19:46:44,probability mass function,4
+2024-02-14 19:32:41,probability mass,0
+2024-02-14 19:32:28,probability mass function,4
+2024-02-14 19:19:37,hook,0
+2024-02-14 19:18:27,alert,0
+2024-02-14 19:17:08,residual,0
+2024-02-14 18:57:51,n04h,0
+2024-02-14 18:57:03,dvctf,0
+2024-02-14 18:54:32,gr1gny20,0
+2024-02-14 18:51:18,version 3,34
+2024-02-14 18:35:24,brazil,0
+2024-02-14 17:58:43,collab.research,0
+2024-02-14 17:55:07,programming language,20
+2024-02-14 17:53:53,language,17
+2024-02-14 17:42:51,xml,0
+2024-02-14 17:01:17,notebook settings,66
+2024-02-14 16:37:28,proxy,4
+2024-02-14 16:24:49,metadata,7
+2024-02-14 16:20:57,jupyterlab install,50
+2024-02-14 16:14:46,set root directory,24
+2024-02-14 15:59:33,git tab,22
+2024-02-14 15:58:26,git,16
+2024-02-14 15:47:57,oracle_sigma,0
+2024-02-14 15:27:48,ip_resolver,0
+2024-02-14 15:27:20,language,17
+2024-02-14 15:14:28,export pdf,7
+2024-02-14 15:14:24,exportpdf,0
+2024-02-14 15:14:11,pdf,5
+2024-02-14 15:05:04,ip,3
+2024-02-14 15:05:02,0.0.0.0,1
+2024-02-14 14:57:52,pwd,2
+2024-02-14 14:46:24,notebook,63
+2024-02-14 14:45:39,share,40
+2024-02-14 14:15:52,kernel,32
+2024-02-14 13:52:09,%%,0
+2024-02-14 12:57:38,data,32
+2024-02-14 12:54:49,password,0
+2024-02-14 12:40:10,installing,11
+2024-02-14 12:40:00,nstallibg,0
+2024-02-14 12:28:14,python3,3
+2024-02-14 11:23:16,passw,0
+2024-02-14 11:23:03,password,0
+2024-02-14 11:10:57,downgrade jupyter,85
+2024-02-14 11:10:50,downgrade jupter,0
+2024-02-14 10:41:04,conda environment,23
+2024-02-14 10:34:32,shared password,29
+2024-02-14 09:42:09,license,1
+2024-02-14 09:41:34,lisence,0
+2024-02-14 09:38:57,anaconda,5
+2024-02-14 09:35:32,auth,3
+2024-02-14 09:34:28,config file,27
+2024-02-14 09:21:53,kernels,28
+2024-02-14 09:21:19,conda,11
+2024-02-14 08:21:54,themes,3
+2024-02-14 07:46:04,jupyterlab application assets not found,76
+2024-02-14 07:45:43,error,10
+2024-02-14 06:28:54,sort,1
+2024-02-14 04:11:34,gpu,0
+2024-02-14 04:11:12,runtime type,16
+2024-02-14 02:38:13,kernel,32
+2024-02-14 02:38:09,krenel,0
+2024-02-14 02:36:43,language,17
+2024-02-14 00:37:45,cite,1
+2024-02-13 21:12:04,%%,0
+2024-02-13 20:52:34,tensor,0
+2024-02-13 20:52:18,pytorch,0
+2024-02-13 18:32:23,vim,1
+2024-02-13 18:14:35,pandas,0
+2024-02-13 18:07:34,citation,1
+2024-02-13 17:56:16,%%,0
+2024-02-13 17:31:25,jupyter server --generate-config,90
+2024-02-13 17:28:30,generate config,13
+2024-02-13 17:20:20,home directory,21
+2024-02-13 17:15:59,serverapp.ip,0
+2024-02-13 17:15:53,c.serverapp.ip,0
+2024-02-13 17:09:20,configure path,12
+2024-02-13 17:08:46,sharing,8
+2024-02-13 17:07:30,collab,0
+2024-02-13 17:07:23,collaboraton,0
+2024-02-13 16:59:04,checkpoint,1
+2024-02-13 16:58:43,\checkpoint,1
+2024-02-13 16:58:41,ipynb_checkpoint,0
+2024-02-13 16:58:37,.ipynb_checkpoint,0
+2024-02-13 16:40:44,convert html,17
+2024-02-13 16:40:20,convert html to notebook,104
+2024-02-13 15:53:18,pip install jupyterlabpip install jupyterlab,51
+2024-02-13 15:36:13,cite,1
+2024-02-13 15:36:01,citation,1
+2024-02-13 15:35:27,%%,0
+2024-02-13 15:31:40,a,94
+2024-02-13 15:19:10,pre save hook,14
+2024-02-13 15:19:01,pre_save_hook,0
+2024-02-13 15:18:52,requirements,1
+2024-02-13 14:01:16,ferret,0
+2024-02-13 14:01:02,. ferret_paths.sh,0
+2024-02-13 13:53:24,ipywidgets,15
+2024-02-13 13:04:16,themes,3
+2024-02-13 13:04:00,theme,4
+2024-02-13 12:54:35,spark,1
+2024-02-13 11:39:02,lightgbm,0
+2024-02-13 11:38:43,ligtgbm,0
+2024-02-13 10:52:39,log,2
+2024-02-13 10:46:39,docker,11
+2024-02-13 08:16:35,presentation mode,6
+2024-02-13 08:16:22,presentation,4
+2024-02-13 06:15:12,psycopg2,0
+2024-02-13 05:34:33,delete line,14
+2024-02-13 05:33:59,hotkey,0
+2024-02-13 05:33:48,shortcut,2
+2024-02-13 05:26:00,change directory,27
+2024-02-13 04:58:42,python reference guide,55
+2024-02-13 03:58:09,python,42
+2024-02-13 03:58:03,python101,0
+2024-02-13 02:38:02,live 14 - arquivos json_v2,11
+2024-02-13 02:17:45,distribute notebook,63
+2024-02-13 02:11:20,npm,0
+2024-02-13 02:10:34,node,3
+2024-02-13 02:09:28,extensions,15
+2024-02-13 02:08:19,"userwarning: valueerror: please install node.js and npm before continuing installation. you may be able to install node.js from your package manager, from conda, or directly from the node.js website (https://nodejs.org).",108
+2024-02-13 00:59:03,graph,1
+2024-02-12 23:42:06,index,4
+2024-02-12 22:48:07,%%,0
+2024-02-12 22:00:21,shortcut,2
+2024-02-12 21:32:35,hull,0
+2024-02-12 21:28:25,theme,4
+2024-02-12 20:56:19,compute node,3
+2024-02-12 20:56:12,computer node,8
+2024-02-12 20:55:36,compute node,3
+2024-02-12 20:54:19,compute node timeout,4
+2024-02-12 20:52:28,timeout,1
+2024-02-12 20:29:20,kernel,32
+2024-02-12 20:29:17,jupyterhub,30
+2024-02-12 19:55:13,json,9
+2024-02-12 19:27:40,python_path,0
+2024-02-12 19:27:30,python path,45
+2024-02-12 19:24:19,python,42
+2024-02-12 18:19:02,jupyterlab-widget,40
+2024-02-12 17:58:59,extensions,15
+2024-02-12 17:01:52,debug,0
+2024-02-12 16:53:25,kernel,32
+2024-02-12 16:47:30,environment.yml,1
+2024-02-12 16:45:56,conda,11
+2024-02-12 16:13:56,server no loading,43
+2024-02-12 16:02:07,keyboard,2
+2024-02-12 16:01:58,shortcut,2
+2024-02-12 15:43:59,github rendering,106
+2024-02-12 15:38:41,gpu,0
+2024-02-12 14:19:16,localhost:8888/tree,5
+2024-02-12 14:18:17,%%,0
+2024-02-12 13:32:44,remote kernel,34
+2024-02-12 13:25:18,kernel,32
+2024-02-12 13:17:21,version,20
+2024-02-12 12:00:46,version,20
+2024-02-12 12:00:35,2)	version:,35
+2024-02-12 11:27:11,generate password,6
+2024-02-12 11:27:06,passwd,0
+2024-02-12 11:27:04,passed,5
+2024-02-12 11:10:57,python version,48
+2024-02-12 11:10:19,kernel,32
+2024-02-12 10:56:51,remote,3
+2024-02-12 10:19:06,jupyter execute,89
+2024-02-12 09:17:48,map,0
+2024-02-12 09:17:44,gps,0
+2024-02-12 08:44:15,format,45
+2024-02-12 08:38:06,venv,1
+2024-02-12 08:37:06,config,9
+2024-02-12 08:03:22,shortcuts,1
+2024-02-12 04:40:34,download file,27
+2024-02-12 04:40:18,download file in python code,99
+2024-02-12 04:13:00,offline,1
+2024-02-12 04:12:30,offline install notebook,67
+2024-02-12 04:12:13,offline install,21
+2024-02-12 04:07:10,virtual,33
+2024-02-12 04:00:23,checkpoints,1
+2024-02-12 04:00:11,check_points,0
+2024-02-12 03:56:24,extension,21
+2024-02-12 02:43:20,license,1
+2024-02-12 01:18:06,python,42
+2024-02-12 00:29:03,pip3 install,21
+2024-02-12 00:28:49,install python module,52
+2024-02-12 00:26:58,password,0
+2024-02-12 00:16:28,get_config,0
+2024-02-12 00:13:35,config,9
+2024-02-12 00:13:18,c.notebookapp,0
+2024-02-12 00:12:55,notebookapp,1
+2024-02-11 22:03:07,languages,12
+2024-02-11 21:51:05,latex,5
+2024-02-11 21:12:39,installing jupyter notebook,89
+2024-02-11 20:46:49,dark mode,2
+2024-02-11 20:34:52,java,2
+2024-02-11 19:43:05,save,7
+2024-02-11 19:42:15,save notebook,65
+2024-02-11 19:37:03,shorcut,0
+2024-02-11 19:25:39,library,11
+2024-02-11 19:25:27,legume,0
+2024-02-11 18:37:03,notebookapp,1
+2024-02-11 17:50:00,javascript kernel,37
+2024-02-11 17:46:50,markdown,7
+2024-02-11 17:10:27,pdf,5
+2024-02-11 15:38:20,comment,4
+2024-02-11 14:42:47,kernel,32
+2024-02-11 13:22:05,request api,26
+2024-02-11 13:00:11,port,3
+2024-02-11 11:48:54,jupyter_capture_output,0
+2024-02-11 11:42:08,jupyter,85
+2024-02-11 10:59:48,data,32
+2024-02-11 10:21:17,python,42
+2024-02-11 09:07:58,julia,5
+2024-02-11 08:25:46,pdf,5
+2024-02-11 08:25:30,shortcut pdf,7
+2024-02-11 08:03:44,export,4
+2024-02-11 07:26:14,python system requirements,47
+2024-02-11 07:24:53,jupyter notebook system requirements,91
+2024-02-11 07:24:25,版本支持,0
+2024-02-11 07:20:02,python,42
+2024-02-11 06:42:20,nbmerge,0
+2024-02-11 02:27:58,sub,6
+2024-02-11 00:53:48,conda,11
+2024-02-10 21:56:52,citing,0
+2024-02-10 21:43:53,comment,4
+2024-02-10 21:36:28,keyboard shortcuts,3
+2024-02-10 21:35:50,ctrl,1
+2024-02-10 21:34:53,shortcuts,1
+2024-02-10 21:34:42,hot keys,0
+2024-02-10 20:17:11,jupiter li,14
+2024-02-10 20:16:50,lithe,0
+2024-02-10 18:35:57,magics,2
+2024-02-10 18:35:45,writefile,0
+2024-02-10 17:59:37,kernels,28
+2024-02-10 17:45:02,javascript,8
+2024-02-10 17:23:21,number output,19
+2024-02-10 16:55:12,languages supported by jupyter,96
+2024-02-10 14:51:35,password,0
+2024-02-10 14:44:24,tensorflow,0
+2024-02-10 14:13:47,terminal,10
+2024-02-10 13:50:26,serverapp.websocket_url,0
+2024-02-10 12:55:26,machine learning,8
+2024-02-10 12:19:05,kubernetes,3
+2024-02-10 12:18:57,install,21
+2024-02-10 12:16:54,intellisence,0
+2024-02-10 12:16:40,autocomplete,2
+2024-02-10 09:51:04,jupyter notebook,89
+2024-02-10 09:51:03,change browser,27
+2024-02-10 09:38:26,describe(),6
+2024-02-10 09:15:16,short cuts,38
+2024-02-10 07:22:54,language,17
+2024-02-10 07:22:37,chinese,1
+2024-02-10 06:16:26,rolling,1
+2024-02-10 06:07:04,matplatlib,0
+2024-02-10 05:51:48,jupyter note book to install,105
+2024-02-10 05:51:30,jupyter note book,90
+2024-02-10 03:39:59,import,7
+2024-02-09 23:32:50,terminal,10
+2024-02-09 23:30:34,shortcut keys,2
+2024-02-09 23:30:24,shortcut,2
+2024-02-09 21:45:26,latex,5
+2024-02-09 21:17:56,stopping jupyter notebook,89
+2024-02-09 21:08:33,change browser,27
+2024-02-09 21:07:34,default browser,25
+2024-02-09 21:06:55,change default browser,33
+2024-02-09 21:06:33,default browser,25
+2024-02-09 21:00:13,markdown,7
+2024-02-09 20:31:24,iopub data rate exceeded,33
+2024-02-09 19:33:38,cross-validation,5
+2024-02-09 19:33:25,cross validation,5
+2024-02-09 19:33:17,prophet,0
+2024-02-09 19:21:55,ssl error,10
+2024-02-09 18:59:13,release feedback,27
+2024-02-09 18:58:59,feedback,10
+2024-02-09 18:36:47,heading,0
+2024-02-09 18:30:11,ssl,0
+2024-02-09 18:26:28,xml,0
+2024-02-09 17:23:25,interactive,20
+2024-02-09 17:16:55,systemd,0
+2024-02-09 17:07:38,port,3
+2024-02-09 17:07:33,password,0
+2024-02-09 15:34:11,language support,32
+2024-02-09 15:34:03,tcl,0
+2024-02-09 15:17:35,jupyter lab,88
+2024-02-09 14:57:40,clojure,0
+2024-02-09 14:57:34,clojire,0
+2024-02-09 14:35:22,spark,1
+2024-02-09 13:40:29,notebookapp.allow_origin,0
+2024-02-09 13:28:48,proxy,4
+2024-02-09 12:54:26,docker,11
+2024-02-09 12:11:30,env,2
+2024-02-09 12:11:00,environment,16
+2024-02-09 11:47:09,language,17
+2024-02-09 11:39:07,ctrl,1
+2024-02-09 11:09:42,list modules,24
+2024-02-09 11:09:14,import modules,8
+2024-02-09 11:08:32,scipy(),3
+2024-02-09 10:13:21,collaborative,4
+2024-02-09 10:13:10,collab,0
+2024-02-09 10:13:05,crdt,0
+2024-02-09 10:01:16,display image,8
+2024-02-09 09:54:38,keyboard shortcut,3
+2024-02-09 09:54:29,disable keyboard shortcut,4
+2024-02-09 09:54:10,disable key,6
+2024-02-09 09:45:01,telegram bot,0
+2024-02-09 09:44:42,keyboard,2
+2024-02-09 08:55:41,what is jupitar notebook,98
+2024-02-09 08:44:32,teradata connection using jupiterlab,43
+2024-02-09 08:36:02,pygmt,0
+2024-02-09 08:21:07,csv,1
+2024-02-09 08:21:00,excel einlesen,0
+2024-02-09 07:00:59,handson_requirements.txt,0
+2024-02-09 05:47:08,codes,0
+2024-02-09 04:03:25,mobile,1
+2024-02-09 04:00:20,groupby,0
+2024-02-09 03:59:58,gropuby,0
+2024-02-09 03:14:04,opening terminals,2
+2024-02-09 03:11:32,terminal,10
+2024-02-09 00:49:18,license,1
+2024-02-08 23:22:13,.sql,1
+2024-02-08 22:56:49,ansible,1
+2024-02-08 21:59:03,latex,5
+2024-02-08 21:55:07,log out,43
+2024-02-08 21:31:41,voila,7
+2024-02-08 20:57:51,linux,5
+2024-02-08 20:41:43,version,20
+2024-02-08 20:36:27,start-notebook,71
+2024-02-08 19:56:58,extension,21
+2024-02-08 19:27:35,java,2
+2024-02-08 19:22:22,html,15
+2024-02-08 19:19:46,anaconda,5
+2024-02-08 18:38:49,commands,11
+2024-02-08 18:19:36,collaboration,4
+2024-02-08 18:19:17,sharing,8
+2024-02-08 17:54:08,defer,0
+2024-02-08 17:53:44,windowing,0
+2024-02-08 17:34:39,log,2
+2024-02-08 17:34:34,logarithmic,0
+2024-02-08 17:18:43,jupyter unix socket,85
+2024-02-08 17:18:21,jupyter unix,85
+2024-02-08 16:46:22,tp algorthme,0
+2024-02-08 16:46:08,knn,0
+2024-02-08 16:32:28,how to configure password,99
+2024-02-08 15:53:57,jupyter is not installed in this python,107
+2024-02-08 15:53:40,tslab,0
+2024-02-08 15:50:49,jupyter,85
+2024-02-08 14:27:02,julia,5
+2024-02-08 14:16:15,how to configure password,99
+2024-02-08 12:48:04,extension,21
+2024-02-08 12:21:26,debugger,0
+2024-02-08 12:21:05,debuger,0
+2024-02-08 11:04:47,breakpoints,0
+2024-02-08 10:31:02,extensions,15
+2024-02-08 10:30:48,extension,21
+2024-02-08 10:24:59,runbook,0
+2024-02-08 10:16:57,locale,1
+2024-02-08 09:22:49,verbose logging,1
+2024-02-08 06:33:02,html,15
+2024-02-08 06:32:41,html,15
+2024-02-08 06:21:49,passwd,0
+2024-02-08 06:05:46,use chatgpt to draw,102
+2024-02-08 05:51:47,rms,0
+2024-02-08 05:42:52,duplicated,0
+2024-02-08 05:34:09,rossy,0
+2024-02-08 05:16:08,jupyter notebook,89
+2024-02-08 03:58:17,server,22
+2024-02-08 02:09:12,r,10
+2024-02-08 01:30:04,k8s,1
+2024-02-08 01:29:53,hubk8s,0
+2024-02-08 01:09:01,widgets,14
+2024-02-08 00:55:56,nbconvert,10
+2024-02-07 23:12:07,share,40
+2024-02-07 23:11:58,collaborate,0
+2024-02-07 22:03:47,logs,2
+2024-02-07 21:22:11,localhost:8888,4
+2024-02-07 20:08:22,import,7
+2024-02-07 19:57:40,change color,16
+2024-02-07 19:29:43,code server,66
+2024-02-07 19:12:33,clone,4
+2024-02-07 19:11:54,git,16
+2024-02-07 18:30:13,startup,1
+2024-02-07 18:23:52,total variation,2
+2024-02-07 17:59:12,nbconvert,10
+2024-02-07 17:50:52,handcalc,0
+2024-02-07 17:29:26,shortcut,2
+2024-02-07 17:18:06,{note},43
+2024-02-07 17:14:18,font,0
+2024-02-07 17:14:12,font size,0
+2024-02-07 16:56:01,notebook without session,77
+2024-02-07 16:52:02,install r,26
+2024-02-07 16:51:40,install r in jupyter,103
+2024-02-07 15:56:15,nbconvert,10
+2024-02-07 15:51:16,notebookapp.token,0
+2024-02-07 15:01:46,password,0
+2024-02-07 14:52:20,webbrowser,0
+2024-02-07 14:52:15,webrowser,0
+2024-02-07 14:51:52,ipywidgets,15
+2024-02-07 14:44:15,install,21
+2024-02-07 14:30:19,trust,0
+2024-02-07 14:28:04,kernel,32
+2024-02-07 14:26:02,examples,14
+2024-02-07 14:25:01,gitlab,0
+2024-02-07 14:13:48,shortcut,2
+2024-02-07 14:13:00,markdown,7
+2024-02-07 13:35:05,citations,0
+2024-02-07 13:22:44,terminal command,20
+2024-02-07 13:22:17,!,0
+2024-02-07 13:21:54,shell command,24
+2024-02-07 13:17:23,jupyterhub,30
+2024-02-07 12:28:20,module,6
+2024-02-07 12:27:26,pip install,24
+2024-02-07 11:51:15,latex,5
+2024-02-07 10:24:04,kernel.json,1
+2024-02-07 10:21:07,markdown,7
+2024-02-07 09:59:08,nb_conda_kernels,0
+2024-02-07 09:07:32,kernels,28
+2024-02-07 08:52:03,kernel.json,1
+2024-02-07 08:30:12,voila,7
+2024-02-07 08:30:06,voice,0
+2024-02-07 08:30:03,voicre,0
+2024-02-07 08:17:12,license,1
+2024-02-07 08:15:15,python,42
+2024-02-07 07:53:32,r,10
+2024-02-07 05:51:42,why we use numpy,71
+2024-02-07 05:51:34,why we use mupy,70
+2024-02-07 04:02:08,version,20
+2024-02-07 03:21:08,kernel,32
+2024-02-07 02:07:52,matlab,1
+2024-02-07 01:23:58,gpu,0
+2024-02-07 01:21:31,annova,0
+2024-02-07 01:21:24,factorial,0
+2024-02-07 01:18:42,remote server,24
+2024-02-07 01:04:48,%%,0
+2024-02-07 01:04:38,magic command,19
+2024-02-07 00:59:05,ipykernel,7
+2024-02-06 23:55:35,anaconda,5
+2024-02-06 23:52:07,instill,0
+2024-02-06 23:09:19,autocomplete,2
+2024-02-06 23:03:41,deno,1
+2024-02-06 21:31:42,pdf without code,67
+2024-02-06 21:31:16,pdf,5
+2024-02-06 20:42:33,preprocessing,0
+2024-02-06 20:42:24,nlp,0
+2024-02-06 20:41:13,resume,0
+2024-02-06 20:30:06,dependencies,7
+2024-02-06 19:28:02,server connection error,31
+2024-02-06 18:38:23,shut down,5
+2024-02-06 18:38:06,magic command,19
+2024-02-06 18:37:56,magic,3
+2024-02-06 18:37:46,rollup,0
+2024-02-06 18:37:40,s.rollup,0
+2024-02-06 18:37:37,debug,0
+2024-02-06 18:17:02,keyboard,2
+2024-02-06 17:51:05,nbextensions,2
+2024-02-06 17:50:50,nbcontrib,0
+2024-02-06 17:44:33,human activity recognition,3
+2024-02-06 17:16:21,comment out,45
+2024-02-06 17:01:05,current notebook,70
+2024-02-06 17:00:45,current file name,61
+2024-02-06 17:00:38,current filename,17
+2024-02-06 16:59:25,file name get,65
+2024-02-06 16:58:39,file name,58
+2024-02-06 16:58:06,name,44
+2024-02-06 16:48:06,jupyter_notebook_config.py,1
+2024-02-06 16:34:13,license,1
+2024-02-06 16:34:08,accept_license,0
+2024-02-06 16:33:47,accept_licence,0
+2024-02-06 16:18:19,sql,1
+2024-02-06 16:03:58,kernels,28
+2024-02-06 16:03:44,virtual enviroment,33
+2024-02-06 15:57:36,connect existing,17
+2024-02-06 15:57:30,connect --existing,17
+2024-02-06 15:57:12,--existing,15
+2024-02-06 15:52:19,terms of use,103
+2024-02-06 15:10:16,kernel,32
+2024-02-06 14:47:20,ipython,47
+2024-02-06 14:39:31,writefile,0
+2024-02-06 14:32:08,hide,0
+2024-02-06 14:31:17,javascript,8
+2024-02-06 14:27:33,nbextensions,2
+2024-02-06 13:57:58,environment,16
+2024-02-06 13:11:23,install packages python,54
+2024-02-06 13:11:08,requests,10
+2024-02-06 13:05:18,neptune,0
+2024-02-06 13:00:30,examples,14
+2024-02-06 12:59:45,collection,3
+2024-02-06 12:55:29,raw_input,1
+2024-02-06 12:54:27,config variable,12
+2024-02-06 12:53:13,iopub_data_rate_limit,0
+2024-02-06 12:14:16,zoom on graph,106
+2024-02-06 11:56:42,workspace_dir,0
+2024-02-06 11:51:53,naive,0
+2024-02-06 11:19:31,identityprovider,0
+2024-02-06 11:19:25,identityprofiver,0
+2024-02-06 11:12:34,config,9
+2024-02-06 11:06:36,uninstall,1
+2024-02-06 10:09:36,numpy,3
+2024-02-06 09:59:00,cite,1
+2024-02-06 09:31:21,server connection error,31
+2024-02-06 09:30:20,moodle,0
+2024-02-06 09:16:01,python,42
+2024-02-06 09:16:00,allow-root,13
+2024-02-06 08:30:16,file,25
+2024-02-06 08:30:03,shut down,5
+2024-02-06 08:16:50,log out,43
+2024-02-06 07:44:31,add tag,23
+2024-02-06 07:44:18,tag,3
+2024-02-06 07:43:30,ai,1
+2024-02-06 07:43:25,%,0
+2024-02-06 06:57:42,0.0.0.0,1
+2024-02-06 06:53:51,download,5
+2024-02-06 06:39:24,cs04_one_bit,0
+2024-02-06 06:37:44,start.ipynb,0
+2024-02-06 06:37:02,bronze-qiskit-master,13
+2024-02-06 06:36:38,qworld,0
+2024-02-06 06:36:24,qworld,0
+2024-02-06 06:08:59,shortcuts,1
+2024-02-06 05:15:29,service,8
+2024-02-06 03:38:38,service,8
+2024-02-06 03:16:14,change dir,18
+2024-02-06 03:10:27,allow-root,13
+2024-02-06 02:48:01,kernels,28
+2024-02-06 01:13:56,scheduler,2
+2024-02-06 01:12:44,jupyter console,87
+2024-02-06 00:35:16,jupyter lab,88
+2024-02-06 00:34:22,typescript,2
+2024-02-05 23:50:35,chnage directory,20
+2024-02-05 23:39:54,lsp,4
+2024-02-05 22:24:03,logging,0
+2024-02-05 22:15:11,jupyterhub public access,38
+2024-02-05 21:51:35,nbconvert,10
+2024-02-05 21:05:07,language,17
+2024-02-05 20:40:55,copilote,0
+2024-02-05 20:28:19,hidden,1
+2024-02-05 20:03:51,import numpy,8
+2024-02-05 19:29:57,wolfram,0
+2024-02-05 19:29:51,mathematica,0
+2024-02-05 18:27:12,docker,11
+2024-02-05 17:46:30,plt.scatter,0
+2024-02-05 16:48:16,docker,11
+2024-02-05 16:28:29,kernel,32
+2024-02-05 16:22:29,configuration,12
+2024-02-05 16:15:35,mobile,1
+2024-02-05 15:29:31,slides,3
+2024-02-05 14:37:49,vscode,1
+2024-02-05 14:24:51,andrew,1
+2024-02-05 14:21:19,kubernetes,3
+2024-02-05 14:13:10,vm,2
+2024-02-05 14:13:09,virutal machine,4
+2024-02-05 13:49:53,ofm,0
+2024-02-05 13:28:20,正太分布,0
+2024-02-05 13:28:15,正态分布,0
+2024-02-05 13:19:53,remote,3
+2024-02-05 12:32:45,citing,0
+2024-02-05 12:32:13,citation,1
+2024-02-05 12:28:20,debug,0
+2024-02-05 12:24:22,install kernel,45
+2024-02-05 12:12:18,pyxlsb,0
+2024-02-05 12:11:58,xlsb,0
+2024-02-05 12:10:41,turn off completion hint,7
+2024-02-05 12:10:07,turn off autocomplete,6
+2024-02-05 11:59:03,python,42
+2024-02-05 11:38:58,javascript,8
+2024-02-05 10:21:59,flask,0
+2024-02-05 09:26:58,certificate,0
+2024-02-05 09:26:53,decryption,0
+2024-02-05 08:57:58,disable,1
+2024-02-05 08:57:46,disable jupyter,85
+2024-02-05 08:46:52,venv,1
+2024-02-05 08:46:32,switch to gpu,99
+2024-02-05 07:56:29,import from google cloud plataform,66
+2024-02-05 07:32:15,create_user,0
+2024-02-05 07:32:07,user_cmd,0
+2024-02-05 07:31:58,create_user_cmd,0
+2024-02-05 07:03:08,hidden,1
+2024-02-05 06:59:29,copilot,0
+2024-02-05 06:49:52,python -m notebook,110
+2024-02-05 06:26:51,hot keys,0
+2024-02-05 06:26:47,hotkeys,0
+2024-02-05 06:26:37,shortcuts,1
+2024-02-05 06:25:16,inline help,28
+2024-02-05 06:24:48,help,26
+2024-02-05 05:38:30,ipywidget,0
+2024-02-05 05:16:10,token,1
+2024-02-05 05:16:03,jupyter_token,0
+2024-02-05 04:43:43,csv jupyter,86
+2024-02-05 04:39:26,python version,48
+2024-02-05 03:10:20,virtual environment,46
+2024-02-05 03:10:20,environment,16
+2024-02-05 02:53:03,nbextention,0
+2024-02-05 02:51:38,nbextentions,0
+2024-02-05 02:51:29,extentions,0
+2024-02-05 00:32:27,inspect,1
+2024-02-04 23:45:16,switching tabs,1
+2024-02-04 22:02:31,password,0
+2024-02-04 21:05:11,print,11
+2024-02-04 19:51:51,update,21
+2024-02-04 19:25:18,pandas,0
+2024-02-04 18:06:22,nbconvert,10
+2024-02-04 17:49:17,modulo,0
+2024-02-04 17:48:11,operator mod,1
+2024-02-04 17:28:02,--generate-config,13
+2024-02-04 17:06:41,ml.ipynb,0
+2024-02-04 17:06:32,ml.ipynb.,0
+2024-02-04 15:57:44,jupyter lab,88
+2024-02-04 15:11:58,theme,4
+2024-02-04 15:06:30,debug,0
+2024-02-04 14:46:05,"""right-to-left""",0
+2024-02-04 14:45:55,right-to-left,99
+2024-02-04 14:45:41,rtl,0
+2024-02-04 14:44:14,extensions,15
+2024-02-04 13:46:17,magic command,19
+2024-02-04 13:45:56,magic commands,13
+2024-02-04 13:44:28,magic,3
+2024-02-04 12:05:45,input,10
+2024-02-04 10:51:34,debug,0
+2024-02-04 09:26:25,images,2
+2024-02-04 09:22:55,help for particular command,100
+2024-02-04 09:09:24,markdown,7
+2024-02-04 08:52:21,remove,2
+2024-02-04 08:52:06,uninstall,1
+2024-02-04 08:06:30,latex,5
+2024-02-04 07:57:19,remote,3
+2024-02-04 07:41:26,问题三,0
+2024-02-04 06:43:09,server,22
+2024-02-04 06:31:42,server,22
+2024-02-04 04:11:44,upgrade python,43
+2024-02-03 23:49:51,select column,2
+2024-02-03 23:31:24,sum,1
+2024-02-03 22:05:05,nbconvert,10
+2024-02-03 21:19:12,nbformat,8
+2024-02-03 20:52:03,markdown,7
+2024-02-03 18:06:57,shutdown,2
+2024-02-03 18:06:53,shutdown session,8
+2024-02-03 16:39:57,magic,3
+2024-02-03 16:39:36,jupyter server,88
+2024-02-03 16:39:20,server,22
+2024-02-03 14:41:08,anaconda,5
+2024-02-03 14:40:46,spawner,1
+2024-02-03 13:29:00,token,1
+2024-02-03 13:17:37,rbind,0
+2024-02-03 12:47:18,names,5
+2024-02-03 12:14:52,dubuger,0
+2024-02-03 11:42:23,jupyter notebook import file,98
+2024-02-03 11:32:26,size-1 arrays,25
+2024-02-03 09:24:18,oauth,1
+2024-02-03 09:19:57,token,1
+2024-02-03 08:38:21,cuddle,0
+2024-02-03 08:19:18,debug,0
+2024-02-03 08:13:45,"write a  python program to perform operations for employee details9emp-id,emp-name,emp-designation0 with sql connecty",105
+2024-02-03 06:42:23,autotime,0
+2024-02-03 06:34:43,extension,21
+2024-02-03 01:57:07,r kernal,10
+2024-02-03 00:36:36,shortcut,2
+2024-02-03 00:36:17,go to top,99
+2024-02-02 23:21:22,update,21
+2024-02-02 22:59:46,nbconvert[webpdf],10
+2024-02-02 22:01:06,pwd,2
+2024-02-02 21:51:34,codemirror,0
+2024-02-02 21:14:39,nbextension,1
+2024-02-02 21:13:59,extensions,15
+2024-02-02 20:42:29,server,22
+2024-02-02 19:54:33,gitlab,0
+2024-02-02 19:33:14,gpt,0
+2024-02-02 19:33:09,openai,0
+2024-02-02 19:30:40,images,2
+2024-02-02 19:25:55,security,11
+2024-02-02 19:25:50,secuiryt,0
+2024-02-02 18:42:03,data science,33
+2024-02-02 18:41:53,datascience,0
+2024-02-02 18:41:39,markdown,7
+2024-02-02 18:31:09,machine learning,8
+2024-02-02 18:11:58,package,8
+2024-02-02 17:52:03,cite,1
+2024-02-02 17:12:49,license,1
+2024-02-02 17:00:27,save as python,80
+2024-02-02 16:49:52,lambda,0
+2024-02-02 16:49:35,reduce,0
+2024-02-02 16:43:18,save file,25
+2024-02-02 16:43:01,how can i save,67
+2024-02-02 16:05:26,dowload jupyterlab,40
+2024-02-02 15:25:25,copy multiple cells,15
+2024-02-02 15:24:51,django,1
+2024-02-02 15:24:43,flask,0
+2024-02-02 14:01:46,kernelmanager,0
+2024-02-02 13:51:57,languages,12
+2024-02-02 13:51:40,rust,0
+2024-02-02 13:51:30,go,16
+2024-02-02 13:51:25,python,42
+2024-02-02 12:06:33,ravel,0
+2024-02-02 10:09:44,time magic,28
+2024-02-02 10:09:28,time,26
+2024-02-02 10:09:25,timeit,0
+2024-02-02 09:48:11,jupyter.org/try,17
+2024-02-02 09:37:48,jupyter.org/try,17
+2024-02-02 09:31:53,using serverjupyter on local client,107
+2024-02-02 09:30:19,remote,3
+2024-02-02 09:17:23,access,7
+2024-02-02 07:59:27,notebook editor,64
+2024-02-02 06:48:59,debug,0
+2024-02-02 06:48:55,ㅇ듀ㅕㅎ,0
+2024-02-02 05:34:36,languages supported by jupyter notebook,98
+2024-02-02 05:11:09,remote machine,7
+2024-02-02 05:10:09,remote,3
+2024-02-02 04:49:43,config,9
+2024-02-02 04:49:36,cmd,0
+2024-02-02 04:49:28,powershell,0
+2024-02-02 04:34:39,run from command line,72
+2024-02-02 04:16:23,token,1
+2024-02-02 03:21:41,geo graphic,1
+2024-02-02 03:21:35,geographic,0
+2024-02-02 03:20:53,map,0
+2024-02-02 03:20:43,geo,1
+2024-02-02 02:46:13,public,7
+2024-02-02 02:45:58,public server,27
+2024-02-02 02:45:35,server,22
+2024-02-02 02:43:46,c++ root,0
+2024-02-02 02:37:38,anaconda,5
+2024-02-02 02:37:02,conda,11
+2024-02-02 02:14:10,table,4
+2024-02-02 02:10:00,host name,45
+2024-02-02 02:09:55,hostname,0
+2024-02-02 02:04:01,7.0.7,0
+2024-02-02 02:03:54,7.07,0
+2024-02-02 01:49:02,ssh,0
+2024-02-02 00:55:49,align link,34
+2024-02-02 00:55:32,right align,9
+2024-02-02 00:55:08,right align link,38
+2024-02-01 23:25:25,example ipynb,35
+2024-02-01 22:50:38,docker,11
+2024-02-01 22:14:37,language,17
+2024-02-01 20:44:02,debug,0
+2024-02-01 20:40:45,library,11
+2024-02-01 20:18:24,java,2
+2024-02-01 20:11:14,update,21
+2024-02-01 20:11:08,find-replace,18
+2024-02-01 19:38:30,gitignore,0
+2024-02-01 19:04:21,ipython,47
+2024-02-01 18:50:33,cpu,2
+2024-02-01 17:11:58,default location,18
+2024-02-01 17:11:47,default,13
+2024-02-01 16:30:56,connect,2
+2024-02-01 16:27:07,markdown?,7
+2024-02-01 16:20:25,react,1
+2024-02-01 16:15:19,copy kernel,35
+2024-02-01 15:58:01,inspector,0
+2024-02-01 15:57:57,subslide,0
+2024-02-01 15:57:51,slide,0
+2024-02-01 15:57:42,slides,3
+2024-02-01 14:59:42,editor,7
+2024-02-01 14:55:51,markdown,7
+2024-02-01 14:40:24,jupyter notebook version,92
+2024-02-01 14:08:23,proxy,4
+2024-02-01 14:04:52,json,9
+2024-02-01 13:53:34,jupyter_path,2
+2024-02-01 13:33:03,download,5
+2024-02-01 13:32:36,dow,0
+2024-02-01 12:31:47,jupyterhub_config.d,0
+2024-02-01 12:27:39,jupytor open,35
+2024-02-01 11:25:49,numref,0
+2024-02-01 11:25:38,:numref:,0
+2024-02-01 11:25:13,:label:,8
+2024-02-01 11:25:07,kernel,32
+2024-02-01 11:20:42,markdown,7
+2024-02-01 10:42:31,indentation,1
+2024-02-01 10:02:58,docker,11
+2024-02-01 10:02:06,config,9
+2024-02-01 10:01:05,token,1
+2024-02-01 09:59:59,docker,11
+2024-02-01 09:52:02,running a notebook server,101
+2024-02-01 09:40:58,venv,1
+2024-02-01 09:40:44,virtual env,35
+2024-02-01 09:33:47,shortcut,2
+2024-02-01 09:33:29,enter,4
+2024-02-01 09:27:12,image,6
+2024-02-01 09:26:59,embed image,8
+2024-02-01 09:02:20,text,13
+2024-02-01 08:52:16,cache location change,21
+2024-02-01 08:13:15,comment,4
+2024-02-01 07:32:06,notebook saved,63
+2024-02-01 07:23:58,list,24
+2024-02-01 05:41:50,tensorboard,0
+2024-02-01 05:19:29,variable inspector,7
+2024-02-01 05:04:27,token,1
+2024-02-01 05:02:00,index in a jupyter notebook,106
+2024-02-01 05:01:43,token,1
+2024-02-01 04:50:12,restore,0
+2024-02-01 04:34:32,grafics,0
+2024-02-01 03:40:35,enterprise,6
+2024-02-01 02:07:23,terminals,0
+2024-02-01 01:46:09,javascript,8
+2024-02-01 01:11:24,notebook,63
+2024-02-01 01:04:06,javascript,8
+2024-02-01 00:16:05,upload,3
+2024-01-31 23:27:24,r,10
+2024-01-31 21:31:26,config file,27
+2024-01-31 20:34:07,sql,1
+2024-01-31 20:34:00,database,2
+2024-01-31 20:29:00,main course-tutorial last checkpoint a day ago,94
+2024-01-31 20:28:32,main course-tutorial,12
+2024-01-31 20:27:23,reveal,0
+2024-01-31 20:00:45,changelog,5
+2024-01-31 20:00:34,latest,14
+2024-01-31 20:00:20,updates,9
+2024-01-31 19:29:52,config file,27
+2024-01-31 19:16:48,jupyter_notebook_config.py,1
+2024-01-31 18:42:16,pandas,0
+2024-01-31 18:36:28,font,0
+2024-01-31 17:38:48,calculator,0
+2024-01-31 17:36:01,"""offline install""",0
+2024-01-31 17:35:40,offline install,21
+2024-01-31 17:11:38,token,1
+2024-01-31 17:05:39,install packages,23
+2024-01-31 14:59:51,arviz,0
+2024-01-31 14:19:48,download,5
+2024-01-31 13:27:36,install,21
+2024-01-31 13:25:58,install,21
+2024-01-31 13:05:47,addjar,0
+2024-01-31 13:05:46,addjars,0
+2024-01-31 13:05:25,%run,27
+2024-01-31 13:05:22,magic command,19
+2024-01-31 12:16:44,widgets,14
+2024-01-31 11:38:54,jupyter-service,87
+2024-01-31 11:38:36,service,8
+2024-01-31 10:58:18,read,18
+2024-01-31 10:46:59,install iperl kernel,45
+2024-01-31 10:36:49,keyboard shortcuts,3
+2024-01-31 10:14:44,download,5
+2024-01-31 10:09:51,person detection,2
+2024-01-31 09:36:59,%store,22
+2024-01-31 09:15:25,/hub/login,11
+2024-01-31 08:35:42,helvetica,1
+2024-01-31 08:35:36,fontname,1
+2024-01-31 08:30:47,fontsize,1
+2024-01-31 08:29:45,set option,16
+2024-01-31 08:29:36,setoption,0
+2024-01-31 08:28:42,series,4
+2024-01-31 08:11:20,detect fish.ipynb,1
+2024-01-31 08:05:12,virtual environment,46
+2024-01-31 08:04:52,change kernel,44
+2024-01-31 07:47:32,shutdown,2
+2024-01-31 07:47:27,shutdonw,0
+2024-01-31 07:30:35,update,21
+2024-01-31 07:14:54,github pages,106
+2024-01-31 07:14:40,github,106
+2024-01-31 07:14:09,config,9
+2024-01-31 07:13:58,jupyter_lab_config,0
+2024-01-31 06:50:21,gpu,0
+2024-01-31 06:18:22,update,21
+2024-01-31 05:49:37,kube,0
+2024-01-31 05:27:19,token,1
+2024-01-31 05:26:58,server,22
+2024-01-31 05:26:53,auth,3
+2024-01-31 05:19:20,version,20
+2024-01-31 05:15:37,notebook,63
+2024-01-31 04:40:52,matplotlib,4
+2024-01-31 04:02:22,face detection,0
+2024-01-31 03:40:24,flask python code,72
+2024-01-31 03:34:09,pdf,5
+2024-01-31 03:19:25,jupyter_lab_config,0
+2024-01-31 02:26:53,#%%,0
+2024-01-31 02:26:46,快捷键,0
+2024-01-31 01:59:30,uninstall,1
+2024-01-30 22:23:37,brave,0
+2024-01-30 22:23:14,brave-browser,16
+2024-01-30 21:51:50,git,16
+2024-01-30 21:22:54,jupyterlab_server,0
+2024-01-30 21:22:43,jupyter_server,1
+2024-01-30 21:22:06,password,0
+2024-01-30 21:15:33,standards,3
+2024-01-30 21:15:23,jupyter_client,6
+2024-01-30 20:57:13,kernel,32
+2024-01-30 20:45:44,notebook,63
+2024-01-30 20:45:15,await download,5
+2024-01-30 20:45:06,await string,3
+2024-01-30 20:44:44,await,0
+2024-01-30 20:27:21,soccer field registration,3
+2024-01-30 20:15:21,recover,0
+2024-01-30 20:15:16,magic,3
+2024-01-30 20:14:58,magic command,19
+2024-01-30 18:08:07,markdown,7
+2024-01-30 17:22:44,debugger,0
+2024-01-30 16:00:25,voila,7
+2024-01-30 14:30:45,password,0
+2024-01-30 13:47:52,detect,1
+2024-01-30 12:27:35,%%,0
+2024-01-30 12:26:55,version,20
+2024-01-30 10:29:16,copy cells,11
+2024-01-30 10:25:58,newline+markdown,0
+2024-01-30 10:25:23,newline,0
+2024-01-30 09:30:57,dataset analysis,1
+2024-01-30 06:33:32,pdf,5
+2024-01-30 06:15:38,command,16
+2024-01-30 06:14:16,login page,90
+2024-01-30 05:12:22,environment variables,19
+2024-01-30 03:53:03,chinese,1
+2024-01-30 02:43:07,kernel.json,1
+2024-01-30 02:26:14,pytorch,0
+2024-01-30 02:17:28,python,42
+2024-01-30 01:50:40,copyright,0
+2024-01-30 01:46:04,markdown,7
+2024-01-30 01:36:47,sphinx,14
+2024-01-30 01:35:24,example,31
+2024-01-30 00:39:27,excel,0
+2024-01-30 00:23:33,display,3
+2024-01-29 22:56:27,lab,19
+2024-01-29 22:29:21,presentation,4
+2024-01-29 22:27:49,ssl,0
+2024-01-29 22:03:26,account,2
+2024-01-29 22:03:08,create an account,55
+2024-01-29 22:02:53,help,26
+2024-01-29 20:36:53,security,11
+2024-01-29 20:30:36,increase editor window size,13
+2024-01-29 20:30:12,editor window size,12
+2024-01-29 18:52:01,download,5
+2024-01-29 18:50:52,slides,3
+2024-01-29 17:52:08,notebookapp,1
+2024-01-29 17:45:40,checkpoints,1
+2024-01-29 17:33:23,password,0
+2024-01-29 17:27:28,logical expressions in jupyter,103
+2024-01-29 16:24:49,convert,4
+2024-01-29 15:59:15,path,11
+2024-01-29 15:43:30,bugbytes,0
+2024-01-29 15:38:11,pip,17
+2024-01-29 14:59:49,bugbytes,0
+2024-01-29 14:55:41,mapping,0
+2024-01-29 14:55:33,ئشححهدل,0
+2024-01-29 14:48:55,download,5
+2024-01-29 13:51:59,requirements,1
+2024-01-29 13:49:48,extensions,15
+2024-01-29 13:49:14,virtual enviroment,33
+2024-01-29 13:34:48,examples,14
+2024-01-29 13:27:30,configure language,19
+2024-01-29 13:27:24,jupyter_http_over_ws,0
+2024-01-29 13:26:25,language,17
+2024-01-29 13:25:38,sprache,0
+2024-01-29 12:53:27,%%python,42
+2024-01-29 12:28:50,mathjax,1
+2024-01-29 12:28:47,conda,11
+2024-01-29 12:27:12,notebook,63
+2024-01-29 11:48:03,sql,1
+2024-01-29 11:47:54,database,2
+2024-01-29 11:34:05,terminal,10
+2024-01-29 11:32:04,path,11
+2024-01-29 11:26:35,parquet,0
+2024-01-29 11:11:09,dash borad,3
+2024-01-29 10:36:20,token,1
+2024-01-29 10:06:22,last version,28
+2024-01-29 10:06:13,recovering,0
+2024-01-29 09:44:08,passwd,0
+2024-01-29 09:42:03,comment,4
+2024-01-29 09:41:39,comments,10
+2024-01-29 09:40:09,download,5
+2024-01-29 09:40:07,language-pack,17
+2024-01-29 09:39:42,html,15
+2024-01-29 09:39:34,scatter,0
+2024-01-29 09:39:34,export,4
+2024-01-29 09:39:05,language-pack-zh-cn,17
+2024-01-29 09:38:29,language,17
+2024-01-29 09:27:08,pydevd_disable_file_validation,0
+2024-01-29 09:13:57,java full stack,14
+2024-01-29 08:57:39,terminal,10
+2024-01-29 08:55:27,slide,0
+2024-01-29 08:55:27,run workflow,37
+2024-01-29 08:49:47,kernel,32
+2024-01-29 08:27:53,how to change default file path,100
+2024-01-29 08:10:51,install,21
+2024-01-29 08:08:23,lstm,0
+2024-01-29 08:08:12,lstm,0
+2024-01-29 08:07:43,particle-_swarm_optimization,0
+2024-01-29 08:06:37,pso,0
+2024-01-29 07:15:36,nbextension,1
+2024-01-29 07:04:13,create kernal,15
+2024-01-29 06:56:12,path.train,0
+2024-01-29 06:55:47,train,0
+2024-01-29 06:48:12,keymap,0
+2024-01-29 06:48:01,shortcut,2
+2024-01-29 06:22:57,auto completion,5
+2024-01-29 05:33:31,notebook_dir,0
+2024-01-29 05:08:32,download,5
+2024-01-29 04:54:00,%time,26
+2024-01-29 04:53:42,time,26
+2024-01-29 04:24:04,address family not supported by protocol family,65
+2024-01-29 04:23:43,errno 47,0
+2024-01-29 03:41:20,julia,5
+2024-01-29 03:37:35,qiskit,0
+2024-01-29 03:24:50,param,0
+2024-01-29 03:03:42,extensions,15
+2024-01-29 02:45:45,allow root,13
+2024-01-29 02:27:37,https,32
+2024-01-29 01:01:10,uninstal,0
+2024-01-29 00:49:19,sqlalchemy,0
+2024-01-29 00:25:23,spark,1
+2024-01-29 00:10:42,sub-commands,15
+2024-01-28 23:24:24,c#,14
+2024-01-28 20:39:16,a,94
+2024-01-28 17:47:56,env,2
+2024-01-28 17:23:36,pi,0
+2024-01-28 17:22:16,yfinance,0
+2024-01-28 17:12:29,yahoo finance,0
+2024-01-28 17:11:44,pip,17
+2024-01-28 16:16:00,socceroddspredictor,0
+2024-01-28 14:29:59,startup script,7
+2024-01-28 14:29:41,pre action,11
+2024-01-28 14:29:11,profile,3
+2024-01-28 13:16:44,matplotlib,4
+2024-01-28 12:49:44,vs,3
+2024-01-28 11:23:54,pandas,0
+2024-01-28 09:47:09,copy cell,11
+2024-01-28 07:26:46,jupiter notebook token,64
+2024-01-28 07:26:38,jupoiter notebook token,63
+2024-01-28 06:12:27,ip,3
+2024-01-28 05:59:41,football dat carwler ep3,1
+2024-01-28 05:59:13,football dat carwler ep3-data processing,34
+2024-01-28 05:13:41,nbconvert,10
+2024-01-28 03:27:48,password,0
+2024-01-28 03:03:38,nbextension,1
+2024-01-28 03:01:59,extension,21
+2024-01-28 03:00:07,export,4
+2024-01-28 00:07:31,password,0
+2024-01-28 00:07:30,token,1
+2024-01-27 23:16:15,command mode,17
+2024-01-27 23:15:12,keyboard short cuts,39
+2024-01-27 22:24:40,voilà,1
+2024-01-27 22:16:52,kernel,32
+2024-01-27 22:03:20,module,6
+2024-01-27 20:01:24,matplotlib,4
+2024-01-27 19:50:09,mustafa murat coşkun,0
+2024-01-27 19:37:31,install,21
+2024-01-27 19:26:40,pip,17
+2024-01-27 18:55:05,port,3
+2024-01-27 18:20:49,"'jupyter' não é reconhecido como um comando interno ou externo, um programa operável ou um arquivo em lotes.",85
+2024-01-27 18:08:18,pandas,0
+2024-01-27 18:08:10,pandas lower,2
+2024-01-27 18:06:30,language,17
+2024-01-27 17:32:38,callback,1
+2024-01-27 16:46:59,append,2
+2024-01-27 15:43:43,remote server,24
+2024-01-27 14:34:18,table,4
+2024-01-27 14:34:13,grid,1
+2024-01-27 14:24:24,magic functions,9
+2024-01-27 13:50:08,instalation r,10
+2024-01-27 13:20:38,运行代码,0
+2024-01-27 13:15:40,pip install,24
+2024-01-27 11:15:19,python -m commands,110
+2024-01-27 10:59:41,stop,2
+2024-01-27 09:57:18,python university graz,57
+2024-01-27 09:56:42,brunner,0
+2024-01-27 09:55:50,introduction to python graz,101
+2024-01-27 09:53:53,cuda,0
+2024-01-27 08:59:10,desktop,6
+2024-01-27 08:31:08,machine learning in action,93
+2024-01-27 08:30:48,machine learning,8
+2024-01-27 08:30:18,机器学习实战,0
+2024-01-27 08:06:32,reverse proxy,4
+2024-01-27 07:58:12,default path,20
+2024-01-27 07:52:00,failed to,99
+2024-01-27 07:50:13,path,11
+2024-01-27 07:20:31,*,110
+2024-01-27 06:13:07,nbconverter,0
+2024-01-27 06:10:49,jupyterlab version,53
+2024-01-27 05:35:52,browser,16
+2024-01-27 05:35:24,remote,3
+2024-01-27 05:30:39,scipy,3
+2024-01-27 04:50:32,toml,0
+2024-01-27 04:48:39,pyproject,0
+2024-01-27 04:48:20,toml,0
+2024-01-27 04:10:05,debug,0
+2024-01-27 03:08:44,magic functions,9
+2024-01-27 03:07:15,nltk,0
+2024-01-27 02:48:09,password,0
+2024-01-27 00:57:58,magic functions,9
+2024-01-26 22:23:51,docker,11
+2024-01-26 22:18:06,comment,4
+2024-01-26 21:40:12,"the term 'jupyter' is not recognized as the name of a cmdlet, function, script file, or operable program.",108
+2024-01-26 21:27:18,r,10
+2024-01-26 21:21:25,repository,15
+2024-01-26 20:30:48,environment,16
+2024-01-26 20:30:40,environments,3
+2024-01-26 19:45:04,frac,0
+2024-01-26 18:21:22,how to embed images in jupyter notebook,106
+2024-01-26 18:20:47,insert images,4
+2024-01-26 18:09:50,jupyter hub virtual environment,89
+2024-01-26 17:55:52,%,0
+2024-01-26 17:16:03,git,16
+2024-01-26 17:11:25,postgresql,0
+2024-01-26 17:07:41,installnumpy,0
+2024-01-26 17:07:32,numpy,3
+2024-01-26 17:01:02,export,4
+2024-01-26 17:00:35,render markdown string dysplay,13
+2024-01-26 17:00:26,render markdown string ipython dysplay,52
+2024-01-26 16:59:56,render markdown string,13
+2024-01-26 16:50:16,jupyter_client,6
+2024-01-26 16:26:14,import file,29
+2024-01-26 15:45:51,tutorial,4
+2024-01-26 15:45:33,jupyter-tutorial,86
+2024-01-26 15:19:49,java,2
+2024-01-26 15:18:55,downloads,0
+2024-01-26 15:18:53,open browser automatically,46
+2024-01-26 15:09:13,undelete notebook,63
+2024-01-26 15:09:10,trash,0
+2024-01-26 14:46:33,remote,3
+2024-01-26 14:44:21,rise,2
+2024-01-26 14:12:55,anaconda,5
+2024-01-26 14:03:44,interactive,20
+2024-01-26 13:25:32,stop,2
+2024-01-26 13:21:33,5000,0
+2024-01-26 13:02:50,terms,2
+2024-01-26 12:08:29,themes,3
+2024-01-26 11:04:36,golang,0
+2024-01-26 10:39:36,pandas,0
+2024-01-26 10:03:23,"""%run""",27
+2024-01-26 10:03:23,token authentication,4
+2024-01-26 10:02:24,%run,27
+2024-01-26 10:02:22,serverapp.ip,0
+2024-01-26 10:02:12,"""c.serverapp.ip""",0
+2024-01-26 10:01:31,c.serverapp.ip,0
+2024-01-26 09:49:03,rfm,0
+2024-01-26 09:48:54,rfm segmentation,0
+2024-01-26 09:33:34,shared password,29
+2024-01-26 09:25:48,docker,11
+2024-01-26 08:41:44,memory,2
+2024-01-26 07:40:52,passwordidentityprovider,0
+2024-01-26 07:28:21,token,1
+2024-01-26 05:27:26,magic,3
+2024-01-26 05:00:12,parent path,11
+2024-01-26 04:12:10,autocomplete,2
+2024-01-26 04:07:37,table,4
+2024-01-26 03:27:03,!pip,17
+2024-01-26 03:22:26,!pip,17
+2024-01-26 03:09:05,ssh,0
+2024-01-26 02:25:16,no kernel,51
+2024-01-26 01:12:38,cpu_limit,0
+2024-01-26 00:56:44,docker,11
+2024-01-26 00:50:21,open,35
+2024-01-26 00:06:51,pip documentation,62
+2024-01-26 00:05:57,documentacion,0
+2024-01-25 23:34:33,latex,5
+2024-01-25 23:23:01,languages,12
+2024-01-25 23:04:34,oauth,1
+2024-01-25 22:45:24,lamda functions,7
+2024-01-25 22:32:44,jupyter_client,6
+2024-01-25 22:31:31,pip instal,17
+2024-01-25 22:29:18,dependencies,7
+2024-01-25 22:29:13,requirements,1
+2024-01-25 22:28:15,requirements,1
+2024-01-25 21:45:01,lab,19
+2024-01-25 20:21:08,add cell,28
+2024-01-25 20:20:33,server root,24
+2024-01-25 20:20:00,emacs,1
+2024-01-25 20:18:50,shortcuts,1
+2024-01-25 19:39:47,download,5
+2024-01-25 19:39:04,markdown,7
+2024-01-25 19:28:15,kubernetes,3
+2024-01-25 19:03:15,firebase demo,19
+2024-01-25 19:02:39,python firebase,42
+2024-01-25 18:51:05,jupyter widgets,86
+2024-01-25 18:50:48,jupyter-js-widgets,87
+2024-01-25 18:50:15,widgets,14
+2024-01-25 18:50:09,widgetsnbextension,0
+2024-01-25 18:39:02,vs code,56
+2024-01-25 18:21:44,ssh,0
+2024-01-25 18:18:50,font,0
+2024-01-25 18:09:34,token,1
+2024-01-25 18:09:13,passwords,0
+2024-01-25 18:08:42,password file,25
+2024-01-25 17:55:10,serverapp,0
+2024-01-25 17:54:53,serverapp.port,0
+2024-01-25 17:37:02,java kernel,32
+2024-01-25 17:36:13,notebook,63
+2024-01-25 17:29:45,jupyter notebook,89
+2024-01-25 17:29:36,resources,14
+2024-01-25 17:28:00,security,11
+2024-01-25 17:05:49,jupyterlab,40
+2024-01-25 16:53:47,sudo,2
+2024-01-25 16:39:10,regular expressions,4
+2024-01-25 16:38:53,regular expression,3
+2024-01-25 15:53:16,theme,4
+2024-01-25 15:26:33,oidc,0
+2024-01-25 15:13:45,jupyter server configuration,90
+2024-01-25 15:13:25,jupyter server,88
+2024-01-25 15:09:30,clear output on save,106
+2024-01-25 15:09:20,save hooks,7
+2024-01-25 14:40:21,upgrading jupyter notebook,89
+2024-01-25 14:37:44,last version,28
+2024-01-25 14:14:35,wind rose,1
+2024-01-25 14:14:31,windrose,0
+2024-01-25 14:12:33,comment faire jupyter une commande interne,86
+2024-01-25 14:06:57,jupyter version,90
+2024-01-25 12:08:33,notebookapp,1
+2024-01-25 12:08:30,notebookapp.token,0
+2024-01-25 12:08:26,--notebookapp.token,0
+2024-01-25 12:08:23,--notebookapp.token=,0
+2024-01-25 11:12:04,icon,0
+2024-01-25 10:47:33,kernel,32
+2024-01-25 10:47:23,debug,0
+2024-01-25 10:47:20,debugger,0
+2024-01-25 09:35:42,incomplete,1
+2024-01-25 09:27:14,allow-root,13
+2024-01-25 09:23:37,arc,0
+2024-01-25 09:23:19,intel,0
+2024-01-25 08:45:26,widgets,14
+2024-01-25 08:41:58,cpu_limit,0
+2024-01-25 08:32:32,classes,2
+2024-01-25 08:12:28,timeout,1
+2024-01-25 08:09:58,config,9
+2024-01-25 08:09:19,jupyter config,86
+2024-01-25 08:09:05,jupyter_config_path,2
+2024-01-25 07:59:48,shutdown_no_activity_timeout,0
+2024-01-25 07:54:53,jupyter_notebook_config.py,1
+2024-01-25 07:45:36,shutdown_no_activity_timeout,0
+2024-01-25 07:41:01,notebookapp,1
+2024-01-25 07:38:14,jupyter lab,88
+2024-01-25 07:36:14,tornado,2
+2024-01-25 07:18:48,tornado_settings,0
+2024-01-25 07:14:46,hidden columns,1
+2024-01-25 07:10:46,allow_origin,0
+2024-01-25 06:55:30,change environment using notebook,80
+2024-01-25 06:49:46,change environment,26
+2024-01-25 06:14:38,security,11
+2024-01-25 05:41:57,license,1
+2024-01-25 04:40:50,markdown,7
+2024-01-25 04:40:43,new line,63
+2024-01-25 02:24:42,importing jupyter notebooks,88
+2024-01-25 02:24:12,importing jupyter notebooks as modules,100
+2024-01-25 02:09:54,pyemma,0
+2024-01-25 00:43:31,auth,3
+2024-01-25 00:42:38,auth,3
+2024-01-24 23:39:30,variable inspector,7
+2024-01-24 22:59:15,python version,48
+2024-01-24 22:34:08,oidc,0
+2024-01-24 22:34:04,keycloak,0
+2024-01-24 22:18:52,jupyter-lab,88
+2024-01-24 21:39:53,yarn,1
+2024-01-24 21:39:32,what is yarn?,86
+2024-01-24 20:02:10,c.serverapp.token,0
+2024-01-24 20:01:59,config parameters,12
+2024-01-24 20:01:50,parameters,3
+2024-01-24 19:53:34,share,40
+2024-01-24 19:47:07,api,8
+2024-01-24 19:34:06,logspace,0
+2024-01-24 18:48:09,visual studio,3
+2024-01-24 17:14:06,markdown,7
+2024-01-24 16:51:49,.ipynb,9
+2024-01-24 16:50:32,.max,0
+2024-01-24 16:07:45,graph,1
+2024-01-24 16:07:32,plot legend,1
+2024-01-24 16:07:18,legend,0
+2024-01-24 16:01:08,chinese,1
+2024-01-24 15:59:50,config reference,17
+2024-01-24 15:44:29,notebook_utils,0
+2024-01-24 15:44:10,notebook_util,0
+2024-01-24 15:19:08,with open,78
+2024-01-24 15:19:03,open,35
+2024-01-24 13:50:47,kubernates,0
+2024-01-24 13:47:21,deepnote,0
+2024-01-24 13:02:01,jupiter is not recognized as an internal or external command,97
+2024-01-24 12:55:29,end session,13
+2024-01-24 12:54:52,delete,1
+2024-01-24 12:54:46,install,21
+2024-01-24 12:42:30,short cut,38
+2024-01-24 12:42:16,copy and paste,100
+2024-01-24 12:41:52,paste,3
+2024-01-24 12:20:20,copy text,17
+2024-01-24 12:19:04,основные операции,0
+2024-01-24 12:18:01,add r,32
+2024-01-24 12:17:40,install lxml,21
+2024-01-24 12:17:29,add another kernel,49
+2024-01-24 12:16:19,install module,26
+2024-01-24 11:42:06,y,4
+2024-01-24 11:29:03,image,6
+2024-01-24 11:25:42,data_path.glob,0
+2024-01-24 11:23:51,jupyter-lab.exe,85
+2024-01-24 11:22:32,workdir,1
+2024-01-24 11:22:01,root,3
+2024-01-24 10:25:58,max_body_size,0
+2024-01-24 10:25:48,file_size,0
+2024-01-24 10:20:49,configuration,12
+2024-01-24 10:20:42,allow_origin,0
+2024-01-24 10:20:31,notebookapp.allow_origin,0
+2024-01-24 09:49:33,extensions,15
+2024-01-24 08:44:14,html,15
+2024-01-24 08:44:08,embed_minimal,0
+2024-01-24 08:39:21,jupyter_notebook_config,0
+2024-01-24 08:37:37,browser,16
+2024-01-24 08:35:15,open_browse,0
+2024-01-24 08:34:06,open browser,43
+2024-01-24 08:33:59,open_browser,0
+2024-01-24 07:51:01,array,1
+2024-01-24 06:36:08,select kernel,33
+2024-01-24 05:25:10,%run,27
+2024-01-24 04:38:17,extensions,15
+2024-01-24 03:57:23,simulation,0
+2024-01-24 03:07:04,navigator,0
+2024-01-24 02:48:54,debug,0
+2024-01-24 02:40:51,dark light,0
+2024-01-24 02:31:30,shortcut,2
+2024-01-24 01:32:04,"'stop jupyter notebook""",89
+2024-01-24 01:31:52,stop jupyter,86
+2024-01-23 23:21:47,example,31
+2024-01-23 23:21:27,iphone,0
+2024-01-23 23:08:07,vectors,0
+2024-01-23 23:08:03,vectores,0
+2024-01-23 23:07:56,2d,0
+2024-01-23 23:07:50,2d vectors,0
+2024-01-23 23:06:43,2_linear_algebra,0
+2024-01-23 23:06:20,2_lineal,0
+2024-01-23 22:43:49,cartesian coordinate,2
+2024-01-23 22:43:06,plane cartesian,0
+2024-01-23 21:48:52,anaconda,5
+2024-01-23 21:29:19,environment,16
+2024-01-23 21:19:25,virtualenv,1
+2024-01-23 20:18:09,markdown,7
+2024-01-23 19:48:08,interact plot,6
+2024-01-23 19:32:37,sql,1
+2024-01-23 19:25:15,public,7
+2024-01-23 19:21:37,stqrt,0
+2024-01-23 19:00:22,java,2
+2024-01-23 18:09:42,pip install notebook,67
+2024-01-23 17:36:35,jupyter_notebook_config.py,1
+2024-01-23 17:17:55,notebook,63
+2024-01-23 17:08:33,milestone,4
+2024-01-23 16:04:16,panda,0
+2024-01-23 16:04:11,geopanda,0
+2024-01-23 16:03:19,install package,24
+2024-01-23 15:32:19,open a notebook,101
+2024-01-23 14:58:13,root.tfile,0
+2024-01-23 14:43:23,docker,11
+2024-01-23 14:06:37,given the following information regarding the space matrix for a product line of abc  company: fp = +5; cp = -2; sp = -3; ip = +4. question:  in which quadrant of the space matrix does this product line appear? state the alternative  strategies of this quadrant? justify why those strategies are inherently alternatives.,107
+2024-01-23 14:02:31,mermaid,0
+2024-01-23 13:59:48,keyboard,2
+2024-01-23 13:59:38,shortcuts,1
+2024-01-23 13:33:56,merge cells,9
+2024-01-23 13:29:25,notebook_dir,0
+2024-01-23 13:16:13,token,1
+2024-01-23 11:56:07,python version,48
+2024-01-23 11:52:02,scala,0
+2024-01-23 11:50:57,java,2
+2024-01-23 10:45:00,min cost flow,4
+2024-01-23 10:44:06,python example,54
+2024-01-23 10:41:29,min cost flow,4
+2024-01-23 10:27:55,pandas,0
+2024-01-23 10:23:21,bash,2
+2024-01-23 10:23:19,bashrc,0
+2024-01-23 10:22:40,kernel.json,1
+2024-01-23 10:18:45,calcul formel,0
+2024-01-23 10:12:52,kernelspec,2
+2024-01-23 10:01:51,jupyter notebook config,90
+2024-01-23 10:01:27,irkernal,0
+2024-01-23 10:01:17,config,9
+2024-01-23 09:56:10,terminal,10
+2024-01-23 09:54:33,pygments,0
+2024-01-23 09:37:36,install,21
+2024-01-23 09:35:33,contentsmanager,1
+2024-01-23 09:35:18,contentmanager,0
+2024-01-23 05:57:00,mem_limit,0
+2024-01-23 05:22:19,library,11
+2024-01-23 03:14:46,hot keys,0
+2024-01-23 03:14:27,shortcut,2
+2024-01-23 03:14:21,keybinding,0
+2024-01-23 03:06:48,shortcuts,1
+2024-01-23 02:42:31,log,2
+2024-01-23 02:03:25,version,20
+2024-01-23 01:36:41,debug,0
+2024-01-23 00:30:47,virtual env,35
+2024-01-22 23:21:20,update jupyter,90
+2024-01-22 22:28:33,gini,0
+2024-01-22 21:54:43,lsp,4
+2024-01-22 21:46:23,modules,2
+2024-01-22 21:19:54,default directory,25
+2024-01-22 21:16:56,layers,0
+2024-01-22 19:31:30,uninstall,1
+2024-01-22 18:12:35,workbook,0
+2024-01-22 17:48:03,comment,4
+2024-01-22 17:37:46,baseurl,0
+2024-01-22 17:06:45,comment,4
+2024-01-22 16:41:48,language,17
+2024-01-22 15:52:16,pandas,0
+2024-01-22 15:07:20,sum,1
+2024-01-22 14:45:19,voila,7
+2024-01-22 13:49:56,kpainter.py,0
+2024-01-22 13:49:30,k,3
+2024-01-22 13:49:19,kpainter,0
+2024-01-22 13:31:56,pandas,0
+2024-01-22 12:26:52,interactive,20
+2024-01-22 11:58:01,instal language,17
+2024-01-22 11:57:50,scrolling,0
+2024-01-22 11:57:40,language,17
+2024-01-22 11:56:45,lang,2
+2024-01-22 11:06:30,drop duplicates,5
+2024-01-22 10:25:36,drop duplicates,5
+2024-01-22 10:24:33,open(),35
+2024-01-22 10:24:21,open(,35
+2024-01-22 09:48:54,raccourcis clavier,0
+2024-01-22 08:54:37,activate environment,17
+2024-01-22 08:53:46,environment,16
+2024-01-22 08:53:26,enviironment,0
+2024-01-22 08:43:02,tkinter,0
+2024-01-22 08:25:37,voila,7
+2024-01-22 08:19:35,huggingface,0
+2024-01-22 08:18:15,jupyter_notebook_config.py,1
+2024-01-22 08:15:22,load user package,42
+2024-01-22 08:14:31,notebooks,30
+2024-01-22 08:11:39,user configuration,39
+2024-01-22 08:10:24,.user_setups,0
+2024-01-22 08:10:20,user_setups,0
+2024-01-22 07:08:02,jupyter as service,99
+2024-01-22 06:14:27,iqsharp,0
+2024-01-22 06:14:15,qsharp,0
+2024-01-22 04:47:20,jupyter off line,88
+2024-01-22 04:47:00,pycharm,0
+2024-01-22 04:44:31,jupyter with pycharm,100
+2024-01-22 03:58:52,r language,22
+2024-01-22 02:57:34,restart console,10
+2024-01-22 02:57:14,restart kernel,32
+2024-01-22 02:54:29,rkernel,0
+2024-01-22 02:20:10,update,21
+2024-01-22 02:04:26,math module,6
+2024-01-22 02:03:36,math,0
+2024-01-21 23:35:06,open from path,75
+2024-01-21 23:30:33,open local file,51
+2024-01-21 22:31:24,anaconda,5
+2024-01-21 21:07:29,data source,107
+2024-01-21 21:07:12,presto,0
+2024-01-21 21:07:04,trino,0
+2024-01-21 21:04:43,library,11
+2024-01-21 21:04:34,ggplot,0
+2024-01-21 19:25:20,toml file,25
+2024-01-21 19:21:55,toml,0
+2024-01-21 19:03:24,gpu,0
+2024-01-21 19:03:14,enable gpu,4
+2024-01-21 18:09:36,apple,12
+2024-01-21 17:37:07,miniwekeolab kernel,32
+2024-01-21 17:07:37,pandas,0
+2024-01-21 15:57:41,nbextensions,2
+2024-01-21 15:56:08,jupyter nbextensions_configurator enable --user,91
+2024-01-21 15:50:36,nbconfigurator,0
+2024-01-21 15:50:18,configurator,0
+2024-01-21 15:16:33,path finder,11
+2024-01-21 15:12:55,systemctl,0
+2024-01-21 15:12:51,systemd,0
+2024-01-21 14:59:01,kernels,28
+2024-01-21 14:34:29,install jupyter notebook in cmd,104
+2024-01-21 13:47:58,pdf,5
+2024-01-21 13:30:09,stop server,22
+2024-01-21 13:29:29,lab list,39
+2024-01-21 13:28:25,server list,37
+2024-01-21 13:28:20,jupyter server list,91
+2024-01-21 13:28:08,jupyter lab list,93
+2024-01-21 13:26:40,latex,5
+2024-01-21 13:26:33,katex,0
+2024-01-21 12:28:11,date,54
+2024-01-21 11:19:58,user guide,51
+2024-01-21 11:02:10,r,10
+2024-01-21 10:25:42,dir setting,12
+2024-01-21 10:25:23,jupyter lab dir,88
+2024-01-21 09:40:26,latex,5
+2024-01-21 08:05:13,trash,0
+2024-01-21 05:51:33,panda,0
+2024-01-21 02:37:07,lipidens,0
+2024-01-21 02:36:57,lipidens.ipynb,0
+2024-01-20 23:09:18,clv,0
+2024-01-20 22:22:27,hide cells,5
+2024-01-20 22:21:46,cell tags,10
+2024-01-20 21:56:33,commands magic,13
+2024-01-20 21:51:26,magic,3
+2024-01-20 21:51:06,magic command,19
+2024-01-20 20:43:44,cite,1
+2024-01-20 18:59:45,pip install,24
+2024-01-20 18:57:13,ydoc,0
+2024-01-20 18:35:17,debug python script,42
+2024-01-20 18:34:36,debug,0
+2024-01-20 18:10:08,widgetsnbextension,0
+2024-01-20 17:07:51,config,9
+2024-01-20 16:35:14,anaconda installation,16
+2024-01-20 16:19:45,practice lab,19
+2024-01-20 15:48:58,python,42
+2024-01-20 15:33:19,uninstall,1
+2024-01-20 14:44:17,color block,3
+2024-01-20 14:43:54,color,1
+2024-01-20 14:28:33,anaconda,5
+2024-01-20 14:28:00,anaconda,5
+2024-01-20 14:25:28,launcher,3
+2024-01-20 13:57:53,math equations,2
+2024-01-20 13:23:37,token,1
+2024-01-20 12:42:20,---,0
+2024-01-20 12:41:57,command mode,17
+2024-01-20 12:41:43,command,16
+2024-01-20 12:35:20,numpy,3
+2024-01-20 11:53:43,workspaces,0
+2024-01-20 11:27:36,jupyterlab,40
+2024-01-20 10:47:56,save files in directory,93
+2024-01-20 09:57:32,image directory,24
+2024-01-20 04:36:14,voila,7
+2024-01-20 03:12:43,kernal manager,7
+2024-01-20 00:17:51,nbconvert,10
+2024-01-19 23:19:32,password,0
+2024-01-19 23:16:30,security,11
+2024-01-19 22:13:43,times,3
+2024-01-19 20:50:00,python version,48
+2024-01-19 20:04:44,jupyter lab is slow,101
+2024-01-19 19:36:25,magicv,0
+2024-01-19 19:34:50,"""notebook -e""",0
+2024-01-19 19:34:43,"""notebook save""",0
+2024-01-19 19:34:40,notebook save,65
+2024-01-19 19:34:31,%notebook save,65
+2024-01-19 19:34:18,interactive,20
+2024-01-19 19:34:09,magic,3
+2024-01-19 19:03:15,password,0
+2024-01-19 18:38:02,vector,0
+2024-01-19 18:33:31,docker,11
+2024-01-19 18:22:46,latex,5
+2024-01-19 18:15:50,julia,5
+2024-01-19 18:13:12,change port,18
+2024-01-19 17:23:28,"""jupyter execute""",1
+2024-01-19 17:23:18,jupyter execute,89
+2024-01-19 17:09:03,alaska,0
+2024-01-19 17:08:53,asf,0
+2024-01-19 17:08:48,hyp3,0
+2024-01-19 17:08:44,hyp3_insar_stack_for_ts_analysis.ipynb,0
+2024-01-19 17:08:32,notebook hyp3_insar_stack_for_ts_analysis.ipynb,63
+2024-01-19 16:45:07,shortcuts,1
+2024-01-19 16:26:11,kernels,28
+2024-01-19 15:51:31,chrome,1
+2024-01-19 15:51:15,chorome,0
+2024-01-19 15:51:05,chrom,0
+2024-01-19 15:50:56,browser chrom,16
+2024-01-19 15:50:40,browser,16
+2024-01-19 15:37:46,nbconvert,10
+2024-01-19 15:36:40,startswith,0
+2024-01-19 15:34:08,read.data,0
+2024-01-19 15:33:53,read.dt,0
+2024-01-19 15:33:38,read and print,100
+2024-01-19 15:30:44,open txt,35
+2024-01-19 15:30:29,kernel error,37
+2024-01-19 15:30:23,kerbel error,10
+2024-01-19 15:30:12,open,35
+2024-01-19 15:29:40,open,35
+2024-01-19 14:54:08,breakpoint,0
+2024-01-19 14:54:01,debugger,0
+2024-01-19 14:53:52,debugging,1
+2024-01-19 14:19:12,jovyan password,4
+2024-01-19 14:05:03,"""code-server""",0
+2024-01-19 14:04:56,code-server,66
+2024-01-19 14:04:50,code server,66
+2024-01-19 13:56:13,docker,11
+2024-01-19 13:49:02,%matplotlib,4
+2024-01-19 13:48:24,matplotlib,4
+2024-01-19 13:33:06,yolov8,0
+2024-01-19 13:33:01,jupyter notebook,89
+2024-01-19 12:47:42,kernel ipython,59
+2024-01-19 11:30:42,财务数据与因子分析策略,0
+2024-01-19 10:45:34,rust kernel,32
+2024-01-19 10:03:25,svg,2
+2024-01-19 09:46:42,nbconvert,10
+2024-01-19 09:30:42,auth,3
+2024-01-19 09:09:07,remote server,24
+2024-01-19 08:42:00,jupyterlab install,50
+2024-01-19 08:41:15,jupyter ension install,88
+2024-01-19 08:40:58,jupyter labextension install,88
+2024-01-19 08:40:20,jupyter install,88
+2024-01-19 08:12:45,script,6
+2024-01-19 08:04:26,tier ram gb,0
+2024-01-19 08:04:16,tier 2,21
+2024-01-19 07:49:13,title markdown,11
+2024-01-19 07:47:08,version,20
+2024-01-19 07:41:42,micropython,0
+2024-01-19 07:41:35,esp,0
+2024-01-19 06:40:51,country,0
+2024-01-19 06:31:30,ai,1
+2024-01-19 06:20:42,folium,0
+2024-01-19 06:11:17,jupiter,2
+2024-01-19 03:42:02,token,1
+2024-01-19 03:41:50,jupyter_notebook_config,0
+2024-01-19 03:27:42,export pdf,7
+2024-01-19 03:27:30,import pdf,11
+2024-01-19 03:11:24,access,7
+2024-01-19 03:10:03,--generate-config,13
+2024-01-19 03:10:02,--generate--config,13
+2024-01-19 02:54:34,token,1
+2024-01-19 02:53:42,cite,1
+2024-01-19 02:49:07,shortcut,2
+2024-01-19 02:29:07,notebook-lab,71
+2024-01-19 01:59:10,save file,25
+2024-01-19 01:29:20,theme,4
+2024-01-19 01:14:44,authentication,3
+2024-01-19 00:42:19,line numbers,13
+2024-01-19 00:38:27,version,20
+2024-01-18 22:58:02,api,8
+2024-01-18 22:44:28,breakpoint,0
+2024-01-18 22:43:49,debug,0
+2024-01-18 22:01:14,python file,51
+2024-01-18 21:53:19,descargar md,3
+2024-01-18 21:53:10,oscuro,0
+2024-01-18 21:53:07,oscuto,0
+2024-01-18 21:53:02,dark,0
+2024-01-18 20:42:19,matlab,1
+2024-01-18 19:58:15,spark,1
+2024-01-18 19:58:10,pyspark,0
+2024-01-18 19:29:14,how to multiply,99
+2024-01-18 19:18:59,github,106
+2024-01-18 19:14:34,tools,20
+2024-01-18 19:14:24,debug,0
+2024-01-18 17:51:38,install and configure,102
+2024-01-18 17:50:52,sharepoint,0
+2024-01-18 16:30:37,keybinds,0
+2024-01-18 16:26:58,version control,21
+2024-01-18 16:26:45,save hook,7
+2024-01-18 16:14:37,bashrc,0
+2024-01-18 15:37:33,debugging,1
+2024-01-18 15:18:01,logging,0
+2024-01-18 15:09:25,ctrl,1
+2024-01-18 15:09:07,hotkeys,0
+2024-01-18 13:13:40,equations,2
+2024-01-18 12:20:00,hide cells,5
+2024-01-18 12:18:38,hide code cells,57
+2024-01-18 12:18:20,nb extensions,16
+2024-01-18 12:16:59,extensions,15
+2024-01-18 11:46:15,widgets,14
+2024-01-18 11:29:34,export,4
+2024-01-18 10:43:54,uninstall,1
+2024-01-18 10:21:21,ssh,0
+2024-01-18 09:44:51,start a service,96
+2024-01-18 09:27:36,slides,3
+2024-01-18 09:24:45,extension,21
+2024-01-18 09:24:38,plugin,2
+2024-01-18 09:19:18,license,1
+2024-01-18 09:17:59,capitalise,0
+2024-01-18 09:16:49,cs2231chapter3,0
+2024-01-18 09:14:05,nbextension,1
+2024-01-18 08:30:04,markdown,7
+2024-01-18 07:39:49,asd,0
+2024-01-18 05:47:59,working with files,82
+2024-01-18 04:54:15,openai,0
+2024-01-18 03:41:16,python,42
+2024-01-18 02:55:38,jupyterhub,30
+2024-01-18 02:25:39,license,1
+2024-01-18 01:33:00,the python version required differs between jupyter notebook releases,106
+2024-01-17 23:21:20,hotkey,0
+2024-01-17 23:21:12,shortcut,2
+2024-01-17 23:11:21,package,8
+2024-01-17 22:22:21,bash,2
+2024-01-17 22:13:06,nbconvert,10
+2024-01-17 21:25:54,server,22
+2024-01-17 21:15:17,workspace volume,0
+2024-01-17 21:11:55,corresponding keys,3
+2024-01-17 21:11:32,modifiers,0
+2024-01-17 20:56:20,how to install notebooks,101
+2024-01-17 20:54:20,data,32
+2024-01-17 20:54:10,database,2
+2024-01-17 20:25:52,c++,14
+2024-01-17 20:25:44,python,42
+2024-01-17 20:25:33,php,0
+2024-01-17 20:06:08,widgets,14
+2024-01-17 19:16:46,ipywidgets,15
+2024-01-17 19:01:23,voila,7
+2024-01-17 18:09:19,language kernel,36
+2024-01-17 17:23:58,"""jupyter-kernel""",4
+2024-01-17 17:23:48,jupyter-kernel,88
+2024-01-17 17:21:34,gpu,0
+2024-01-17 17:08:19,"""default browser""",0
+2024-01-17 17:08:14,"""specify the default browser""",0
+2024-01-17 17:08:09,"""specify default browser""",0
+2024-01-17 17:08:02,"""specify browser""",0
+2024-01-17 17:07:32,choose browser,18
+2024-01-17 17:07:01,php kernel,32
+2024-01-17 17:06:58,browser,16
+2024-01-17 16:58:31,docker,11
+2024-01-17 16:39:24,scheduler,2
+2024-01-17 16:25:29,stop notebook server,65
+2024-01-17 16:03:12,voilà,1
+2024-01-17 15:50:51,passwort,0
+2024-01-17 15:50:44,password,0
+2024-01-17 15:44:37,faq,1
+2024-01-17 15:40:37,plaxis 2d,0
+2024-01-17 15:26:04,https://docs.jupyter.org/en/latest/use/upgrade-notebook.htmlk,62
+2024-01-17 15:25:08,pip install jupyter,88
+2024-01-17 15:24:58,jupiter,2
+2024-01-17 15:12:41,schedule,1
+2024-01-17 14:25:38,desktop,6
+2024-01-17 14:08:20,path,11
+2024-01-17 13:55:50,git,16
+2024-01-17 13:47:46,slist,0
+2024-01-17 13:11:14,import,7
+2024-01-17 11:37:49,%,0
+2024-01-17 11:34:17,remove secure token,5
+2024-01-17 11:00:13,pandas sql,1
+2024-01-17 10:58:29,head,4
+2024-01-17 10:58:21,#,0
+2024-01-17 10:55:25,scatter,0
+2024-01-17 10:34:38,"""virtual environment""",0
+2024-01-17 10:34:32,"""virtual env""",0
+2024-01-17 10:34:16,virtual env,35
+2024-01-17 10:33:51,virtual,33
+2024-01-17 10:26:29,collaboration,4
+2024-01-17 09:50:31,password,0
+2024-01-17 09:18:31,download,5
+2024-01-17 09:10:51,jupyter-widgets,86
+2024-01-17 09:10:48,widgets,14
+2024-01-17 09:10:32,authentication,3
+2024-01-17 08:53:25,permission,2
+2024-01-17 08:53:19,privilegies,0
+2024-01-17 08:48:29,security,11
+2024-01-17 08:22:00,security,11
+2024-01-17 08:07:17,browser,16
+2024-01-17 07:16:13,how to install cv library,100
+2024-01-17 07:16:12,how to install pip,100
+2024-01-17 07:15:36,kernels,28
+2024-01-17 07:15:35,kernelspec,2
+2024-01-17 07:14:42,kernel spec,33
+2024-01-17 06:53:50,display,3
+2024-01-17 06:53:43,display(),3
+2024-01-17 06:33:28,real time,28
+2024-01-17 06:33:10,realtime,0
+2024-01-17 06:33:03,collab,0
+2024-01-17 06:32:21,multi,7
+2024-01-17 06:29:16,image,6
+2024-01-17 06:15:13,password,0
+2024-01-17 06:14:56,language,17
+2024-01-17 05:01:03,password,0
+2024-01-17 03:27:15,plugin,2
+2024-01-17 02:44:31,utils,1
+2024-01-17 02:35:20,json,9
+2024-01-17 02:03:15,languages,12
+2024-01-17 01:45:40,iopub_data_rate_limit,0
+2024-01-17 01:10:31,google,13
+2024-01-17 01:10:25,googlo,0
+2024-01-17 01:10:15,tesla,0
+2024-01-17 01:09:48,como instalar jupyter,85
+2024-01-17 00:56:02,python file,51
+2024-01-17 00:15:00,uninstall,1
+2024-01-16 23:49:37,%env,2
+2024-01-16 22:27:41,kernel no connecting,51
+2024-01-16 22:24:48,markdown cells,9
+2024-01-16 21:42:29,debug,0
+2024-01-16 21:41:48,single step debug,13
+2024-01-16 21:06:58,samsung,0
+2024-01-16 21:06:55,samsumg,0
+2024-01-16 21:06:55,samsyng,0
+2024-01-16 21:06:25,python,42
+2024-01-16 21:06:21,print,11
+2024-01-16 20:29:45,working path,29
+2024-01-16 19:40:06,excel,0
+2024-01-16 19:33:04,environment variable,18
+2024-01-16 18:51:32,fomula,0
+2024-01-16 18:50:03,notebookapp,1
+2024-01-16 18:47:39,shut down,5
+2024-01-16 18:47:31,shutdown,2
+2024-01-16 18:27:47,jupyter notebook list,92
+2024-01-16 18:25:59,header,2
+2024-01-16 18:25:24,headers,0
+2024-01-16 18:06:56,scatter,0
+2024-01-16 17:17:57,%load,6
+2024-01-16 16:59:22,classic,7
+2024-01-16 16:48:42,navigation,1
+2024-01-16 15:58:17,oauthenticator,2
+2024-01-16 15:50:12,authentication,3
+2024-01-16 15:12:09,docker,11
+2024-01-16 14:52:43,docker,11
+2024-01-16 14:19:30,cognos,0
+2024-01-16 14:19:19,cognos connection,3
+2024-01-16 13:58:09,port,3
+2024-01-16 13:57:54,--screen,0
+2024-01-16 13:57:44,screen,0
+2024-01-16 13:28:50,sklearn,0
+2024-01-16 12:58:54,token,1
+2024-01-16 12:58:40,password,0
+2024-01-16 12:40:48,namespace,1
+2024-01-16 12:07:14,directory,20
+2024-01-16 11:49:09,debug,0
+2024-01-16 11:47:30,ssl,0
+2024-01-16 11:47:26,https,32
+2024-01-16 11:47:01,tsl,0
+2024-01-16 11:46:55,sll,0
+2024-01-16 11:46:37,cert,0
+2024-01-16 11:09:09,kernel command line,42
+2024-01-16 11:08:23,command line,20
+2024-01-16 10:42:19,jupyter_notebook_config.json,0
+2024-01-16 09:56:05,apprendre programmer,0
+2024-01-16 09:42:07,iopub limit,2
+2024-01-16 08:39:19,plot,1
+2024-01-16 08:33:09,interactive,20
+2024-01-16 08:32:12,matplotlib,4
+2024-01-16 08:16:42,matplotlib,4
+2024-01-16 07:43:51,ommit,0
+2024-01-16 07:42:42,settings,7
+2024-01-16 07:31:15,config,9
+2024-01-16 07:31:03,token,1
+2024-01-16 05:35:56,metadata,7
+2024-01-16 05:35:49,refurl,0
+2024-01-16 05:29:19,mamba,1
+2024-01-16 05:11:50,python reference guide,55
+2024-01-16 05:11:38,reference_guide,0
+2024-01-16 05:11:32,reference_guide.ipynb,0
+2024-01-16 04:37:35,schemas,0
+2024-01-16 03:35:28,python,42
+2024-01-16 03:32:48,passwd,0
+2024-01-16 03:19:06,快捷键,0
+2024-01-16 02:11:27,multi-process,30
+2024-01-16 02:10:40,multi-process pool,30
+2024-01-16 02:09:57,multi-process,30
+2024-01-16 02:09:39,multiprocessing,0
+2024-01-15 22:53:17,8888,3
+2024-01-15 21:20:35,browser,16
+2024-01-15 20:59:06,server,22
+2024-01-15 20:58:59,restart,2
+2024-01-15 20:26:46,preview,3
+2024-01-15 19:50:15,markdown,7
+2024-01-15 19:27:15,anaconda installation,16
+2024-01-15 19:19:54,pip3 install jupyter,88
+2024-01-15 18:53:22,auto complete function,10
+2024-01-15 18:27:28,visual studio code,58
+2024-01-15 16:26:02,rise,2
+2024-01-15 15:40:37,plot 3d,2
+2024-01-15 15:31:43,memory,2
+2024-01-15 15:31:32,memory limit,2
+2024-01-15 15:16:06,debugger,0
+2024-01-15 15:07:40,autocomplete,2
+2024-01-15 14:55:52,extensions,15
+2024-01-15 14:55:40,presentations,0
+2024-01-15 14:53:56,sql,1
+2024-01-15 14:53:45,postgresql,0
+2024-01-15 13:46:39,pyspark,0
+2024-01-15 13:14:39,magic,3
+2024-01-15 12:56:25,markdown cells,9
+2024-01-15 12:55:59,markdown,7
+2024-01-15 12:55:36,how,38
+2024-01-15 12:52:48,slurm,0
+2024-01-15 12:32:24,cite,1
+2024-01-15 12:32:17,bibliography,0
+2024-01-15 12:32:01,reference,10
+2024-01-15 12:12:15,webdav,0
+2024-01-15 10:06:49,custom.js,1
+2024-01-15 10:06:37,custom,12
+2024-01-15 09:44:37,azure kernel,32
+2024-01-15 09:31:40,terminal,10
+2024-01-15 09:18:43,checkpoints,1
+2024-01-15 08:54:43,pandas,0
+2024-01-15 08:39:43,sequence_design_pipeline.ipynb,0
+2024-01-15 08:36:47,startup,1
+2024-01-15 08:36:07,sequence design pipeline,13
+2024-01-15 08:23:35,anaconda installation,16
+2024-01-15 08:08:54,tree,2
+2024-01-15 08:07:40,root,3
+2024-01-15 07:29:09,list,24
+2024-01-15 06:50:30,gprmax,0
+2024-01-15 06:47:13,password,0
+2024-01-15 06:25:47,rfm,0
+2024-01-15 06:08:01,image processing,8
+2024-01-15 06:01:45,sympy,1
+2024-01-15 02:50:59,image,6
+2024-01-15 01:45:56,rust,0
+2024-01-14 23:53:02,#c++,14
+2024-01-14 23:52:55,c++,14
+2024-01-14 23:52:52,"c++,",14
+2024-01-14 23:24:46,docker,11
+2024-01-14 22:24:17,config,9
+2024-01-14 22:19:53,license,1
+2024-01-14 22:08:11,debug,0
+2024-01-14 22:07:37,debugger,0
+2024-01-14 20:59:56,%pip,17
+2024-01-14 20:59:41,%commands,11
+2024-01-14 19:08:06,export cells,7
+2024-01-14 18:57:06,codemirror,0
+2024-01-14 17:12:19,annotated_diffusion,0
+2024-01-14 17:12:10,annotated_diffusion.ipynb,0
+2024-01-14 16:41:52,django,1
+2024-01-14 16:05:26,license,1
+2024-01-14 15:49:39,uninstall jupyter,86
+2024-01-14 12:10:40,cite,1
+2024-01-14 12:10:31,<cite>,1
+2024-01-14 11:26:42,checkpoint,1
+2024-01-14 11:26:34,ipynb_checkpoints,0
+2024-01-14 11:18:14,"""no-browser""",3
+2024-01-14 11:17:40,no-browser,35
+2024-01-14 10:16:45,how to change default directory,99
+2024-01-14 08:21:43,wordpress_posting,0
+2024-01-14 08:08:59,download,5
+2024-01-14 04:52:16,arrow up  arrow down,32
+2024-01-14 04:26:46,numbered lines,2
+2024-01-14 04:25:59,numbered lines in cells,93
+2024-01-14 04:15:54,anaconda installation,16
+2024-01-14 03:36:21,jupyter_notebook_config,0
+2024-01-14 03:32:37,pandas,0
+2024-01-14 03:32:29,actualizar pandas,0
+2024-01-13 21:46:12,magic,3
+2024-01-13 21:35:22,kernel,32
+2024-01-13 21:07:24,change root directory,27
+2024-01-13 20:31:00,php,0
+2024-01-13 18:48:33,markdown,7
+2024-01-13 17:45:59,regex,1
+2024-01-13 17:45:52,replace,2
+2024-01-13 17:45:39,find and replace,101
+2024-01-13 17:29:28,kernels,28
+2024-01-13 17:18:42,updating python,43
+2024-01-13 16:29:05,spell,0
+2024-01-13 16:28:59,spellcheck,0
+2024-01-13 14:46:09,jupyter desktop,85
+2024-01-13 14:19:24,count,1
+2024-01-13 13:08:39,shortcut,2
+2024-01-13 12:48:25,install,21
+2024-01-13 12:48:11,conda,11
+2024-01-13 09:56:18,ipynb,9
+2024-01-13 08:11:54,terminal,10
+2024-01-13 08:07:05,find,16
+2024-01-13 04:31:47,pytorch,0
+2024-01-13 04:01:45,config,9
+2024-01-13 04:01:38,jupyter_server_config,0
+2024-01-13 02:32:27,docker,11
+2024-01-12 18:54:07,cell type,15
+2024-01-12 18:53:49,change to code,100
+2024-01-12 18:53:41,turn code,57
+2024-01-12 18:47:19,java,2
+2024-01-12 18:07:19,lab,19
+2024-01-12 18:07:16,debugger,0
+2024-01-12 18:04:39,versioning,0
+2024-01-12 16:16:30,comment,4
+2024-01-12 16:16:06,tensorflow,0
+2024-01-12 15:24:46,authentication,3
+2024-01-12 15:24:38,saml,0
+2024-01-12 15:24:33,saml2,0
+2024-01-12 14:00:14,token,1
+2024-01-12 13:48:18,ignore,2
+2024-01-12 13:48:07,git ignore,18
+2024-01-12 13:48:01,gitignore,0
+2024-01-12 13:47:06,git,16
+2024-01-12 13:47:04,config,9
+2024-01-12 13:29:11,titanic,0
+2024-01-12 13:28:57,titanic dataset,0
+2024-01-12 10:30:38,nbconvert,10
+2024-01-12 07:32:02,passwordidentityprovider.hashed_password,0
+2024-01-12 06:20:55,password,0
+2024-01-12 06:20:33,change password,15
+2024-01-12 04:57:20,remote access,10
+2024-01-12 04:48:43,generate config,13
+2024-01-12 03:48:35,ju,1
+2024-01-12 02:55:33,escape character,0
+2024-01-12 02:55:13,pycharm,0
+2024-01-12 02:11:24,kernel,32
+2024-01-12 02:00:23,password,0
+2024-01-12 01:44:39,auto comple,2
+2024-01-12 01:44:23,completion,3
+2024-01-12 01:09:27,shortcut,2
+2024-01-12 00:16:24,download file,27
+2024-01-11 21:22:55,no such file or directory,83
+2024-01-11 21:07:52,sql,1
+2024-01-11 20:32:12,matlab,1
+2024-01-11 19:49:56,jupyter,85
+2024-01-11 19:49:52,jupyter lab,88
+2024-01-11 19:47:29,allow_origin,0
+2024-01-11 19:47:25,notebookapp.allow_origin,0
+2024-01-11 19:46:11,python-language-server,59
+2024-01-11 19:46:00,markdown,7
+2024-01-11 19:21:06,installation,13
+2024-01-11 18:57:52,port,3
+2024-01-11 18:30:59,windows,7
+2024-01-11 18:16:23,widget,4
+2024-01-11 18:16:08,"""language server""",1
+2024-01-11 18:15:42,language server,32
+2024-01-11 18:15:33,lsp,4
+2024-01-11 17:25:00,--notebookapp.iopub_data_rate_limit,0
+2024-01-11 17:11:48,base url,12
+2024-01-11 16:58:12,jupyter notebook,89
+2024-01-11 16:36:02,%%script,6
+2024-01-11 16:29:33,deleted,0
+2024-01-11 16:14:06,geometric,0
+2024-01-11 16:04:54,uninstall jupyter notebook from windows 10,102
+2024-01-11 16:04:25,uninstall jupyter from windows 10,101
+2024-01-11 15:58:24,setting windows search path for jupyter on windows 10,107
+2024-01-11 15:58:09,setting windows search path,30
+2024-01-11 15:28:47,nbextension,1
+2024-01-11 15:28:30,nbextentions,0
+2024-01-11 14:54:29,download,5
+2024-01-11 14:43:42,conda,11
+2024-01-11 14:39:04,ipykernel,7
+2024-01-11 14:37:05,virtual environment,46
+2024-01-11 14:32:24,workspace,0
+2024-01-11 13:52:45,modules,2
+2024-01-11 13:52:23,installing modules,12
+2024-01-11 13:49:54,install libraries,25
+2024-01-11 13:29:22,ipywidgets,15
+2024-01-11 13:13:55,install requests,29
+2024-01-11 13:12:02,comment,4
+2024-01-11 12:12:24,multi user,35
+2024-01-11 12:08:30,kernel,32
+2024-01-11 11:04:29,environment variable,18
+2024-01-11 10:59:43,python,42
+2024-01-11 10:33:53,working directory,36
+2024-01-11 10:31:33,conda [env:root],11
+2024-01-11 10:30:16,python,42
+2024-01-11 10:27:38,workspace,0
+2024-01-11 10:27:07,no kernel,51
+2024-01-11 10:09:15,extensions,15
+2024-01-11 10:07:12,to slides,99
+2024-01-11 09:51:44,ctrl+b,0
+2024-01-11 09:48:54,accelerator key,5
+2024-01-11 09:32:39,mark cell as parameter,72
+2024-01-11 09:01:23,remote,3
+2024-01-11 08:46:45,%,0
+2024-01-11 08:39:35,c.jupyterhub.services,0
+2024-01-11 08:34:30,cst,0
+2024-01-11 07:50:17,password,0
+2024-01-11 07:17:49,networkit,0
+2024-01-11 07:16:30,jupyter-client,86
+2024-01-11 07:14:28,community detection with networkit,83
+2024-01-11 07:14:11,community,49
+2024-01-11 05:04:42,"""jupyter-lab""",4
+2024-01-11 05:04:28,jupyter-lab,88
+2024-01-11 03:16:04,markdown,7
+2024-01-11 02:11:59,passwd,0
+2024-01-11 02:04:29,trust,0
+2024-01-11 01:40:37,python to notebook,106
+2024-01-11 00:34:28,comment,4
+2024-01-10 23:34:12,xfrozen,0
+2024-01-10 21:40:53,run javascript,31
+2024-01-10 20:57:59,javascript,8
+2024-01-10 19:03:09,dark,0
+2024-01-10 19:02:59,theme,4
+2024-01-10 18:39:55,kernal not trusted,42
+2024-01-10 18:09:38,kernel,32
+2024-01-10 17:55:30,datasets,1
+2024-01-10 17:49:26,import code,56
+2024-01-10 17:49:15,%load,6
+2024-01-10 17:28:42,graphing,0
+2024-01-10 17:01:48,completion,3
+2024-01-10 16:39:25,jupyter home,88
+2024-01-10 16:15:38,slide,0
+2024-01-10 16:08:55,command palette,16
+2024-01-10 15:37:59,restart,2
+2024-01-10 15:20:41,serialize,0
+2024-01-10 14:48:02,voilà,1
+2024-01-10 14:40:08,cnn algoritması (2),21
+2024-01-10 14:39:56,cnn algoritması,0
+2024-01-10 14:39:39,cnn,0
+2024-01-10 14:33:10,security,11
+2024-01-10 14:33:03,password,0
+2024-01-10 14:17:43,markdown,7
+2024-01-10 14:16:17,variables markdown,13
+2024-01-10 14:16:13,variables markdonw,7
+2024-01-10 14:15:48,variables,7
+2024-01-10 13:52:53,environment,16
+2024-01-10 13:50:13,image analysis,6
+2024-01-10 13:49:44,machine vision,4
+2024-01-10 13:49:01,status,5
+2024-01-10 13:19:55,choropleth,0
+2024-01-10 13:19:09,location and locationmode,100
+2024-01-10 13:18:39,docker,11
+2024-01-10 13:18:05,tensorflow,0
+2024-01-10 13:17:32,spark,1
+2024-01-10 13:11:29,git,16
+2024-01-10 13:09:54,magic commands,13
+2024-01-10 13:08:30,git,16
+2024-01-10 13:06:22,localhost,2
+2024-01-10 13:05:37,jupyter server,88
+2024-01-10 13:02:27,memory,2
+2024-01-10 12:15:23,python,42
+2024-01-10 10:33:11,api,8
+2024-01-10 09:53:54,extension,21
+2024-01-10 09:46:09,comment,4
+2024-01-10 07:46:08,config.ini,0
+2024-01-10 07:45:30,jupytab server,22
+2024-01-10 07:44:13,notebook-dir,63
+2024-01-10 07:32:13,__repr_html__,0
+2024-01-10 07:05:26,ipython.display,0
+2024-01-10 07:05:05,display,3
+2024-01-10 06:12:24,sysml,0
+2024-01-10 06:08:37,language,17
+2024-01-10 04:47:37,skymap,0
+2024-01-10 04:43:30,dowloand,0
+2024-01-10 04:12:35,anaconda,5
+2024-01-10 03:38:24,keyboard shortcut,3
+2024-01-10 03:28:42,token,1
+2024-01-10 03:27:35,api,8
+2024-01-10 03:01:21,docker,11
+2024-01-10 02:58:47,output to html,100
+2024-01-10 02:57:53,chromium extensions,15
+2024-01-10 02:43:59,pdf output,15
+2024-01-10 02:18:37,dependencies,7
+2024-01-10 02:04:15,c.spawner.cmd,0
+2024-01-10 02:02:12,virtual environment,46
+2024-01-10 01:22:10,installation,13
+2024-01-10 00:43:25,language,17
+2024-01-10 00:43:06,langu,0
+2024-01-09 23:11:16,default_url,0
+2024-01-09 23:02:03,help,26
+2024-01-09 22:47:09,releases,4
+2024-01-09 21:23:56,terminal,10
+2024-01-09 21:17:11,function,4
+2024-01-09 21:09:13,cloud storage,6
+2024-01-09 20:58:41,function list,26
+2024-01-09 20:56:07,command line completion,21
+2024-01-09 20:27:34,installing jupyter notebook,89
+2024-01-09 20:14:43,authentication,3
+2024-01-09 20:11:21,server,22
+2024-01-09 20:08:56,server,22
+2024-01-09 20:07:18,custom ip,14
+2024-01-09 19:59:09,indent,0
+2024-01-09 19:49:55,ip,3
+2024-01-09 19:28:17,set_option,0
+2024-01-09 18:07:11,log out,43
+2024-01-09 17:59:53,%run,27
+2024-01-09 17:00:42,extensions,15
+2024-01-09 16:25:43,config,9
+2024-01-09 16:20:02,appearance,0
+2024-01-09 16:19:21,themes,3
+2024-01-09 15:40:34,logo,0
+2024-01-09 15:25:08,updating,3
+2024-01-09 15:11:04,c++,14
+2024-01-09 15:10:48,lua,0
+2024-01-09 14:22:11,server,22
+2024-01-09 14:21:49,password,0
+2024-01-09 14:04:02,subcommand,2
+2024-01-09 13:50:23,subcommands,1
+2024-01-09 13:28:24,iframe,1
+2024-01-09 13:09:20,sm technologies,0
+2024-01-09 12:58:49,display,3
+2024-01-09 12:34:14,labextension,2
+2024-01-09 12:32:52,extension,21
+2024-01-09 12:32:31,jupyter notebook v7 for mac os,104
+2024-01-09 10:47:10,set breakpoint,15
+2024-01-09 10:46:57,breakpoint,0
+2024-01-09 10:46:33,run while closing,32
+2024-01-09 10:36:51,ploting,0
+2024-01-09 10:24:33,ipywidgets,15
+2024-01-09 10:23:05,widgets,14
+2024-01-09 10:00:11,binder,16
+2024-01-09 09:49:33,widgets,14
+2024-01-09 09:38:26,loader,0
+2024-01-09 09:31:58,syntax,5
+2024-01-09 09:21:23,license,1
+2024-01-09 09:21:20,licence,0
+2024-01-09 08:57:46,nbextension,1
+2024-01-09 08:54:20,jupiter install,23
+2024-01-09 08:54:09,jupiter,2
+2024-01-09 08:47:24,no module named 'notebook.notebookapp',29
+2024-01-09 08:02:38,magic command,19
+2024-01-09 08:02:27,magic,3
+2024-01-09 08:01:16,%load,6
+2024-01-09 08:00:06,jupyter config,86
+2024-01-09 07:58:16,jupyter_notebook_config.py,1
+2024-01-09 07:42:52,anaconda,5
+2024-01-09 07:42:44,abaconda,0
+2024-01-09 07:39:10,notebook_dir,0
+2024-01-09 07:29:03,install_kernel_spec,0
+2024-01-09 07:07:09,remove file,25
+2024-01-09 07:06:32,delete file,25
+2024-01-09 07:06:20,empty trash,5
+2024-01-09 07:06:10,trash,0
+2024-01-09 06:36:48,venv,1
+2024-01-09 05:56:27,remote,3
+2024-01-09 05:46:59,checkpoints,1
+2024-01-09 05:45:54,spark,1
+2024-01-09 05:31:44,apperance,0
+2024-01-09 05:31:21,skin,0
+2024-01-09 05:31:07,theme,4
+2024-01-09 05:00:30,graph,1
+2024-01-09 05:00:25,math,0
+2024-01-09 05:00:16,numpy,3
+2024-01-09 03:05:12,battery,0
+2024-01-09 03:05:05,jupyterlab,40
+2024-01-09 03:05:04,jupyter-lab,88
+2024-01-09 02:08:42,%load,6
+2024-01-09 01:08:22,voila,7
+2024-01-09 01:05:41,jupyter app,85
+2024-01-09 01:05:27,jupyterapp,0
+2024-01-08 22:38:34,read file,36
+2024-01-08 22:11:43,location of kernels,97
+2024-01-08 22:04:49,log,2
+2024-01-08 21:14:07,gitignore,0
+2024-01-08 20:11:59,notebook-dir,58
+2024-01-08 19:52:58,jupyter notebook settings,86
+2024-01-08 19:51:30,jupyter notebook tab indentation settings,87
+2024-01-08 19:51:27,downlod,0
+2024-01-08 19:49:47,dolownd,0
+2024-01-08 19:48:13,tab indentation settings,10
+2024-01-08 19:46:39,tab indentation,7
+2024-01-08 19:43:52,directory,20
+2024-01-08 19:00:28,exclamation mark,5
+2024-01-08 19:00:20,%,0
+2024-01-08 19:00:09,percentage,0
+2024-01-08 18:35:15,ipykernel,7
+2024-01-08 18:30:41,env,2
+2024-01-08 18:30:29,envs,0
+2024-01-08 18:30:03,token,1
+2024-01-08 17:57:19,machine learning,8
+2024-01-08 17:36:50,language,16
+2024-01-08 16:57:01,checkpoint,1
+2024-01-08 16:48:50,apache,1
+2024-01-08 16:29:30,respiratory disorder classification,0
+2024-01-08 16:29:22,kernels,23
+2024-01-08 16:28:01,scala,0
+2024-01-08 16:27:56,php,0
+2024-01-08 16:27:42,language support,30
+2024-01-08 14:53:04,kubernetes,3
+2024-01-08 14:20:12,language,16
+2024-01-08 14:06:51,pip update,31
+2024-01-08 13:07:27,trouble,1
+2024-01-08 11:43:06,server,21
+2024-01-08 11:41:32,password,0
+2024-01-08 11:23:38,log out,40
+2024-01-08 10:14:03,tutorial,4
+2024-01-08 09:55:19,download,5
+2024-01-08 09:12:43,git command,26
+2024-01-08 09:05:32,port,3
+2024-01-08 08:51:47,log,2
+2024-01-08 08:11:20,int,0
+2024-01-08 07:55:22,notebookapp,1
+2024-01-08 07:54:41,notebook.notebookapp,0
+2024-01-08 07:49:07,checkpoint,1
+2024-01-08 07:36:12,environment,14
+2024-01-08 07:17:44,token,1
+2024-01-08 07:09:26,run -i,107
+2024-01-08 03:56:12,jupyter run,86
+2024-01-08 01:53:41,商業,0
+2024-01-08 01:53:28,商業模式,0
+2024-01-07 23:14:59,java script,8
+2024-01-07 23:09:29,mypy,0
+2024-01-07 23:08:30,mypy,0
+2024-01-07 22:27:12,r kernel,32
+2024-01-07 21:59:40,markdown,6
+2024-01-07 21:59:28,markdown syntax,10
+2024-01-07 21:52:49,run jupyterlab,56
+2024-01-07 21:39:45,voila,7
+2024-01-07 21:09:58,kernels,23
+2024-01-07 20:44:14,environment,14
+2024-01-07 20:37:24,docker,11
+2024-01-07 20:19:37,tsp,0
+2024-01-07 19:38:13,??,0
+2024-01-07 19:14:30,multilevel,0
+2024-01-07 19:08:59,title,4
+2024-01-07 18:14:49,cite,1
+2024-01-07 18:14:40,citation,1
+2024-01-07 17:48:26,config.py,0
+2024-01-07 17:04:22,themes,3
+2024-01-07 16:01:12,qualitative,0
+2024-01-07 15:50:20,csv,1
+2024-01-07 15:44:09,nb_user,0
+2024-01-07 15:32:40,security,10
+2024-01-07 15:18:40,notebook,58
+2024-01-07 14:10:37,serverapp,0
+2024-01-07 14:09:48,c.serverapp,0
+2024-01-07 13:28:27,file:///c:/users/dualdee%20ict%20solution/appdata/roaming/jupyter/runtime/jpserver-8148-open.html,89
+2024-01-07 12:38:50,dow,0
+2024-01-07 11:45:54,derettaylor.ipynb,0
+2024-01-07 11:33:08,console,8
+2024-01-07 10:51:17,secure,2
+2024-01-07 10:51:11,password,0
+2024-01-07 06:41:31,ipython,42
+2024-01-07 04:17:40,c++,14
+2024-01-07 04:17:26,c++ kernel,3
+2024-01-07 04:17:13,installing c++ kernel,5
+2024-01-07 04:00:01,command mode,16
+2024-01-07 02:43:41,nbclassic,1
+2024-01-07 02:38:19,syntax highlighting,4
+2024-01-06 23:03:27,magics,2
+2024-01-06 22:11:55,kernel,30
+2024-01-06 21:45:29,pip install,23
+2024-01-06 21:45:12,install,20
+2024-01-06 21:27:12,docker,11
+2024-01-06 21:03:18,debug,0
+2024-01-06 19:06:01,markdown,6
+2024-01-06 18:43:07,file permissions,24
+2024-01-06 17:04:46,iyiu],0
+2024-01-06 16:29:47,languages,11
+2024-01-06 15:34:27,nltk,0
+2024-01-06 15:34:17,chatbot with nltk library,75
+2024-01-06 15:33:57,chatbot with nltk,71
+2024-01-06 15:33:49,chatbot nltk,0
+2024-01-06 15:33:44,chatbot ntlk,0
+2024-01-06 15:23:36,lab,16
+2024-01-06 14:33:57,password,0
+2024-01-06 14:33:51,passward,0
+2024-01-06 13:47:26,execute python program,44
+2024-01-06 13:46:36,run python app,48
+2024-01-06 11:59:04,spark,1
+2024-01-06 11:04:44,extension,19
+2024-01-06 08:03:58,atsushi sakai,0
+2024-01-06 07:30:29,config,9
+2024-01-06 06:55:20,voila,7
+2024-01-06 06:43:29,numpy,3
+2024-01-06 06:38:09,tutorial_bochkarev,0
+2024-01-06 06:37:53,tutorial_bochkarev.ipynb,0
+2024-01-06 05:46:37,conda config,18
+2024-01-06 05:39:13,.condarc,0
+2024-01-06 05:38:58,condarc,0
+2024-01-06 01:38:30,how to name folders,96
+2024-01-06 01:14:28,visual studio code,55
+2024-01-06 00:57:06,thonny,0
+2024-01-06 00:10:47,environment variables,17
+2024-01-06 00:03:10,debuging,0
+2024-01-05 23:14:57,jupyter lab,81
+2024-01-05 23:13:18,run command,30
+2024-01-05 23:13:05,run jupyter labs,87
+2024-01-05 23:09:59,run jupyter command,87
+2024-01-05 22:25:12,configuration,12
+2024-01-05 20:18:37,sharepoint,0
+2024-01-05 20:18:00,rust,0
+2024-01-05 18:45:53,using hybrid machine learning models,45
+2024-01-05 18:40:17,notebook password,58
+2024-01-05 18:39:54,password,0
+2024-01-05 18:14:41,slide,0
+2024-01-05 17:40:50,git,16
+2024-01-05 17:19:45,r jupyter notebook,84
+2024-01-05 17:08:51,token,1
+2024-01-05 17:07:47,identityprovider,0
+2024-01-05 17:07:42,identityprovider.token,0
+2024-01-05 16:19:28,kernel,30
+2024-01-05 15:52:19,prun,0
+2024-01-05 15:41:11,terminal,10
+2024-01-05 14:45:26,variable explorer,9
+2024-01-05 14:15:06,pytorch,0
+2024-01-05 14:14:27,text cell,17
+2024-01-05 12:50:47,environment,14
+2024-01-05 12:50:18,virtual,30
+2024-01-05 12:13:59,custom css,10
+2024-01-05 12:13:44,css,1
+2024-01-05 11:32:20,magic,3
+2024-01-05 11:17:24,gpu,0
+2024-01-05 11:07:32,configuration file,29
+2024-01-05 10:57:41,changing directories,7
+2024-01-05 10:45:44,iopub,2
+2024-01-05 10:36:08,kernel timeout,30
+2024-01-05 10:22:24,debug,0
+2024-01-05 09:26:32,c.notebookapp,0
+2024-01-05 09:24:29,notebook,58
+2024-01-05 08:35:59,working-dir,24
+2024-01-05 08:35:53,root,3
+2024-01-05 08:35:48,root-dir,6
+2024-01-05 08:35:28,dir,4
+2024-01-05 07:44:12,abs,1
+2024-01-05 07:40:39,configur,0
+2024-01-05 07:38:43,how to upgrade python,98
+2024-01-05 07:08:44,websocket,1
+2024-01-05 07:02:23,security,10
+2024-01-05 05:54:31,contents_manager_class,0
+2024-01-05 05:29:34,minio,0
+2024-01-05 05:29:27,s3,1
+2024-01-05 05:13:58,kernels,23
+2024-01-05 05:10:59,pycharm,0
+2024-01-05 04:48:20,pip,16
+2024-01-05 04:48:09,cctx,0
+2024-01-05 04:39:01,package,8
+2024-01-05 04:38:42,pypi,7
+2024-01-05 02:56:14,changing directories,7
+2024-01-05 02:55:44,remote,3
+2024-01-05 02:38:46,shortcuts,1
+2024-01-05 01:56:23,https,30
+2024-01-05 01:16:55,%time,25
+2024-01-04 23:42:24,extension,19
+2024-01-04 22:18:21,oauth,1
+2024-01-04 22:17:55,authentication,3
+2024-01-04 21:41:29,license,1
+2024-01-04 21:18:09,hyperlink insert,3
+2024-01-04 19:18:34,home,6
+2024-01-04 17:04:19,docker run,34
+2024-01-04 16:36:32,password,0
+2024-01-04 14:53:16,markdown,6
+2024-01-04 13:53:08,pip install -u jupyter,107
+2024-01-04 12:53:37,jupyter_platform_dirs,0
+2024-01-04 12:53:34,jupyter_platforms_dirs,0
+2024-01-04 11:52:57,kernel,30
+2024-01-04 11:40:24,upgrade,2
+2024-01-04 11:13:18,debugger,0
+2024-01-04 11:07:54,test,11
+2024-01-04 10:48:28,virtual environment,41
+2024-01-04 10:21:02,2020 msom data driven  research challenge,36
+2024-01-04 10:20:43,jd.com: transaction level data for the 2020 msom data driven  research challenge,101
+2024-01-04 10:01:49,new code cell,74
+2024-01-04 09:43:38,rest,4
+2024-01-04 08:42:47,optional lab,19
+2024-01-04 08:42:32,option,4
+2024-01-04 08:42:24,opyion,0
+2024-01-04 08:32:15,kkk,0
+2024-01-04 08:13:41,kornole,0
+2024-01-04 08:12:34,kernole,0
+2024-01-04 08:12:29,kernoel,0
+2024-01-04 07:38:58,bold,1
+2024-01-04 07:36:59,pip install-u jupyter,85
+2024-01-04 07:25:50,gpu,0
+2024-01-04 07:16:07,token,1
+2024-01-04 07:09:17,sympy,1
+2024-01-04 07:02:15,severe,0
+2024-01-04 06:42:16,jupyter_config.json,0
+2024-01-04 06:41:45,notebookapp,1
+2024-01-04 06:41:37,notebookapp.ip,0
+2024-01-04 06:41:28,.notebookapp.ip,0
+2024-01-04 06:02:34,env,2
+2024-01-04 03:12:23,markdown,6
+2024-01-04 03:12:07,embed atom method,3
+2024-01-04 03:12:07,embed atom method force field,7
+2024-01-04 03:12:01,eam force field,4
+2024-01-04 02:42:52,jupyter_ai,0
+2024-01-04 02:42:32,jupyter ai,80
+2024-01-04 02:40:55,change home directory,27
+2024-01-04 02:40:47,home directory,21
+2024-01-04 01:34:38,azure,2
+2024-01-04 01:28:06,vs code,53
+2024-01-03 23:12:57,allow-origin,12
+2024-01-03 23:12:54,allow_origin,0
+2024-01-03 23:12:47,allow origin,12
+2024-01-03 23:12:38,cors,0
+2024-01-03 21:30:45,execute,8
+2024-01-03 20:28:04,environment,14
+2024-01-03 20:22:05,conda,11
+2024-01-03 19:57:25,2022,12
+2024-01-03 19:56:35,objectselector,0
+2024-01-03 19:44:00,ipywidgets,15
+2024-01-03 19:30:45,search dataframes,11
+2024-01-03 19:30:30,filter dataframes,1
+2024-01-03 19:30:23,filter dataframes',1
+2024-01-03 19:29:51,strides,0
+2024-01-03 19:16:26,restart server,22
+2024-01-03 19:03:03,starting jupyter in virtual environment,98
+2024-01-03 19:02:24,starting jupyter in virtualenv,98
+2024-01-03 19:02:03,winpython,0
+2024-01-03 18:51:19,%conda,11
+2024-01-03 18:15:53,conda install,26
+2024-01-03 18:15:12,install package,23
+2024-01-03 18:14:48,install,20
+2024-01-03 17:18:41,environment,14
+2024-01-03 17:18:36,environmnet,0
+2024-01-03 17:03:02,import,7
+2024-01-03 16:13:25,docker,11
+2024-01-03 15:42:57,version,20
+2024-01-03 15:33:42,"""extension manager""",0
+2024-01-03 14:54:35,copy cell from one notebook to another,102
+2024-01-03 14:54:17,copy cell,10
+2024-01-03 14:52:56,manual,2
+2024-01-03 14:46:33,common,10
+2024-01-03 14:46:26,common.css,0
+2024-01-03 14:18:26,okta,0
+2024-01-03 14:03:23,点分类任务,0
+2024-01-03 13:59:20,md,3
+2024-01-03 13:44:07,mustafamuratcoskun,0
+2024-01-03 13:11:12,kernelspec,2
+2024-01-03 13:00:16,remove kernel,31
+2024-01-03 12:11:10,nbex,0
+2024-01-03 12:06:40,https://colab.research.google.com/drive/1dguz_vwgw4bu4adhpqiauairf1rcpuw7,32
+2024-01-03 11:41:36,pip,16
+2024-01-03 11:23:02,api,7
+2024-01-03 10:52:15,url,8
+2024-01-03 10:39:40,methods,6
+2024-01-03 10:39:24,magic,3
+2024-01-03 10:39:10,magic command,18
+2024-01-03 10:38:43,cache,4
+2024-01-03 10:29:20,nbconvert,10
+2024-01-03 10:09:26,shortcuts,1
+2024-01-03 10:07:42,docker,11
+2024-01-03 08:51:36,python_elearning_farsi,0
+2024-01-03 08:43:01,python_elearning_farsi,0
+2024-01-03 08:14:01,notebookapp.port,1
+2024-01-03 08:13:15,config parameters,12
+2024-01-03 08:13:07,jupyterapp.log_level,0
+2024-01-03 08:12:56,shutdown,2
+2024-01-03 08:12:51,shutdown_no_activity_timeout,0
+2024-01-03 08:06:37,resourceusedisplay.track_cpu_percent,0
+2024-01-03 08:06:31,resourceusedisplay.track_cpu_percent=true,8
+2024-01-03 07:42:45,'pysqlite2',0
+2024-01-03 07:42:31,modulenotfounderror: no module named 'pysqlite2',28
+2024-01-03 07:26:26,import local package,20
+2024-01-03 06:53:26,javascript,5
+2024-01-03 06:52:53,nodejs,0
+2024-01-03 05:31:21,supported languages,15
+2024-01-03 04:04:37,shortcut,2
+2024-01-03 02:35:24,jupyter_notebook_config,0
+2024-01-03 02:34:24,hook,0
+2024-01-03 00:57:25,drop from dataframe,61
+2024-01-03 00:57:04,drop,3
+2024-01-03 00:43:35,allow-root,13
+2024-01-03 00:43:19,root user,34
+2024-01-03 00:43:07,root,3
+2024-01-03 00:10:48,open from path,71
+2024-01-03 00:10:20,path,11
+2024-01-03 00:09:23,shortcut,2
+2024-01-02 23:32:45,docker,11
+2024-01-02 23:22:03,debug,0
+2024-01-02 23:21:02,debugger,0
+2024-01-02 23:11:16,2022,12
+2024-01-02 23:01:36,uninstall,1
+2024-01-02 23:01:32,remove,2
+2024-01-02 22:02:17,directories,5
+2024-01-02 21:10:07,keyboard shortcuts,3
+2024-01-02 19:36:44,daniel kapitan,1
+2024-01-02 19:36:27,python basics with real python daniel kapitan,79
+2024-01-02 19:35:59,python basics with real python,79
+2024-01-02 18:24:31,java,2
+2024-01-02 18:10:16,widget,4
+2024-01-02 16:37:38,languages,11
+2024-01-02 14:51:02,environment,14
+2024-01-02 14:21:13,dir,4
+2024-01-02 14:02:18,python,38
+2024-01-02 13:49:10,java,2
+2024-01-02 13:46:18,import,7
+2024-01-02 13:35:15,display,3
+2024-01-02 12:56:57,lokeshwari,0
+2024-01-02 12:55:59,lokeswari,0
+2024-01-02 12:55:46,rice grain quality analysis,4
+2024-01-02 12:48:00,list,24
+2024-01-02 12:47:51,jupyter_client.kernelmanager,0
+2024-01-02 12:47:47,difference of items in a list,99
+2024-01-02 12:46:51,upload_file,0
+2024-01-02 12:39:03,%load,6
+2024-01-02 12:30:00,torch,0
+2024-01-02 12:15:09,shortcuts,1
+2024-01-02 11:22:48,passwd,0
+2024-01-02 10:53:25,license,1
+2024-01-02 10:50:48,password,0
+2024-01-02 10:50:31,token,1
+2024-01-02 10:23:35,ninjas python projects,52
+2024-01-02 10:22:50,codestudio-content/python-projects-video/main/quiz-application.gif,64
+2024-01-02 10:11:49,cell type,13
+2024-01-02 10:11:39,slide,0
+2024-01-02 10:11:29,presentation,4
+2024-01-02 09:41:02,java,2
+2024-01-02 09:40:58,c#,14
+2024-01-02 09:40:39,language,16
+2024-01-02 09:39:58,java,2
+2024-01-02 09:22:45,telemetry,1
+2024-01-02 09:07:40,docker,11
+2024-01-02 08:46:40,hook,0
+2024-01-02 08:34:49,command,15
+2024-01-02 08:04:28,client,10
+2024-01-02 07:40:25,base_url,0
+2024-01-02 07:40:15,serverapp.base_url,0
+2024-01-02 07:08:24,install,20
+2024-01-02 06:57:31,markdown,6
+2024-01-02 06:14:50,"skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server 0.00s - debugger warning: it seems that frozen modules are being used, which may 0.00s - make the debugger miss breakpoints. please pass -xfrozen_modules=off",107
+2024-01-02 06:14:06,could not determine npm prefix: [winerror 2] 系统找不到指定的文件。,46
+2024-01-02 06:00:56,please pass -xfrozen_modules=off,107
+2024-01-02 05:51:04,log_level,0
+2024-01-02 05:45:28,browser setting,21
+2024-01-02 05:45:09,browser,15
+2024-01-02 05:44:43,浏览器配置,0
+2024-01-02 05:44:07,浏览器设置,0
+2024-01-02 05:35:43,chrome extension,19
+2024-01-02 01:40:12,magic command,18
+2024-01-02 01:35:51,open,34
+2024-01-02 01:19:24,audit,0
+2024-01-02 01:13:05,lorenz,0
+2024-01-02 00:56:26,import cvs file,28
+2024-01-02 00:41:54,import,7
+2024-01-02 00:41:46,module,4
+2024-01-01 23:38:19,docker,11
+2024-01-01 22:32:43,export python programme,38
+2024-01-01 22:25:25,user interface,39
+2024-01-01 22:25:01,user interface tour,39
+2024-01-01 22:05:44,matplotlib import,7
+2024-01-01 22:05:09,matplot,0
+2024-01-01 21:08:18,theme,4
+2024-01-01 20:52:27,execute,8
+2024-01-01 20:09:42,java,2
+2024-01-01 19:11:03,java,2
+2024-01-01 19:10:58,ijava,0
+2024-01-01 18:57:35,pd.read_csv,0
+2024-01-01 18:55:55,read_csv,0
+2024-01-01 18:04:23,"""variable inspector""",0
+2024-01-01 18:04:00,variable inspector,7
+2024-01-01 17:33:26,create first notebook,66
+2024-01-01 17:28:52,select kernel,31
+2024-01-01 17:21:21,ip,3
+2024-01-01 17:11:34,"command ""python setup.py egg_info"" failed with error code 1 in /tmp/pip-build-rgaklnnb/argon2-cffi-bindings/",97
+2024-01-01 16:19:44,what is jupiter program,83
+2024-01-01 16:19:27,what is jupiter,83
+2024-01-01 15:28:50,git,16
+2024-01-01 15:25:54,git,16
+2024-01-01 15:19:49,clone git,16
+2024-01-01 15:17:43,clone,4
+2024-01-01 14:09:42,uninstall jupyter notebook,84
+2024-01-01 13:10:56,table of contents,99
+2024-01-01 13:10:33,table of content,99
+2024-01-01 12:45:27,docker,11
+2024-01-01 11:17:37,gpu,0
+2024-01-01 06:16:53,professor,1
+2024-01-01 03:52:10,how to  set jupyter browser,103
+2023-12-31 21:23:42,metaheuristics,0
+2023-12-31 17:42:49,language server,30
+2023-12-31 17:42:35,lsp,4
+2023-12-31 17:42:27,black,0
+2023-12-31 17:08:59,face detection,0
+2023-12-31 15:42:48,install version whit pip,32
+2023-12-31 15:26:22,configuration,12
+2023-12-31 15:26:09,password,0
+2023-12-31 13:16:08,docker,11
+2023-12-31 11:32:54,proj,1
+2023-12-31 10:35:29,languages,11
+2023-12-31 10:21:04,magic,3
+2023-12-31 10:20:22,inline,1
+2023-12-31 09:57:39,access,7
+2023-12-31 09:57:28,read,18
+2023-12-31 08:52:47,change directrory,14
+2023-12-31 07:12:26,全球新冠肺炎疫情量化数据分析.ipynb,9
+2023-12-31 07:11:58,全球新冠肺炎疫情量化数据分析,0
+2023-12-31 06:14:33,ocaml,0
+2023-12-31 04:13:53,memory,2
+2023-12-31 03:19:46,shortcuts,1
+2023-12-31 03:19:18,keymap,0
+2023-12-31 03:17:59,mathematic,0
+2023-12-31 03:17:54,mathematica,0
+2023-12-31 02:53:59,"""jupyter-lsp""",0
+2023-12-31 02:53:18,jupyter-lsp,80
+2023-12-31 01:59:40,打造属于自己的签名设计,0
+2023-12-31 01:41:28,index,4
+2023-12-31 01:41:12,set_index,0
+2023-12-31 00:07:05,jupyter_server,1
+2023-12-30 23:55:46,protectin,0
+2023-12-30 23:44:53,identity,0
+2023-12-30 23:44:48,identityprovider,0
+2023-12-30 23:37:36,password,0
+2023-12-30 23:36:32,auth,3
+2023-12-30 23:36:08,notebook.auth,0
+2023-12-30 22:27:42,markdown,6
+2023-12-30 22:27:34,terminal,10
+2023-12-30 20:43:28,feature scaling,4
+2023-12-30 20:18:46,config,9
+2023-12-30 19:39:22,django,1
+2023-12-30 19:12:48,password,0
+2023-12-30 19:12:39,token,1
+2023-12-30 18:26:52,hide cell,5
+2023-12-30 18:12:51,checkpoints,1
+2023-12-30 17:34:28,download,5
+2023-12-30 17:34:02,export,3
+2023-12-30 16:14:57,insert cell above,16
+2023-12-30 15:26:12,nbconvert,10
+2023-12-30 15:08:31,data,29
+2023-12-30 15:08:15,ipywidgets,15
+2023-12-30 15:08:14,ipwidgets,0
+2023-12-30 13:58:03,output color,12
+2023-12-30 13:57:43,output,11
+2023-12-30 13:55:15,jupyter desktop,80
+2023-12-30 12:32:35,kernel,30
+2023-12-30 12:28:25,debug,0
+2023-12-30 11:38:54,conda,11
+2023-12-30 11:38:45,nb_conda,0
+2023-12-30 11:21:59,change path,21
+2023-12-30 08:51:58,regression,1
+2023-12-30 08:46:20,jupyter_regression.ipynb,0
+2023-12-30 08:45:58,jupyter_regression,0
+2023-12-30 08:07:55,magic,3
+2023-12-30 07:22:00,足球赛事,0
+2023-12-30 07:17:45,https://colab.research.google.com/drive/1dguz_vwgw4bu4adhpqiauairf1rcpuw7,32
+2023-12-30 07:13:28,docker,11
+2023-12-30 06:58:54,visualpython,0
+2023-12-30 06:58:41,visual,2
+2023-12-30 06:02:14,extend common,12
+2023-12-30 06:00:40,extend,3
+2023-12-30 05:10:45,upgrade jupyter lab,81
+2023-12-30 05:10:31,upgrade,2
+2023-12-30 03:57:42,stop on error,86
+2023-12-30 03:18:03,quiver,0
+2023-12-30 02:12:13,macros,0
+2023-12-30 02:12:01,%macro,1
+2023-12-30 01:04:58,cython,0
+2023-12-30 00:37:12,submit assignment,5
+2023-12-30 00:36:20,submite,0
+2023-12-29 23:11:00,tutorial,4
+2023-12-29 21:48:43,r,9
+2023-12-29 21:39:43,increase the viewer of notebook,102
+2023-12-29 21:39:23,zoom,1
+2023-12-29 21:39:20,zoomn,0
+2023-12-29 19:35:55,command line,19
+2023-12-29 19:34:30,condakernelspecmanager,0
+2023-12-29 18:15:21,bash-language-server,31
+2023-12-29 16:55:12,hotkeys,0
+2023-12-29 16:54:42,hot keys,0
+2023-12-29 16:09:42,zip,0
+2023-12-29 16:07:58,cheat sheet,1
+2023-12-29 16:06:54,scatter_plot,0
+2023-12-29 15:52:29,ip,3
+2023-12-29 15:52:09,port,3
+2023-12-29 14:37:15,remote-access,10
+2023-12-29 14:36:51,remote,3
+2023-12-29 14:20:19,install pylab,21
+2023-12-29 13:16:38,conda,11
+2023-12-29 12:34:42,the term 'jupyter' is not recognized,104
+2023-12-29 10:27:19,jupyterhub_api_token,0
+2023-12-29 10:21:39,install kernel,43
+2023-12-29 10:17:28,how to import an arff format dataset,98
+2023-12-29 10:03:33,%matplotlib,4
+2023-12-29 09:30:44,r,9
+2023-12-29 09:21:17,languages,11
+2023-12-29 09:15:06,config,9
+2023-12-29 09:15:06,multikernel,0
+2023-12-29 09:15:00,latex,5
+2023-12-29 09:14:59,nbextensions,2
+2023-12-29 09:14:54,markdown,6
+2023-12-29 09:14:52,jupyter_contrib_nbextensions,1
+2023-12-29 07:39:41,latest version,26
+2023-12-29 07:07:42,rust,0
+2023-12-29 06:42:48,login,3
+2023-12-29 06:41:17,linenumbers,0
+2023-12-29 04:32:23,passwordidentityprovider,0
+2023-12-29 04:28:41,root_dir,0
+2023-12-29 03:48:05,config,9
+2023-12-29 03:47:35,account,2
+2023-12-29 02:34:07,download,5
+2023-12-29 02:33:51,download py script,10
+2023-12-29 02:33:22,shortcuts,1
+2023-12-29 02:30:47,template,4
+2023-12-29 00:51:40,language-pack,16
+2023-12-29 00:51:27,jupyterlab-language-pack-zh-cn,45
+2023-12-28 21:47:12,language pack,16
+2023-12-28 21:46:46,language,16
+2023-12-28 21:46:41,langage,0
+2023-12-28 21:40:24,%%time,25
+2023-12-28 21:39:18,voilà,1
+2023-12-28 21:24:12,config,9
+2023-12-28 18:30:12,markdown,6
+2023-12-28 17:29:04,markdown,6
+2023-12-28 17:19:07,intellence,0
+2023-12-28 16:05:13,config,9
+2023-12-28 16:04:44,timeout,1
+2023-12-28 16:04:34,shutdown,2
+2023-12-28 15:59:35,ceil,0
+2023-12-28 15:14:20,makdown png,2
+2023-12-28 15:14:08,makdown image,6
+2023-12-28 15:13:56,import image,12
+2023-12-28 14:58:10,pip install,23
+2023-12-28 14:54:18,adiabatic flame temperature,0
+2023-12-28 14:24:29,jupyter oteook,80
+2023-12-28 13:55:32,password,0
+2023-12-28 13:11:36,anaconda,4
+2023-12-28 12:27:38,github copilot,46
+2023-12-28 12:20:21,datetime library,11
+2023-12-28 12:19:47,a37c62667b5d4066b68cde2453d3f870,0
+2023-12-28 11:04:24,installation,13
+2023-12-28 10:57:47,architecture,11
+2023-12-28 10:16:46,markdown,6
+2023-12-28 10:01:29,link,34
+2023-12-28 10:01:19,anchor,0
+2023-12-28 10:00:47,table of content,99
+2023-12-28 09:52:06,index,4
+2023-12-28 07:41:56,jinja,0
+2023-12-28 07:06:03,yaml,2
+2023-12-28 07:05:52,jinja,0
+2023-12-28 06:37:01,serverapp,0
+2023-12-28 06:36:36,password,0
+2023-12-28 05:56:46,startup,1
+2023-12-28 05:35:40,nbconvert,10
+2023-12-28 05:00:17,nbextension,1
+2023-12-28 04:57:27,nbextensions,2
+2023-12-28 04:44:24,password,0
+2023-12-28 04:40:26,php,0
+2023-12-28 04:32:58,language,16
+2023-12-28 04:32:47,react,1
+2023-12-28 04:04:09,port,3
+2023-12-28 02:34:16,terminal,10
+2023-12-28 02:21:39,docker,11
+2023-12-28 01:53:55,using notebook,71
+2023-12-27 23:24:49,environment variable,16
+2023-12-27 22:20:18,datetime library,11
+2023-12-27 21:10:20,start folder,22
+2023-12-27 21:07:08,lsp,4
+2023-12-27 21:07:07,languageserver,0
+2023-12-27 21:07:06,language server,30
+2023-12-27 18:27:05,markdown variable,13
+2023-12-27 18:23:03,tensorflow,0
+2023-12-27 16:31:56,keybindings,0
+2023-12-27 16:31:46,keybinds,0
+2023-12-27 15:31:02,edit text,16
+2023-12-27 15:23:41,docker,11
+2023-12-27 15:23:29,python,38
+2023-12-27 14:52:49,conda,11
+2023-12-27 11:49:52,xlsx,0
+2023-12-27 09:33:04,keyboard shortcuts,3
+2023-12-27 09:07:38,auth,3
+2023-12-27 08:52:46,redirect loop detected,4
+2023-12-27 08:49:03,language,16
+2023-12-27 07:50:50,install docker,28
+2023-12-27 06:47:42,debug,0
+2023-12-27 06:47:28,begue,0
+2023-12-27 06:18:22,debugger,0
+2023-12-27 06:14:33,/hub/api/oauth2/authorize,13
+2023-12-27 04:04:23,jupyterfrontend,0
+2023-12-27 02:26:16,shortcuts,1
+2023-12-27 02:16:42,set password,15
+2023-12-27 02:15:43,jupyter server,83
+2023-12-27 00:55:46,update version,32
+2023-12-27 00:55:14,update,20
+2023-12-27 00:40:16,theme,4
+2023-12-27 00:40:03,spark,1
