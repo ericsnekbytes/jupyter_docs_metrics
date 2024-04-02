@@ -1,0 +1,51 @@
+Created Date,Query,Total Results
+2024-03-26 13:50:28,user,5
+2024-03-25 09:58:49,terminalmanager,0
+2024-03-21 23:43:57,static_dir,4
+2024-03-21 23:43:52,notebookapp.static_dir,0
+2024-03-21 12:46:44,ssl,1
+2024-03-20 07:20:51,token,1
+2024-03-19 13:59:03,patch,1
+2024-03-17 16:03:15,default browser,5
+2024-03-13 09:35:08,xsrf,1
+2024-03-13 09:35:06,kernel,1
+2024-03-12 17:13:58,open file,7
+2024-03-11 09:26:58,run file,9
+2024-03-08 00:36:24,tornado,3
+2024-03-07 09:19:31,api/extensions,8
+2024-03-07 09:19:16,extensions,7
+2024-03-05 10:53:08,health,0
+2024-03-04 13:24:47,disable_check_xsrf,0
+2024-03-04 11:47:03,api,7
+2024-02-27 09:44:45,multikernelmanager,0
+2024-02-27 09:41:15,kernel,1
+2024-02-26 02:20:03,rest api,7
+2024-02-23 08:02:32,kernelprovisionerfactory,0
+2024-02-19 13:30:21,custom_css,0
+2024-02-17 04:44:08,jsonschema,1
+2024-02-14 23:16:04,document manager,4
+2024-02-12 18:07:32,no-browser,6
+2024-02-12 04:18:40,interactive,1
+2024-02-11 08:37:56,labserverapp.cache,0
+2024-02-10 21:57:33,kernel,1
+2024-02-09 21:15:09,user directory,6
+2024-02-08 07:33:15,terminado_settings,0
+2024-02-08 07:32:51,serverapp,0
+2024-02-07 15:28:15,create,1
+2024-02-07 15:28:11,post,0
+2024-02-06 15:55:08,kernelprovisionerfactory,0
+2024-02-05 23:57:55,tls,1
+2024-02-05 19:10:18,serverurl,0
+2024-02-05 16:47:23,brackets,0
+2024-02-01 14:29:30,conda,1
+2024-01-26 09:22:06,kernel,1
+2024-01-25 04:42:30,token,1
+2024-01-25 03:30:34,health,0
+2024-01-22 12:55:57,babel,0
+2024-01-22 12:08:32,password,1
+2024-01-22 12:08:26,notebookapp.password,0
+2024-01-22 08:31:12,allow-root,2
+2024-01-13 16:17:57,download,1
+2024-01-13 16:17:38,upload,0
+2023-12-28 10:48:00,upload,1
+2023-12-27 18:17:58,launch_instance,0

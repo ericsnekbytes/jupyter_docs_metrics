@@ -1,0 +1,200 @@
+Created Date,Query,Total Results
+2024-03-26 13:06:37,kernel_gid,3
+2024-03-26 12:09:56,jovyan,7
+2024-03-25 15:52:09,buffer_offline_messages,0
+2024-03-22 07:19:11,persist,0
+2024-03-22 07:18:54,state,2
+2024-03-21 02:25:48,environment,26
+2024-03-21 02:25:23,envriment,0
+2024-03-19 16:12:28,aarch64,0
+2024-03-18 18:34:43,eg_min_port_range_size,1
+2024-03-18 18:07:35,spark kubernetes,28
+2024-03-18 10:46:00,kernel_namespace,2
+2024-03-17 23:05:00,architecture,3
+2024-03-14 21:17:06,kernel.json,11
+2024-03-14 09:39:54,tolerations,1
+2024-03-14 09:39:36,kernel_gid,3
+2024-03-13 07:46:07,session,10
+2024-03-13 05:27:38,kernel_extra_spark_opts,3
+2024-03-13 05:14:45,provisioner,1
+2024-03-12 05:21:25,kernel_extra_spark_opts,3
+2024-03-12 05:21:18,kernel_spark_extra_opts,0
+2024-03-11 22:34:15,stop sparksession,2
+2024-03-11 10:30:22,kernel_launch_timeout,3
+2024-03-09 09:41:06,kernel_volume,0
+2024-03-09 06:33:34,eg_impersonation_enabled,2
+2024-03-08 10:43:18,logo,1
+2024-03-08 07:03:18,proxy-user,22
+2024-03-07 13:25:19,jupyter_client,6
+2024-03-07 10:47:34,elyra,9
+2024-03-06 12:17:46,culling,4
+2024-03-05 21:04:41,kernel_username,7
+2024-03-05 07:46:55,rest,6
+2024-03-05 01:36:18,install,10
+2024-03-04 20:15:49,channels,2
+2024-03-04 15:40:58,install,10
+2024-03-04 14:25:34,eg_namespace,3
+2024-03-04 13:06:58,iopub,0
+2024-03-04 13:06:53,stream,0
+2024-03-04 13:06:51,stram,0
+2024-03-04 13:06:42,completion,3
+2024-03-04 10:22:33,sparkui,0
+2024-03-04 09:13:00,scala,9
+2024-03-04 09:12:46,kernel,39
+2024-03-04 07:59:40,eg_port,2
+2024-03-04 07:59:02,port,9
+2024-03-04 07:58:53,enterprise_gateway_port,0
+2024-03-03 20:16:45,pod,9
+2024-03-03 16:03:39,execution_state,1
+2024-03-03 16:03:26,starting,7
+2024-02-29 15:30:07,monitor,2
+2024-02-29 15:22:28,metric,0
+2024-02-28 21:17:08,https,9
+2024-02-28 15:33:04,lsp,0
+2024-02-28 10:29:28,zeromq,3
+2024-02-28 07:14:09,eg_shared_namespace,3
+2024-02-27 08:11:40,kernel,39
+2024-02-26 19:22:18,max_kernel,0
+2024-02-26 19:18:05,http_pwd,0
+2024-02-26 19:16:47,max_kernel,0
+2024-02-26 19:15:06,max_kernel,0
+2024-02-26 04:46:44,processproxy,3
+2024-02-26 01:25:25,app_cull_idle_timeout,0
+2024-02-25 23:28:32,load_kube_config,0
+2024-02-25 12:29:33,processproxy,3
+2024-02-25 09:44:02,httpserverrequest,0
+2024-02-25 09:43:14,tornado,1
+2024-02-24 23:04:49,generate,4
+2024-02-23 14:09:18,spark,18
+2024-02-23 13:08:43,jupyter_client,6
+2024-02-23 13:08:09,client,22
+2024-02-23 05:32:39,gateway_url,0
+2024-02-22 22:48:06,kernel launch,39
+2024-02-22 21:16:13,kerberoes,0
+2024-02-22 17:53:38,kernel launch,39
+2024-02-22 15:13:53,inherited_envs,1
+2024-02-21 06:31:03,ssh,6
+2024-02-20 20:33:16,run.sh,4
+2024-02-20 09:39:37,generate,4
+2024-02-20 08:48:39,c.gate,0
+2024-02-20 08:48:31,c.tate,0
+2024-02-20 05:54:24,provisioner,1
+2024-02-20 05:54:19,gatewayprovisioner,0
+2024-02-19 22:56:42,spark,18
+2024-02-19 20:15:25,starting directory kernel,41
+2024-02-19 20:14:46,starting path,13
+2024-02-16 16:41:57,jars,0
+2024-02-16 10:08:46,kubernetesprovisioner,0
+2024-02-14 21:54:01,custom kernel,39
+2024-02-14 05:13:52,application name,9
+2024-02-13 20:42:55,timeout,3
+2024-02-13 20:35:23,jupyter-kernel-overrides,16
+2024-02-13 20:34:11,container-image,6
+2024-02-13 11:48:50,pvc,1
+2024-02-13 09:11:54,impersonation,4
+2024-02-12 15:14:08,helm,4
+2024-02-12 09:38:03,metrics,0
+2024-02-11 23:07:47,kubernetes,17
+2024-02-11 16:02:26,experimental,2
+2024-02-10 21:53:59,jupyterhub,1
+2024-02-09 15:16:53,password,7
+2024-02-09 06:35:14,spark on k8s,39
+2024-02-08 20:23:08,session,10
+2024-02-08 17:07:25,websocket,5
+2024-02-08 13:31:14,provision,0
+2024-02-07 23:22:44,deploy distributed,12
+2024-02-05 19:34:41,notebook,21
+2024-02-05 17:22:48,jovyan,7
+2024-02-05 15:09:19,terminate,4
+2024-02-04 22:35:05,timeout,9
+2024-02-02 22:00:38,authentication,6
+2024-02-02 16:19:44,kubernetes,17
+2024-01-31 14:59:45,eg_mirror_working_dirs,2
+2024-01-31 14:58:16,jupyterhub,1
+2024-01-31 14:58:05,jupyterhub,0
+2024-01-31 06:50:46,kernel gateway,44
+2024-01-31 04:59:15,error starting kernel,39
+2024-01-31 03:57:15,kernel gateway,44
+2024-01-30 18:41:29,spark,18
+2024-01-30 13:44:54,terminal,0
+2024-01-30 11:56:58,kernel gateway,44
+2024-01-30 11:56:32,gateway,41
+2024-01-30 07:07:12,failed building wheel for pyzmq,42
+2024-01-30 07:07:04,pyzmq,0
+2024-01-30 07:06:23,failed building wheel for pyzmq,42
+2024-01-29 23:18:05,ingress,1
+2024-01-29 23:18:00,backend,0
+2024-01-29 22:21:32,helm chart,4
+2024-01-29 03:28:20,ingress,1
+2024-01-29 03:27:29,loadbalancer,1
+2024-01-28 03:53:39,google cloud,0
+2024-01-28 03:52:14,ssl managed,14
+2024-01-28 03:52:02,ssl,3
+2024-01-28 03:51:29,tls,2
+2024-01-27 22:05:19,tls,2
+2024-01-27 21:39:42,ingress,1
+2024-01-27 20:55:46,https,9
+2024-01-27 20:55:02,access-control-allow-origin,14
+2024-01-27 20:54:48,cors,0
+2024-01-27 20:54:39,access control',11
+2024-01-27 19:38:00,kernelspecs,12
+2024-01-27 18:52:36,default kernel,41
+2024-01-27 16:52:26,ssl,3
+2024-01-26 20:01:58,kubernetes,17
+2024-01-26 20:01:52,kubernetest,0
+2024-01-26 02:57:40,kernelspecspvc,0
+2024-01-25 04:03:43,not nudging busy,6
+2024-01-25 04:03:29,nudge: not nudging busy,6
+2024-01-25 04:03:17,nudge: not nudging busy kernel,14
+2024-01-25 03:49:12,imagepullpolicy,1
+2024-01-25 03:48:10,pull,2
+2024-01-24 08:30:07,authentication,6
+2024-01-24 08:28:24,password,7
+2024-01-24 08:27:28,remote kernel,39
+2024-01-24 08:27:19,remote kernal,21
+2024-01-24 05:26:48,kernel image puller,39
+2024-01-24 04:02:05,image puller,8
+2024-01-23 12:04:19,availability,8
+2024-01-20 06:18:43,vscode,0
+2024-01-18 17:15:32,nfs,1
+2024-01-18 17:12:29,kubernetes,17
+2024-01-17 23:00:10,kernel_cpu_limit,0
+2024-01-15 15:20:08,eager,2
+2024-01-15 06:15:46,auth,3
+2024-01-13 14:11:43,kernel image puller,39
+2024-01-12 16:38:55,imagepullsecret,0
+2024-01-12 16:00:15,password,7
+2024-01-11 17:09:26,environment,26
+2024-01-11 13:01:15,kernelspecspvc,0
+2024-01-11 13:00:52,kernelspecspvc,0
+2024-01-11 05:19:53,gpu,3
+2024-01-11 01:41:19,nvidia,1
+2024-01-10 15:32:30,private registry,3
+2024-01-10 13:46:43,helm,1
+2024-01-10 05:55:22,allowedkernels,1
+2024-01-10 04:32:25,custom,6
+2024-01-10 04:29:36,kernel,39
+2024-01-08 05:13:55,zeromq,3
+2024-01-05 10:38:50,gpu,3
+2024-01-05 09:37:36,spark,18
+2024-01-04 17:11:40,metrics,0
+2024-01-03 01:14:48,set ssl,26
+2024-01-02 13:05:07,c.notebookapp.allow_credentials,0
+2024-01-02 08:43:38,kernels,34
+2024-01-02 05:30:08,custom,6
+2023-12-29 11:47:51,cp -r,48
+2023-12-29 00:29:40,maximum,5
+2023-12-29 00:23:31,cp -r,48
+2023-12-29 00:23:27,cp-r,8
+2023-12-28 13:26:26,waitingforsparksessiontobeinitialized,0
+2023-12-28 13:22:52,cd -,2
+2023-12-28 13:21:47,eager,2
+2023-12-28 13:12:27,sparkcontext,1
+2023-12-28 09:13:07,idle,4
+2023-12-28 08:14:15,configmap,1
+2023-12-28 08:14:05,config map,12
+2023-12-28 08:13:51,config,12
+2023-12-28 00:11:15,idle,4
+2023-12-27 23:05:27,tenant,1
+2023-12-27 15:31:36,"the kernel for shared/eng/untitiled1.ipynb appers to have died, it will restart automatically",46
+2023-12-27 05:56:27,gatewayclient.connect_timeout,2
