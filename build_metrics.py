@@ -1,8 +1,11 @@
 """Read and merge subproject metrics CSVs and build metrics outputs"""
 
 
+import argparse
 import csv
+import datetime
 import json
+import logging
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import os
@@ -22,46 +25,46 @@ from doc_metrics import csv_to_rows_of_strings, RowColumnView, Metrics
 
 DATA_DIR = 'subproject_csvs'
 OUTPUT_DIR = 'metrics_output'
+LOGFILE = 'metrics_build.log'
+logger = logging.getLogger('BldMetrics.py')
+logger.setLevel(logging.DEBUG)
+formatter = logging.Formatter('%(message)s')
+console_output_handler = logging.StreamHandler()
+console_output_handler.setFormatter(formatter)
+logfile_handler = logging.FileHandler(
+    filename=LOGFILE,
+    encoding='utf8',
+    mode='w',
+)
+logfile_handler.setFormatter(formatter)
+logger.addHandler(console_output_handler)
+logger.addHandler(logfile_handler)
 
 
 def build_metrics():
-    print("[BldMetrics] **** Begin metrics build ****")
+    logger.info('[BldMetrics] **** Begin metrics build ****')
+    logger.info(f'[BldMetrics] Started at {datetime.datetime.now().isoformat()}')
 
     # Hold/build compiled info about every project here
     all_project_metadata = {}
-    log_data = {  # Holds metadata and errors about the build process
-        'metadata': [],
-        'errors': [],
-        # ^Each list item looks like:
-        # {'tag': 'DESCRIPTIVE_TAG', 'data': whatever_you_want, 'extra_key': some_value}
-        # {'tag': 'BAD_FILE_OPEN', 'data': formatted_traceback_text}
-        # {'tag': 'successful_files', 'data': list_of_files}
-    }
-    files_success = []
-    files_errors = []
-    files_skipped = []
-    log_data['metadata'].append({'tag': 'files_success', 'data': files_success})
-    log_data['metadata'].append({'tag': 'files_errors', 'data': files_errors})
-    log_data['metadata'].append({'tag': 'files_skipped', 'data': files_skipped})
     if os.path.exists(OUTPUT_DIR):
         try:
             shutil.rmtree(OUTPUT_DIR)
             os.makedirs(OUTPUT_DIR, exist_ok=True)
-            print(f'[BldMetrics] Old outputs removed successfully')
+            logger.info(f'[BldMetrics] Old outputs removed successfully')
         except Exception as err:
-            # tb = traceback.format_exc()
-            # log_data['errors'].append({'tag': 'Error removing output dir...', 'data': tb})
+            tb = traceback.format_exc()
+            logger.error('[BldMetrics][traceback] ' + tb)
             raise Exception('Error removing old output files') from err
 
     # Start looking for subproject folders in the data dir
     for proj_path in os.listdir(DATA_DIR):
         proj_dir = os.path.join(os.path.abspath(DATA_DIR), proj_path)
-        print(f'\n[BldMetrics] Checking item in data path: {proj_path}')
+        logger.info(f'\n[BldMetrics] Checking item in data path: {proj_path}')
 
         # CSV files should only be inside a subproj folder
         if not os.path.isdir(proj_dir):
-            files_skipped.append(proj_dir)
-            print(f'[BldMetrics]   Skipped orphan file in project folder: {proj_dir}')
+            logger.warning(f'[BldMetrics]   Skipped orphan file in project folder: {proj_dir}')
             continue
 
         # Compile project metadata here
@@ -80,7 +83,7 @@ def build_metrics():
         all_project_metadata[proj_path] = proj_metadata
 
         # Traverse all subdirs and grab any CSVs
-        print('[BldMetrics]   Searching...')
+        logger.info('[BldMetrics]   Searching...')
         proj_traffic_csvs = []
         proj_search_csvs = []
         proj_metadata['traffic_inputs'] = proj_traffic_csvs
@@ -89,92 +92,80 @@ def build_metrics():
             for target in filenames:
                 tgt_path = os.path.join(dirpath, target)
                 if not target.lower().endswith('.csv'):
-                    print(f'[BldMetrics]     Skip file: {os.path.relpath(os.path.join(dirpath, target), DATA_DIR)}')
-                    files_skipped.append(tgt_path)
+                    logger.warning(f'[BldMetrics]     Skip file: {os.path.relpath(os.path.join(dirpath, target), DATA_DIR)}')
                     continue
 
                 # Load the CSV and check if it's valid
                 try:
-                    print(f'[BldMetrics]     Load CSV: {os.path.relpath(os.path.join(dirpath, tgt_path), DATA_DIR)}')
+                    logger.info(f'[BldMetrics]     Load CSV: {os.path.relpath(os.path.join(dirpath, tgt_path), DATA_DIR)}')
                     met = Metrics.build(path=tgt_path)
                     if not (met.is_traffic() or met.is_search()):
-                        err_info = {'tag': 'BAD_CSV_FORMAT', 'data': tgt_path}
-                        log_data['errors'].append(err_info)
-                        files_errors.append(tgt_path)
-                        print(f'[BldMetrics]       Bad CSV format')
+                        logger.error(f'[BldMetrics]       Bad CSV format: {tgt_path}')
 
                         continue
                     if met.is_empty():
-                        err_info = {'tag': 'NO_DATA_ROWS', 'data': tgt_path}
-                        log_data['errors'].append(err_info)
-                        files_errors.append(tgt_path)
-                        print(f'[BldMetrics]       Bad CSV: Empty data rows!')
+                        logger.error(f'[BldMetrics]       Bad CSV (Empty data rows): {tgt_path}')
 
                         continue
 
                     # Add the path to the right target path list
                     if met.is_traffic():
                         proj_traffic_csvs.append(tgt_path)
-                        print(f'[BldMetrics]       Traffic data found')
+                        logger.info(f'[BldMetrics]       Traffic data found')
                     if met.is_search():
                         proj_search_csvs.append(tgt_path)
-                        print(f'[BldMetrics]       Search data found')
-                    files_success.append(tgt_path)
+                        logger.info(f'[BldMetrics]       Search data found')
 
                 except Exception as err:
                     tb = traceback.format_exc()
-                    err_info = {'tag': 'ERROR_READING_FILE', 'data': tgt_path, 'traceback': tb}
-                    log_data['errors'].append(err_info)
-                    files_errors.append(tgt_path)
-                    print(f'[BldMetrics]       Error during file read')
+                    logger.error('[BldMetrics][traceback] ' + tb)
+                    logger.error(f'[BldMetrics]       Error during file read: {tgt_path}')
 
                     continue
 
         if not (proj_traffic_csvs or proj_search_csvs):
-            print('[BldMetrics]   Warning: No valid metrics were found for this project...')
+            logger.warning('[BldMetrics]   Warning: No valid metrics were found for this project...')
             continue
 
         # Merge/compile metrics by type
-        print('[BldMetrics]   Begin metrics merge...')
+        logger.info('[BldMetrics]   Begin metrics merge...')
         try:
             # Build aggregated traffic data
             if proj_traffic_csvs:
                 traffic_metrics = Metrics.build(path=proj_traffic_csvs)
                 proj_metadata['traffic_data'] = traffic_metrics
-                print('[BldMetrics]     ...merged traffic CSVs')
+                logger.info('[BldMetrics]     ...merged traffic CSVs')
             else:
-                print(f'[BldMetrics]     Warning: no traffic metrics!')
+                logger.warning(f'[BldMetrics]     Warning: no traffic metrics!')
         except Exception as err:
             tb = traceback.format_exc()
-            err_info = {'tag': 'ERROR_MERGING_PROJ_TRAFFIC_CSVS', 'data': proj_dir, 'traceback': tb}
-            log_data['errors'].append(err_info)
-            print(f'[BldMetrics]     Error merging/building traffic CSVs!')
+            logger.error('[BldMetrics][traceback] ' + tb)
+            logger.error(f'[BldMetrics]     Error merging/building traffic CSVs: {proj_dir}')
         try:
             # Build aggregated search data
             if proj_search_csvs:
                 search_metrics = Metrics.build(path=proj_search_csvs)
                 proj_metadata['search_data'] = search_metrics
-                print('[BldMetrics]     ...merged search CSVs')
+                logger.info('[BldMetrics]     ...merged search CSVs')
             else:
-                print(f'[BldMetrics]     Warning: no search metrics!')
+                logger.warning(f'[BldMetrics]     Warning: no search metrics!')
         except Exception as err:
             tb = traceback.format_exc()
-            err_info = {'tag': 'ERROR_MERGING_PROJ_SEARCH_CSVS', 'data': proj_dir, 'traceback': tb}
-            log_data['errors'].append(err_info)
-            print(f'[BldMetrics]     Error merging/building search CSVs!')
+            logger.error('[BldMetrics][traceback] ' + tb)
+            logger.error(f'[BldMetrics]     Error merging/building search CSVs: {proj_dir}')
 
     # Build outputs/reporting for each subproject
-    print('\n[BldMetrics] ---- Begin output generation ----')
+    logger.error('\n[BldMetrics] ---- Begin output generation ----')
     for proj_name, proj_metadata in all_project_metadata.items():
         traffic_metrics = proj_metadata['traffic_data']
         search_metrics = proj_metadata['search_data']
         if traffic_metrics is None and search_metrics is None:
-            print(f'[BldMetrics] Skipping outputs for project without valid data: {proj_name}')
+            logger.warning(f'[BldMetrics] Skipping outputs for project without valid data: {proj_name}')
             continue
 
         # Ensure destination/output dirs exist before writing outputs to disk
         try:
-            print(f'[BldMetrics] Making output folder for: {os.path.basename(proj_name)}')
+            logger.info(f'[BldMetrics] Making output folder for: {os.path.basename(proj_name)}')
             proj_output_dir = os.path.join(OUTPUT_DIR, os.path.basename(proj_name))
             os.makedirs(proj_output_dir, exist_ok=True)
         except Exception:
@@ -187,7 +178,7 @@ def build_metrics():
             try:
 
                 # Write merged CSV data for users to tinker with if desired
-                print(f'[BldMetrics]   Write merged traffic csv file')
+                logger.info(f'[BldMetrics]   Write merged traffic csv file')
                 merged_csv_path = os.path.join(
                     proj_output_dir,
                     re.sub(r'[^A-Za-z0-9]', '_', os.path.basename(proj_name)) + '_traffic.csv'
@@ -216,16 +207,15 @@ def build_metrics():
 
             except Exception as err:
                 tb = traceback.format_exc()
-                err_info = {'tag': 'ERROR_WRITING_TRAFFIC_OUTPUT', 'data': proj_name, 'traceback': tb}
-                log_data['errors'].append(err_info)
-                print(f'[BldMetrics]   Error writing traffic outputs!')
+                logger.error('[BldMetrics][traceback] ' + tb)
+                logger.error(f'[BldMetrics]   Error writing traffic outputs for: {proj_name}')
 
         # Build outputs for search data
         if search_metrics:
             try:
 
                 # Write merged CSV data for users to tinker with if desired
-                print(f'[BldMetrics]   Write merged search csv file')
+                logger.info(f'[BldMetrics]   Write merged search csv file')
                 merged_csv_path = os.path.join(
                     proj_output_dir,
                     re.sub(r'[^A-Za-z0-9]', '_', os.path.basename(proj_name)) + '_search.csv'
@@ -252,9 +242,8 @@ def build_metrics():
 
             except Exception as err:
                 tb = traceback.format_exc()
-                err_info = {'tag': 'ERROR_WRITING_SEARCH_OUTPUT', 'data': proj_name, 'traceback': tb}
-                log_data['errors'].append(err_info)
-                print(f'[BldMetrics]   Error writing search outputs!')
+                logger.error('[BldMetrics][traceback] ' + tb)
+                logger.error(f'[BldMetrics]   Error writing search outputs for: {proj_name}')
 
     # Build the summary page, with a section for each subproject found in the DATA_DIR
     # (Mako consumes the homepage HTML template file and adds entries per subproject)
@@ -273,9 +262,15 @@ def build_metrics():
     with open(r'index.html', 'w', encoding='utf8') as fhandle:
         fhandle.write(output_page)
 
-    with open(os.path.join(OUTPUT_DIR, 'metrics_build.log'), 'wb') as fhandle:
-        fhandle.write(json.dumps(log_data).encode('utf8'))
-
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(
+        description='Metrics builder for Jupyter ReadTheDocs site stats.'
+    )
+    parser.add_argument(
+        '--strict',
+        help='Force failues on invalid data'
+    )
+    args = parser.parse_args()
+
     build_metrics()
