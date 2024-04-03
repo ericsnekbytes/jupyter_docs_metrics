@@ -65,9 +65,14 @@ class RowColumnView:
     """
 
     def __init__(self, rows_of_strings):
-        if len(rows_of_strings) < 2:
-            raise Exception('Empty CSV!')
-        self._rows = rows_of_strings[1:]
+        if len(rows_of_strings) == 0:
+            raise Exception('Empty CSV with no headers!')
+
+        if len(rows_of_strings) == 1:
+            # Has headers but no data (empty data rows)
+            self._rows = []
+        else:
+            self._rows = rows_of_strings[1:]
         self._headers = rows_of_strings[0]
 
     def __getitem__(self, item):
@@ -92,6 +97,9 @@ class RowColumnView:
 
     def __iter__(self):
         return (list(row) for row in self._rows)
+
+    def is_empty(self):
+        return len(self._rows) == 0
 
     def headers(self):
         return list(self._headers)

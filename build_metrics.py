@@ -22,14 +22,6 @@ from doc_metrics import csv_to_rows_of_strings, RowColumnView, Metrics
 
 DATA_DIR = 'subproject_csvs'
 OUTPUT_DIR = 'metrics_output'
-# WEB_INFO = SimpleNamespace(
-#     WEB='WEB',
-#     traffic_csv_link='traffic_csv_link',
-#     search_csv_link='search_csv_link',
-#     notebook_link='notebook_link',
-#     popular_pages_link='popular_pages_link',
-#     popular_queries_link='popular_queries_link',
-# )
 
 
 def build_metrics():
@@ -110,6 +102,13 @@ def build_metrics():
                         log_data['errors'].append(err_info)
                         files_errors.append(tgt_path)
                         print(f'[BldMetrics]       Bad CSV format')
+
+                        continue
+                    if met.is_empty():
+                        err_info = {'tag': 'NO_DATA_ROWS', 'data': tgt_path}
+                        log_data['errors'].append(err_info)
+                        files_errors.append(tgt_path)
+                        print(f'[BldMetrics]       Bad CSV: Empty data rows!')
 
                         continue
 
@@ -204,7 +203,7 @@ def build_metrics():
                 plot1_path = os.path.join(proj_output_dir, 'popular_pages.html')
                 proj_metadata['plot1_path'] = os.path.join('.', plot1_path)
 
-                most_pop = traffic_metrics.most_popular_pages(25)
+                most_pop = sorted(traffic_metrics.most_popular_pages(25), key=lambda item: item[1])
                 # views = traffic_metrics.total_views()
                 # pop_versions = traffic_metrics.most_popular_versions(25)
 
@@ -242,7 +241,7 @@ def build_metrics():
                 plot2_path = os.path.join( proj_output_dir, 'popular_queries.html')
                 proj_metadata['plot2_path'] = os.path.join('.', plot2_path)
 
-                most_pop = search_metrics.most_popular_queries(25)
+                most_pop = sorted(search_metrics.most_popular_queries(25), key=lambda item: item[1])
 
                 # Build/write the plot to the project output folder
                 p = figure(y_range=[i[0] for i in most_pop], title="Popular Queries", x_axis_label='Views', y_axis_label='Page')
