@@ -26,19 +26,81 @@ from doc_metrics import csv_to_rows_of_strings, RowColumnView, Metrics
 DATA_DIR = 'subproject_csvs'
 OUTPUT_DIR = 'metrics_output'
 LOGFILE = 'metrics_build.log'
-logger = logging.getLogger('BldMetrics.py')
-logger.setLevel(logging.DEBUG)
-formatter = logging.Formatter('%(message)s')
-console_output_handler = logging.StreamHandler()
-console_output_handler.setFormatter(formatter)
-logfile_handler = logging.FileHandler(
-    filename=LOGFILE,
-    encoding='utf8',
-    mode='w',
-)
-logfile_handler.setFormatter(formatter)
-logger.addHandler(console_output_handler)
-logger.addHandler(logfile_handler)
+logger = logging.getLogger(__name__)
+
+
+def write_traffic_outputs(proj_name, proj_output_dir, proj_metadata, traffic_metrics):
+    """Take subproject traffic data and write output files"""
+    try:
+
+        # Write merged CSV data for users to tinker with if desired
+        logger.info(f'[BldMetrics]   Write merged traffic csv file')
+        merged_csv_path = os.path.join(
+            proj_output_dir,
+            re.sub(r'[^A-Za-z0-9]', '_', os.path.basename(proj_name)) + '_traffic.csv'
+        )
+        with open(merged_csv_path, 'w', encoding='utf8', newline='') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(traffic_metrics.headers())
+            for row in traffic_metrics:
+                writer.writerow(row)
+        proj_metadata['merged_traffic_csv_path'] = os.path.join('.', merged_csv_path)
+
+        # Write interactive HTML plots
+        plot1_path = os.path.join(proj_output_dir, 'popular_pages.html')
+        proj_metadata['plot1_path'] = os.path.join('.', plot1_path)
+
+        most_pop = sorted(traffic_metrics.most_popular_pages(25), key=lambda item: item[1])
+        # views = traffic_metrics.total_views()
+        # pop_versions = traffic_metrics.most_popular_versions(25)
+
+        # Build/write the plot to the project output folder
+        p = figure(y_range=[i[0] for i in most_pop], title="Popular Pages", x_axis_label='Views', y_axis_label='Page')
+        p.hbar(y=[i[0] for i in most_pop], right=[i[1] for i in most_pop])
+
+        output_file(filename=plot1_path, title="Static HTML file")
+        save(p)
+
+    except Exception as err:
+        tb = traceback.format_exc()
+        logger.error('[BldMetrics][traceback] ' + tb)
+        logger.error(f'[BldMetrics]   Error writing traffic outputs for: {proj_name}')
+
+
+def write_search_outputs(proj_name, proj_output_dir, proj_metadata, search_metrics):
+    """Take subproject search data and write output files"""
+    try:
+
+        # Write merged CSV data for users to tinker with if desired
+        logger.info(f'[BldMetrics]   Write merged search csv file')
+        merged_csv_path = os.path.join(
+            proj_output_dir,
+            re.sub(r'[^A-Za-z0-9]', '_', os.path.basename(proj_name)) + '_search.csv'
+        )
+        with open(merged_csv_path, 'w', encoding='utf8', newline='') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(search_metrics.headers())
+            for row in search_metrics:
+                writer.writerow(row)
+        proj_metadata['merged_search_csv_path'] = os.path.join('.', merged_csv_path)
+
+        # Write interactive HTML plots
+        plot2_path = os.path.join(proj_output_dir, 'popular_queries.html')
+        proj_metadata['plot2_path'] = os.path.join('.', plot2_path)
+
+        most_pop = sorted(search_metrics.most_popular_queries(25), key=lambda item: item[1])
+
+        # Build/write the plot to the project output folder
+        p = figure(y_range=[i[0] for i in most_pop], title="Popular Queries", x_axis_label='Views', y_axis_label='Page')
+        p.hbar(y=[i[0] for i in most_pop], right=[i[1] for i in most_pop])
+
+        output_file(filename=plot2_path, title="Static HTML file")
+        save(p)
+
+    except Exception as err:
+        tb = traceback.format_exc()
+        logger.error('[BldMetrics][traceback] ' + tb)
+        logger.error(f'[BldMetrics]   Error writing search outputs for: {proj_name}')
 
 
 def build_metrics():
@@ -175,75 +237,11 @@ def build_metrics():
 
         # Build outputs for traffic data
         if traffic_metrics:
-            try:
-
-                # Write merged CSV data for users to tinker with if desired
-                logger.info(f'[BldMetrics]   Write merged traffic csv file')
-                merged_csv_path = os.path.join(
-                    proj_output_dir,
-                    re.sub(r'[^A-Za-z0-9]', '_', os.path.basename(proj_name)) + '_traffic.csv'
-                )
-                with open(merged_csv_path, 'w', encoding='utf8', newline='') as csvfile:
-                    writer = csv.writer(csvfile)
-                    writer.writerow(traffic_metrics.headers())
-                    for row in traffic_metrics:
-                        writer.writerow(row)
-                proj_metadata['merged_traffic_csv_path'] = os.path.join('.', merged_csv_path)
-
-                # Write interactive HTML plots
-                plot1_path = os.path.join(proj_output_dir, 'popular_pages.html')
-                proj_metadata['plot1_path'] = os.path.join('.', plot1_path)
-
-                most_pop = sorted(traffic_metrics.most_popular_pages(25), key=lambda item: item[1])
-                # views = traffic_metrics.total_views()
-                # pop_versions = traffic_metrics.most_popular_versions(25)
-
-                # Build/write the plot to the project output folder
-                p = figure(y_range=[i[0] for i in most_pop], title="Popular Pages", x_axis_label='Views', y_axis_label='Page')
-                p.hbar(y=[i[0] for i in most_pop], right=[i[1] for i in most_pop])
-
-                output_file(filename=plot1_path, title="Static HTML file")
-                save(p)
-
-            except Exception as err:
-                tb = traceback.format_exc()
-                logger.error('[BldMetrics][traceback] ' + tb)
-                logger.error(f'[BldMetrics]   Error writing traffic outputs for: {proj_name}')
+            write_traffic_outputs(proj_name, proj_output_dir, proj_metadata, traffic_metrics)
 
         # Build outputs for search data
         if search_metrics:
-            try:
-
-                # Write merged CSV data for users to tinker with if desired
-                logger.info(f'[BldMetrics]   Write merged search csv file')
-                merged_csv_path = os.path.join(
-                    proj_output_dir,
-                    re.sub(r'[^A-Za-z0-9]', '_', os.path.basename(proj_name)) + '_search.csv'
-                )
-                with open(merged_csv_path, 'w', encoding='utf8', newline='') as csvfile:
-                    writer = csv.writer(csvfile)
-                    writer.writerow(search_metrics.headers())
-                    for row in search_metrics:
-                        writer.writerow(row)
-                proj_metadata['merged_search_csv_path'] = os.path.join('.', merged_csv_path)
-
-                # Write interactive HTML plots
-                plot2_path = os.path.join( proj_output_dir, 'popular_queries.html')
-                proj_metadata['plot2_path'] = os.path.join('.', plot2_path)
-
-                most_pop = sorted(search_metrics.most_popular_queries(25), key=lambda item: item[1])
-
-                # Build/write the plot to the project output folder
-                p = figure(y_range=[i[0] for i in most_pop], title="Popular Queries", x_axis_label='Views', y_axis_label='Page')
-                p.hbar(y=[i[0] for i in most_pop], right=[i[1] for i in most_pop])
-
-                output_file(filename=plot2_path, title="Static HTML file")
-                save(p)
-
-            except Exception as err:
-                tb = traceback.format_exc()
-                logger.error('[BldMetrics][traceback] ' + tb)
-                logger.error(f'[BldMetrics]   Error writing search outputs for: {proj_name}')
+            write_search_outputs(proj_name, proj_output_dir, proj_metadata, search_metrics)
 
     # Build the summary page, with a section for each subproject found in the DATA_DIR
     # (Mako consumes the homepage HTML template file and adds entries per subproject)
@@ -264,6 +262,7 @@ def build_metrics():
 
 
 if __name__ == '__main__':
+    # TODO Gather CLI options
     parser = argparse.ArgumentParser(
         description='Metrics builder for Jupyter ReadTheDocs site stats.'
     )
@@ -273,4 +272,17 @@ if __name__ == '__main__':
     )
     args = parser.parse_args()
 
+    # Set up logs
+    logger.setLevel(logging.DEBUG)
+    # formatter = logging.Formatter('%(message)s')
+    console_output_handler = logging.StreamHandler()
+    logfile_handler = logging.FileHandler(
+        filename=LOGFILE,
+        encoding='utf8',
+        mode='w',
+    )
+    logger.addHandler(console_output_handler)
+    logger.addHandler(logfile_handler)
+
+    # Start the build process
     build_metrics()
