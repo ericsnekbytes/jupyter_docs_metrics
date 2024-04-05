@@ -71,8 +71,8 @@ def write_traffic_outputs(proj_name, proj_output_dir, proj_metadata, traffic_met
 
     except Exception as err:
         tb = traceback.format_exc()
-        logger.error('[BldMetrics][traceback] ' + tb)
-        logger.error(f'[BldMetrics]   Error writing traffic outputs for: {proj_name}')
+        logger.error('[BldMetrics]   [E] Exception occurred, details:\n' + tb)
+        logger.error(f'[BldMetrics]   [E] Error writing traffic outputs for: {proj_name}')
 
 
 def write_search_outputs(proj_name, proj_output_dir, proj_metadata, search_metrics):
@@ -116,8 +116,8 @@ def write_search_outputs(proj_name, proj_output_dir, proj_metadata, search_metri
 
     except Exception as err:
         tb = traceback.format_exc()
-        logger.error('[BldMetrics][traceback] ' + tb)
-        logger.error(f'[BldMetrics]   Error writing search outputs for: {proj_name}')
+        logger.error('[BldMetrics]   [E] Exception occurred, details:\n' + tb)
+        logger.error(f'[BldMetrics]   [E] Error writing search outputs for: {proj_name}')
 
 
 def build_metrics():
@@ -133,8 +133,8 @@ def build_metrics():
             logger.info(f'[BldMetrics] Old outputs removed successfully')
         except Exception as err:
             tb = traceback.format_exc()
-            logger.error('[BldMetrics][traceback] ' + tb)
-            raise Exception('Error removing old output files') from err
+            logger.error('[BldMetrics]   [E] Exception occurred, details:\n' + tb)
+            raise Exception('[E] Error removing old output files') from err
 
     # Start looking for subproject folders in the data dir
     for proj_path in os.listdir(DATA_DIR):
@@ -181,15 +181,15 @@ def build_metrics():
                     logger.info(f'[BldMetrics]     Load CSV: {os.path.relpath(os.path.join(dirpath, tgt_path), DATA_DIR)}')
                     met = Metrics.build(path=tgt_path)
                     if not (met.is_traffic() or met.is_search()):
-                        logger.error(f'[BldMetrics]       Bad CSV format: {tgt_path}')
+                        logger.error(f'[BldMetrics]       [E] Bad CSV format: {tgt_path}')
 
                         continue
                     if met.is_empty():
                         if met.is_traffic():
-                            logger.error(f'[BldMetrics]       Bad traffic CSV (Empty data rows): {tgt_path}')
+                            logger.error(f'[BldMetrics]       [E] Bad traffic CSV (Empty data rows): {tgt_path}')
                             proj_metadata['traffic_empty'] = True
                         if met.is_search():
-                            logger.error(f'[BldMetrics]       Bad search CSV (Empty data rows): {tgt_path}')
+                            logger.error(f'[BldMetrics]       [E] Bad search CSV (Empty data rows): {tgt_path}')
                             proj_metadata['search_empty'] = True
 
                         continue
@@ -204,8 +204,8 @@ def build_metrics():
 
                 except Exception as err:
                     tb = traceback.format_exc()
-                    logger.error('[BldMetrics][traceback] ' + tb)
-                    logger.error(f'[BldMetrics]       Error during file read: {tgt_path}')
+                    logger.error('[BldMetrics]   [E] Exception occurred, details:\n' + tb)
+                    logger.error(f'[BldMetrics]       [E] Error during file read: {tgt_path}')
 
                     continue
 
@@ -225,8 +225,8 @@ def build_metrics():
                 logger.warning(f'[BldMetrics]     Warning: no traffic metrics!')
         except Exception as err:
             tb = traceback.format_exc()
-            logger.error('[BldMetrics][traceback] ' + tb)
-            logger.error(f'[BldMetrics]     Error merging/building traffic CSVs: {proj_dir}')
+            logger.error('[BldMetrics]   [E] Exception occurred, details:\n' + tb)
+            logger.error(f'[BldMetrics]     [E] Error merging/building traffic CSVs: {proj_dir}')
         try:
             # Build aggregated search data
             if proj_search_csvs:
@@ -237,8 +237,8 @@ def build_metrics():
                 logger.warning(f'[BldMetrics]     Warning: no search metrics!')
         except Exception as err:
             tb = traceback.format_exc()
-            logger.error('[BldMetrics][traceback] ' + tb)
-            logger.error(f'[BldMetrics]     Error merging/building search CSVs: {proj_dir}')
+            logger.error('[BldMetrics]   [E] Exception occurred, details:\n' + tb)
+            logger.error(f'[BldMetrics]     [E] Error merging/building search CSVs: {proj_dir}')
 
     # Build outputs/reporting for each subproject
     logger.error('\n[BldMetrics] ---- Begin output generation ----')
