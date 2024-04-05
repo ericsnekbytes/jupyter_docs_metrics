@@ -120,6 +120,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #888;
 }
 
 .btn_disabled {

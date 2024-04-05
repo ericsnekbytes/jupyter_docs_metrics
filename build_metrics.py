@@ -63,7 +63,7 @@ def write_traffic_outputs(proj_name, proj_output_dir, proj_metadata, traffic_met
         proj_metadata['plot1_path'] = os.path.join('.', plot1_path)
 
         # Build/write the plot to the project output folder
-        p = figure(y_range=[i[0] for i in most_pop], title="Popular Pages", x_axis_label='Avg. Views per Week', y_axis_label='Page')
+        p = figure(y_range=[i[0] for i in most_pop], title="Popular Pages", x_axis_label='Avg. Views per Week', y_axis_label='Page', width=625, height=400)
         p.hbar(y=vals_independent, right=vals_dependent)
 
         output_file(filename=plot1_path, title="Static HTML file")
@@ -108,7 +108,7 @@ def write_search_outputs(proj_name, proj_output_dir, proj_metadata, search_metri
         proj_metadata['plot2_path'] = os.path.join('.', plot2_path)
 
         # Build/write the plot to the project output folder
-        p = figure(y_range=[i[0] for i in most_pop], title="Popular Searches", x_axis_label='Searches per Week', y_axis_label='Page')
+        p = figure(y_range=[i[0] for i in most_pop], title="Popular Searches", x_axis_label='Searches per Week', y_axis_label='Page', width=625, height=400)
         p.hbar(y=vals_independent, right=vals_dependent)
 
         output_file(filename=plot2_path, title="Static HTML file")
