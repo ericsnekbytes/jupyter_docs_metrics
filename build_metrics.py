@@ -6,8 +6,6 @@ import csv
 import datetime
 import json
 import logging
-import matplotlib as mpl
-import matplotlib.pyplot as plt
 import os
 import re
 import shutil
@@ -46,17 +44,27 @@ def write_traffic_outputs(proj_name, proj_output_dir, proj_metadata, traffic_met
                 writer.writerow(row)
         proj_metadata['merged_traffic_csv_path'] = os.path.join('.', merged_csv_path)
 
+        # Compile some data/info from the metrics
+        dates = sorted([
+            datetime.datetime.strptime(d, '%Y-%m-%d %X')
+            for d in traffic_metrics[Metrics.THDRS.DATE]
+        ])
+        unique_dates = sorted(list(set(dates)))
+        DAYS_IN_WEEK = 7
+        most_pop = sorted(traffic_metrics.most_popular_pages(25), key=lambda item: item[1])
+        vals_independent = [i[0] for i in most_pop]
+        vals_dependent = [i[1] / len(unique_dates) * DAYS_IN_WEEK for i in most_pop]
+
+        # views = traffic_metrics.total_views()
+        # pop_versions = traffic_metrics.most_popular_versions(25)
+
         # Write interactive HTML plots
         plot1_path = os.path.join(proj_output_dir, 'popular_pages.html')
         proj_metadata['plot1_path'] = os.path.join('.', plot1_path)
 
-        most_pop = sorted(traffic_metrics.most_popular_pages(25), key=lambda item: item[1])
-        # views = traffic_metrics.total_views()
-        # pop_versions = traffic_metrics.most_popular_versions(25)
-
         # Build/write the plot to the project output folder
-        p = figure(y_range=[i[0] for i in most_pop], title="Popular Pages", x_axis_label='Views', y_axis_label='Page')
-        p.hbar(y=[i[0] for i in most_pop], right=[i[1] for i in most_pop])
+        p = figure(y_range=[i[0] for i in most_pop], title="Popular Pages", x_axis_label='Avg. Views per Week', y_axis_label='Page')
+        p.hbar(y=vals_independent, right=vals_dependent)
 
         output_file(filename=plot1_path, title="Static HTML file")
         save(p)
@@ -84,15 +92,24 @@ def write_search_outputs(proj_name, proj_output_dir, proj_metadata, search_metri
                 writer.writerow(row)
         proj_metadata['merged_search_csv_path'] = os.path.join('.', merged_csv_path)
 
+        # Compile some data/info from the metrics
+        dates = sorted([
+            datetime.datetime.strptime(d, '%Y-%m-%d %X')
+            for d in search_metrics[Metrics.SHDRS.CREATED_DATE]
+        ])
+        unique_dates = sorted(list(set(dates)))
+        DAYS_IN_WEEK = 7
+        most_pop = sorted(search_metrics.most_popular_queries(25), key=lambda item: item[1])
+        vals_independent = [i[0] for i in most_pop]
+        vals_dependent = [i[1] / len(unique_dates) * DAYS_IN_WEEK for i in most_pop]
+
         # Write interactive HTML plots
         plot2_path = os.path.join(proj_output_dir, 'popular_queries.html')
         proj_metadata['plot2_path'] = os.path.join('.', plot2_path)
 
-        most_pop = sorted(search_metrics.most_popular_queries(25), key=lambda item: item[1])
-
         # Build/write the plot to the project output folder
-        p = figure(y_range=[i[0] for i in most_pop], title="Popular Queries", x_axis_label='Views', y_axis_label='Page')
-        p.hbar(y=[i[0] for i in most_pop], right=[i[1] for i in most_pop])
+        p = figure(y_range=[i[0] for i in most_pop], title="Popular Searches", x_axis_label='Searches per Week', y_axis_label='Page')
+        p.hbar(y=vals_independent, right=vals_dependent)
 
         output_file(filename=plot2_path, title="Static HTML file")
         save(p)
@@ -134,10 +151,12 @@ def build_metrics():
             'traffic_data': None,
             'traffic_inputs': None,
             'merged_traffic_csv_path': None,
+            'traffic_empty': False,
 
             'search_data': None,
             'search_inputs': None,
             'merged_search_csv_path': None,
+            'search_empty': False,
 
             'plot1_path': None,
             'plot2_path': None,
@@ -166,7 +185,12 @@ def build_metrics():
 
                         continue
                     if met.is_empty():
-                        logger.error(f'[BldMetrics]       Bad CSV (Empty data rows): {tgt_path}')
+                        if met.is_traffic():
+                            logger.error(f'[BldMetrics]       Bad traffic CSV (Empty data rows): {tgt_path}')
+                            proj_metadata['traffic_empty'] = True
+                        if met.is_search():
+                            logger.error(f'[BldMetrics]       Bad search CSV (Empty data rows): {tgt_path}')
+                            proj_metadata['search_empty'] = True
 
                         continue
 
@@ -218,6 +242,8 @@ def build_metrics():
 
     # Build outputs/reporting for each subproject
     logger.error('\n[BldMetrics] ---- Begin output generation ----')
+    proj_order = [item for item in ['Jupyter Notebook', 'JupyterLab', 'JupyterHub', 'Jupyter Server'] if item in all_project_metadata]
+    proj_order.extend(item for item in all_project_metadata if item not in proj_order)
     for proj_name, proj_metadata in all_project_metadata.items():
         traffic_metrics = proj_metadata['traffic_data']
         search_metrics = proj_metadata['search_data']
@@ -251,8 +277,8 @@ def build_metrics():
     project_page_values = [
         SimpleNamespace(
             name=key,
-            **val
-        ) for key, val in all_project_metadata.items()
+            **all_project_metadata[key]
+        ) for key in proj_order
     ]
     output_page = metrics_page_templ.render(
         subprojects=project_page_values

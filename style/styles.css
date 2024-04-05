@@ -115,3 +115,14 @@ a {
     margin: 0 1rem 0 0;
     border: 1px solid black;
 }
+
+.empty_plot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_disabled {
+    background-color: #aaa;
+    color: #666;
+}

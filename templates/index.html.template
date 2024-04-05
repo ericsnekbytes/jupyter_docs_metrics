@@ -8,7 +8,7 @@
     <!-- Full width top of page banner -->
     <div class="page_header">
         <img class="jup_logo" src="style/rectanglelogo-greytext-orangebody-greymoons.svg" />
-        <div class="page_title">Jupyter Subproject documentation stats</div>
+        <div class="page_title">Jupyter Documentation Stats</div>
     </div>
     <div class="divider"></div>
     % for item in subprojects:
@@ -21,15 +21,31 @@
         <div class="downloads_area">
             % if item.merged_traffic_csv_path:
             <div class="download_btn"><a href="${item.merged_traffic_csv_path}" download>Get traffic CSV</a></div>
+            % else:
+            <!-- Strikethrough/disable the button if no link available -->
+            <div class="download_btn btn_disabled"><s>Get traffic CSV</s></div>
             %endif
             %if item.merged_search_csv_path:
             <div class="download_btn"><a href="${item.merged_search_csv_path}" download>Get search CSV</a></div>
+            % else:
+            <!-- Strikethrough/disable the button if no link available -->
+            <div class="download_btn btn_disabled"><s>Get search CSV</s></div>
             %endif
             <div class="download_btn"><a href="./jupyter_docs_metrics_v1.ipynb" download>Get Notebook</a></div>
         </div>
         <div class="image_container">
+            <!-- Traffic plot -->
+            % if not item.traffic_empty:
             <iframe class="plot" src="${item.plot1_path}"></iframe>
+            % else:
+            <div class="plot empty_plot">&lt;This dataset was empty (0 rows)&gt;</div>
+            % endif
+            <!-- Search plot -->
+            % if not item.search_empty:
             <iframe class="plot" src="${item.plot2_path}"></iframe>
+            % else:
+            <div class="plot empty_plot">&lt;This dataset was empty (0 rows)&gt;</div>
+            % endif
         </div>
     </div>
     <!-- <<< end Subproject layout -->
