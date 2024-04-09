@@ -127,3 +127,78 @@ a {
     background-color: #aaa;
     color: #666;
 }
+
+.tables_container {
+    width: calc(100%);
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.single_table_container {
+    width: calc(50% - .5rem);
+    min-width: 40rem;
+    background-color: blue;
+}
+
+table {
+    width: 100%;
+    margin: 0 0 0 0;
+
+    table-layout: fixed;
+    word-break: break-all;
+
+    border: 1px solid black;
+    border-spacing: 0;
+    border-collapse: collapse;
+
+    background-color: white;
+}
+
+td {
+    max-width: 75%;
+    overflow: hidden;
+
+    border: 1px solid black;
+
+    font-size: .75rem;
+}
+
+.table_frozen_upper {
+    margin: 0 0 0 0;
+    background-color: #ccc;
+}
+
+.table_headers {
+    /* border-bottom: 0; */
+    background-color: #ddd;
+}
+
+.stat_table_container {
+    margin-top: 0px;
+}
+
+.stat_table_body {
+    margin-top: 0px;
+    height: 16rem;
+    
+    max-height: 8rem;
+    overflow: scroll;
+}
+
+.left_column {
+    width: 75%;
+}
+
+.right_column {
+    width: 25%;
+}
+
+.latest_date_info {
+    display: flex;
+    align-items: stretch;
+    text-align: center;
+}

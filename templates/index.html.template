@@ -1,8 +1,9 @@
 <!doctype html>
 <head>
     <meta encoding="utf8" />
-    <title>Jupyter Docs Site Stats</title>
+    <title>Jupyter Docs Stats</title>
     <link rel="stylesheet" href="style/styles.css" />
+    <script src="./src/index.js"></script>
 </head>
 <body>
     <!-- Full width top of page banner -->
@@ -24,14 +25,17 @@
             % else:
             <!-- Strikethrough/disable the button if no link available -->
             <div class="download_btn btn_disabled"><s>Get traffic CSV</s></div>
-            %endif
-            %if item.merged_search_csv_path:
+            % endif
+            % if item.merged_search_csv_path:
             <div class="download_btn"><a href="${item.merged_search_csv_path}" download>Get search CSV</a></div>
             % else:
             <!-- Strikethrough/disable the button if no link available -->
             <div class="download_btn btn_disabled"><s>Get search CSV</s></div>
-            %endif
+            % endif
             <div class="download_btn"><a href="./jupyter_docs_metrics_v1.ipynb" download>Get Notebook</a></div>
+            % if item.latest_traffic_data_date:
+            <div class="latest_date_info"><div>${item.latest_traffic_data_date.year},${item.latest_traffic_data_date.month},${item.latest_traffic_data_date.day}</div></div>
+            % endif
         </div>
         <div class="image_container">
             <!-- Traffic plot -->
@@ -47,6 +51,87 @@
             <div class="plot empty_plot">&lt;This dataset was empty (0 rows)&gt;</div>
             % endif
         </div>
+
+        <div class="tables_container">
+
+            % if item.popular_pages:
+            <div class="single_table_container">
+
+                <!-- Start table -->
+                <table class="table_frozen_upper">
+                <thead>
+                    <tr>
+                    <th class="tabletitle" colspan="2">Popular Pages</th>
+                    </tr>
+                </thead>
+                </table>
+
+                <div class="stat_table_body">
+                    <table>
+
+                    <colgroup>
+                        <col span="1" class="left_column">
+                        <col span="1" class="right_column">
+                    </colgroup>
+
+                    <tbody>
+                        <tr class="table_headers">
+                                <td>Page</td>
+                                <td>Views</td>
+                        </tr>
+                        % for pg, cnt in item.popular_pages:
+                        <tr>
+                            <td>${pg}</td>
+                            <td>${cnt}</td>
+                        </tr>
+                        % endfor
+                    </tbody>
+                    </table>
+                </div>
+
+            </div>
+            % endif
+
+            % if item.popular_searches:
+            <!-- Start table -->
+            <div class="single_table_container">
+
+                <table class="table_frozen_upper">
+                <thead>
+                    <tr>
+                    <th class="tabletitle" colspan="2">Popular Searches</th>
+                    </tr>
+                </thead>
+                </table>
+
+                <div class="stat_table_body">
+                    <table>
+
+                    <colgroup>
+                        <col span="1" class="left_column">
+                        <col span="1" class="right_column">
+                    </colgroup>
+
+                    <tbody>
+                        <tr class="table_headers">
+                                <td>Page</td>
+                                <td>Views</td>
+                        </tr>
+                        % for srch, cnt in item.popular_searches:
+                        <tr>
+                            <td>${srch}</td>
+                            <td>${cnt}</td>
+                        </tr>
+                        % endfor
+                    </tbody>
+                    </table>
+                </div>
+                % endif
+
+                </div>
+
+        </div>
+
     </div>
     <!-- <<< end Subproject layout -->
     % endfor

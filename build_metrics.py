@@ -43,6 +43,9 @@ def write_traffic_outputs(proj_name, proj_output_dir, proj_metadata, traffic_met
             for row in traffic_metrics:
                 writer.writerow(row)
         proj_metadata['merged_traffic_csv_path'] = os.path.join('.', merged_csv_path)
+        popular_pages = traffic_metrics.most_popular_pages()
+        if popular_pages:
+            proj_metadata['popular_pages'] = popular_pages
 
         # Compile some data/info from the metrics
         dates = sorted([
@@ -50,6 +53,7 @@ def write_traffic_outputs(proj_name, proj_output_dir, proj_metadata, traffic_met
             for d in traffic_metrics[Metrics.THDRS.DATE]
         ])
         unique_dates = sorted(list(set(dates)))
+        proj_metadata['latest_traffic_data_date'] = unique_dates[-1]
         DAYS_IN_WEEK = 7
         most_pop = sorted(traffic_metrics.most_popular_pages(25), key=lambda item: item[1])
         vals_independent = [i[0] for i in most_pop]
@@ -91,6 +95,9 @@ def write_search_outputs(proj_name, proj_output_dir, proj_metadata, search_metri
             for row in search_metrics:
                 writer.writerow(row)
         proj_metadata['merged_search_csv_path'] = os.path.join('.', merged_csv_path)
+        popular_searches = search_metrics.most_popular_queries()
+        if popular_searches:
+            proj_metadata['popular_searches'] = popular_searches
 
         # Compile some data/info from the metrics
         dates = sorted([
@@ -98,6 +105,7 @@ def write_search_outputs(proj_name, proj_output_dir, proj_metadata, search_metri
             for d in search_metrics[Metrics.SHDRS.CREATED_DATE]
         ])
         unique_dates = sorted(list(set(dates)))
+        proj_metadata['latest_search_data_date'] = unique_dates[-1]
         DAYS_IN_WEEK = 7
         most_pop = sorted(search_metrics.most_popular_queries(25), key=lambda item: item[1])
         vals_independent = [i[0] for i in most_pop]
@@ -152,11 +160,15 @@ def build_metrics():
             'traffic_inputs': None,
             'merged_traffic_csv_path': None,
             'traffic_empty': False,
+            'popular_pages': None,
+            'latest_traffic_data_date': None,
 
             'search_data': None,
             'search_inputs': None,
             'merged_search_csv_path': None,
             'search_empty': False,
+            'popular_searches': None,
+            'latest_search_data_date': None,
 
             'plot1_path': None,
             'plot2_path': None,
