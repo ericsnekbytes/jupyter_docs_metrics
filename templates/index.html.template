@@ -34,7 +34,7 @@
             % endif
             <div class="download_btn"><a href="./jupyter_docs_metrics_v1.ipynb" download>Get Notebook</a></div>
             % if item.latest_traffic_data_date:
-            <div class="latest_date_info"><div>${item.latest_traffic_data_date.year},${item.latest_traffic_data_date.month},${item.latest_traffic_data_date.day}</div></div>
+            <div class="upper_extra_info_area"><div class="latest_date_info">${item.latest_traffic_data_date.year},${item.latest_traffic_data_date.month},${item.latest_traffic_data_date.day}</div></div>
             % endif
         </div>
         <div class="image_container">

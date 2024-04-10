@@ -197,8 +197,15 @@ td {
     width: 25%;
 }
 
+.upper_extra_info_area{
+    display: flex;
+    align-items: stretch;
+    text-align: center;
+}
+
 .latest_date_info {
     display: flex;
     align-items: stretch;
     text-align: center;
+    /* visibility: hidden; */
 }
