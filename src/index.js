@@ -1,14 +1,24 @@
+// Jupyter docs stats site logic
 
-function processDates() {
+function updateDataAgeDisplay() {
+    // Show live-updating data age (days since last datapoint)
     for (item of document.getElementsByClassName('latest_date_info')) {
+        let dateItems = item.dataset.ageInfo.split(',');
         
-        let raw = item.innerText.split(',');
-        console.log("WIK WIK")
-        console.log(item.innerText)
-        let elapsed = new Date() - new Date(raw[0], raw[1] - 1, raw[2]);
-        item.innerText = 'Days since last datapoint: ~' + (elapsed / (1000 * 60 * 60 * 24));
-        item.style.visibility = "visible";
+        let elapsed = new Date() - new Date(dateItems[0], dateItems[1] - 1, dateItems[2]);
+        item.innerText = 'Last Data: ' + (elapsed / (1000 * 60 * 60 * 24)).toFixed(1) + ' days ago';
     }
 }
 
-document.addEventListener('DOMContentLoaded', processDates, false);
+function run() {
+    console.log('pooges4');
+    let jupyterDocsData = {
+        // TODO add any needed items here
+    }
+    window.jupyterDocsData = jupyterDocsData;
+
+    updateDataAgeDisplay()
+    setInterval(updateDataAgeDisplay, 1000);
+}
+
+document.addEventListener('DOMContentLoaded', run, false);
