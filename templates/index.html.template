@@ -33,10 +33,33 @@
             <div class="download_btn btn_disabled"><s>Get search CSV</s></div>
             % endif
             <div class="download_btn"><a href="./jupyter_docs_metrics_v1.ipynb" download>Get Notebook</a></div>
-            % if item.latest_traffic_data_date:
-            <div class="upper_extra_info_area"><div class="latest_date_info" data-age-info="${item.latest_traffic_data_date.year},${item.latest_traffic_data_date.month},${item.latest_traffic_data_date.day}"></div></div>
-            % endif
+            <div class="download_area_extras">
+                % if item.latest_traffic_data_date or item.latest_search_data_date:
+                <div class="info_label">Last Data:</div>
+                % endif
+                % if item.latest_traffic_data_date:
+                <div class="latest_traffic_date_info" data-age-info="${item.latest_traffic_data_date.year},${item.latest_traffic_data_date.month},${item.latest_traffic_data_date.day}"></div>
+                % endif
+                % if item.latest_search_data_date:
+                <div class="latest_search_date_info" data-age-info="${item.latest_search_data_date.year},${item.latest_search_data_date.month},${item.latest_search_data_date.day}"></div>
+                % endif
+            </div>
         </div>
+
+        % if True:
+            <div class="supplementary_upper_info">
+                <div class="info_label_supplementary">Time Span (Days):</div>
+                <div class="supp_info">Traffic: ${item.traffic_data_span}</div>
+                <div class="supp_info">Search: ${item.search_data_span}</div>
+
+                <div class="info_label_supplementary spaced_info">Total Views:</div>
+                <div class="supp_info">${item.total_views}</div>
+
+                <div class="info_label_supplementary spaced_info">Total Searches:</div>
+                <div class="supp_info">${item.total_searches}</div>
+            </div>
+        % endif
+
         <div class="image_container">
             <!-- Traffic plot -->
             % if not item.traffic_empty:

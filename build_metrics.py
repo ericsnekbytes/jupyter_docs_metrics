@@ -54,6 +54,8 @@ def write_traffic_outputs(proj_name, proj_output_dir, proj_metadata, traffic_met
         ])
         unique_dates = sorted(list(set(dates)))
         proj_metadata['latest_traffic_data_date'] = unique_dates[-1]
+        proj_metadata['traffic_data_span'] = (unique_dates[-1] - unique_dates[0]).days if len(unique_dates) > 1 else 1
+        proj_metadata['total_views'] = sum(i[1] for i in popular_pages)
         DAYS_IN_WEEK = 7
         most_pop = sorted(traffic_metrics.most_popular_pages(25), key=lambda item: item[1])
         vals_independent = [i[0] for i in most_pop]
@@ -67,7 +69,7 @@ def write_traffic_outputs(proj_name, proj_output_dir, proj_metadata, traffic_met
         proj_metadata['plot1_path'] = os.path.join('.', plot1_path)
 
         # Build/write the plot to the project output folder
-        p = figure(y_range=[i[0] for i in most_pop], title="Popular Pages", x_axis_label='Avg. Views per Week', y_axis_label='Page', width=625, height=400)
+        p = figure(y_range=[i[0] for i in most_pop], title="Popular Pages (Top 25)", x_axis_label='Avg. Views per Week', y_axis_label='Page', width=625, height=400)
         p.hbar(y=vals_independent, right=vals_dependent)
 
         output_file(filename=plot1_path, title="Static HTML file")
@@ -106,6 +108,8 @@ def write_search_outputs(proj_name, proj_output_dir, proj_metadata, search_metri
         ])
         unique_dates = sorted(list(set(dates)))
         proj_metadata['latest_search_data_date'] = unique_dates[-1]
+        proj_metadata['search_data_span'] = (unique_dates[-1] - unique_dates[0]).days if len(unique_dates) > 1 else 1
+        proj_metadata['total_searches'] = sum(i[1] for i in popular_searches)
         DAYS_IN_WEEK = 7
         most_pop = sorted(search_metrics.most_popular_queries(25), key=lambda item: item[1])
         vals_independent = [i[0] for i in most_pop]
@@ -116,7 +120,7 @@ def write_search_outputs(proj_name, proj_output_dir, proj_metadata, search_metri
         proj_metadata['plot2_path'] = os.path.join('.', plot2_path)
 
         # Build/write the plot to the project output folder
-        p = figure(y_range=[i[0] for i in most_pop], title="Popular Searches", x_axis_label='Searches per Week', y_axis_label='Page', width=625, height=400)
+        p = figure(y_range=[i[0] for i in most_pop], title="Popular Searches (Top 25)", x_axis_label='Searches per Week', y_axis_label='Page', width=625, height=400)
         p.hbar(y=vals_independent, right=vals_dependent)
 
         output_file(filename=plot2_path, title="Static HTML file")
@@ -162,6 +166,8 @@ def build_metrics():
             'traffic_empty': False,
             'popular_pages': None,
             'latest_traffic_data_date': None,
+            'traffic_data_span': None,
+            'total_views': None,
 
             'search_data': None,
             'search_inputs': None,
@@ -169,6 +175,8 @@ def build_metrics():
             'search_empty': False,
             'popular_searches': None,
             'latest_search_data_date': None,
+            'search_data_span': None,
+            'total_searches': None,
 
             'plot1_path': None,
             'plot2_path': None,
