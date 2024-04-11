@@ -1,5 +1,5 @@
 [BldMetrics] **** Begin metrics build ****
-[BldMetrics] Started at 2024-04-11T10:44:51.901459
+[BldMetrics] Started at 2024-04-11T14:54:27.177483
 [BldMetrics] Old outputs removed successfully
 
 [BldMetrics] Checking item in data path: .DS_Store
@@ -113,6 +113,8 @@
 [BldMetrics]       Search data found
 [BldMetrics]     Skip file: JupyterLab/.DS_Store
 [BldMetrics]     Load CSV: JupyterLab/readthedocs_traffic_analytics_jupyterlab_2023-12-01_2024-02-29.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]     Load CSV: JupyterLab/readthedocs_traffic_analytics_jupyterlab_2024-01-12_2024-04-11.csv
 [BldMetrics]       Traffic data found
 [BldMetrics]     Load CSV: JupyterLab/readthedocs_search_analytics_jupyterlab_2023-12-06_2024-03-05.csv
 [BldMetrics]       Search data found
