@@ -144,7 +144,7 @@ a {
 .single_table_container {
     width: calc(50% - .5rem);
     min-width: 40rem;
-    background-color: blue;
+    background-color: white;
 }
 
 table {
