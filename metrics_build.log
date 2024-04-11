@@ -1,0 +1,231 @@
+[BldMetrics] **** Begin metrics build ****
+[BldMetrics] Started at 2024-04-11T10:44:51.901459
+[BldMetrics] Old outputs removed successfully
+
+[BldMetrics] Checking item in data path: .DS_Store
+[BldMetrics]   Skipped orphan file in project folder: /Users/egentry/workspace_ana/metrics/jupyter_metrics/subproject_csvs/.DS_Store
+
+[BldMetrics] Checking item in data path: nbformat
+[BldMetrics]   Searching...
+[BldMetrics]     Load CSV: nbformat/readthedocs_traffic_analytics_nbformat_2023-12-27_2024-03-26.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]     Load CSV: nbformat/readthedocs_search_analytics_nbformat_2023-12-27_2024-03-26.csv
+[BldMetrics]       Search data found
+[BldMetrics]   Begin metrics merge...
+[BldMetrics]     ...merged traffic CSVs
+[BldMetrics]     ...merged search CSVs
+
+[BldMetrics] Checking item in data path: Enterprise Gateway
+[BldMetrics]   Searching...
+[BldMetrics]     Load CSV: Enterprise Gateway/readthedocs_search_analytics_jupyter-enterprise-gateway_2023-12-27_2024-03-26.csv
+[BldMetrics]       Search data found
+[BldMetrics]     Load CSV: Enterprise Gateway/readthedocs_traffic_analytics_jupyter-enterprise-gateway_2023-12-27_2024-03-26.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]   Begin metrics merge...
+[BldMetrics]     ...merged traffic CSVs
+[BldMetrics]     ...merged search CSVs
+
+[BldMetrics] Checking item in data path: ipywidgets
+[BldMetrics]   Searching...
+[BldMetrics]     Load CSV: ipywidgets/readthedocs_search_analytics_ipywidgets_2023-12-27_2024-03-26.csv
+[BldMetrics]       Search data found
+[BldMetrics]     Load CSV: ipywidgets/readthedocs_traffic_analytics_ipywidgets_2023-12-27_2024-03-26.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]   Begin metrics merge...
+[BldMetrics]     ...merged traffic CSVs
+[BldMetrics]     ...merged search CSVs
+
+[BldMetrics] Checking item in data path: Jupyter Client
+[BldMetrics]   Searching...
+[BldMetrics]     Load CSV: Jupyter Client/readthedocs_traffic_analytics_jupyter-client_2023-12-27_2024-03-26.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]     Load CSV: Jupyter Client/readthedocs_search_analytics_jupyter-client_2023-12-27_2024-03-26.csv
+[BldMetrics]       Search data found
+[BldMetrics]   Begin metrics merge...
+[BldMetrics]     ...merged traffic CSVs
+[BldMetrics]     ...merged search CSVs
+
+[BldMetrics] Checking item in data path: Jupyter Events
+[BldMetrics]   Searching...
+[BldMetrics]     Load CSV: Jupyter Events/readthedocs_search_analytics_jupyter-events_2023-12-27_2024-03-26.csv
+[BldMetrics]       [E] Bad search CSV (Empty data rows): /Users/egentry/workspace_ana/metrics/jupyter_metrics/subproject_csvs/Jupyter Events/readthedocs_search_analytics_jupyter-events_2023-12-27_2024-03-26.csv
+[BldMetrics]     Load CSV: Jupyter Events/readthedocs_traffic_analytics_jupyter-events_2023-12-27_2024-03-26.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]   Begin metrics merge...
+[BldMetrics]     ...merged traffic CSVs
+[BldMetrics]     Warning: no search metrics!
+
+[BldMetrics] Checking item in data path: Lumino
+[BldMetrics]   Searching...
+[BldMetrics]     Load CSV: Lumino/readthedocs_search_analytics_lumino_2023-12-27_2024-03-26.csv
+[BldMetrics]       Search data found
+[BldMetrics]     Load CSV: Lumino/readthedocs_traffic_analytics_lumino_2023-12-27_2024-03-26.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]   Begin metrics merge...
+[BldMetrics]     ...merged traffic CSVs
+[BldMetrics]     ...merged search CSVs
+
+[BldMetrics] Checking item in data path: JupyterHub
+[BldMetrics]   Searching...
+[BldMetrics]     Load CSV: JupyterHub/readthedocs_search_analytics_jupyterhub_2023-12-28_2024-03-27.csv
+[BldMetrics]       Search data found
+[BldMetrics]     Load CSV: JupyterHub/readthedocs_traffic_analytics_jupyterhub_2023-12-28_2024-03-27.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]   Begin metrics merge...
+[BldMetrics]     ...merged traffic CSVs
+[BldMetrics]     ...merged search CSVs
+
+[BldMetrics] Checking item in data path: Jupyter Notebook
+[BldMetrics]   Searching...
+[BldMetrics]     Load CSV: Jupyter Notebook/readthedocs_traffic_analytics_jupyter-notebook_2023-12-27_2024-03-26.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]     Load CSV: Jupyter Notebook/readthedocs_search_analytics_jupyter-notebook_2023-12-27_2024-03-26.csv
+[BldMetrics]       Search data found
+[BldMetrics]   Begin metrics merge...
+[BldMetrics]     ...merged traffic CSVs
+[BldMetrics]     ...merged search CSVs
+
+[BldMetrics] Checking item in data path: Lab Server
+[BldMetrics]   Searching...
+[BldMetrics]     Load CSV: Lab Server/readthedocs_search_analytics_jupyterlab-server_2023-12-27_2024-03-26.csv
+[BldMetrics]       Search data found
+[BldMetrics]     Load CSV: Lab Server/readthedocs_traffic_analytics_jupyterlab-server_2023-12-27_2024-03-26.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]   Begin metrics merge...
+[BldMetrics]     ...merged traffic CSVs
+[BldMetrics]     ...merged search CSVs
+
+[BldMetrics] Checking item in data path: nbconvert
+[BldMetrics]   Searching...
+[BldMetrics]     Load CSV: nbconvert/readthedocs_traffic_analytics_nbconvert_2023-12-27_2024-03-26.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]     Load CSV: nbconvert/readthedocs_search_analytics_nbconvert_2023-12-27_2024-03-26.csv
+[BldMetrics]       Search data found
+[BldMetrics]   Begin metrics merge...
+[BldMetrics]     ...merged traffic CSVs
+[BldMetrics]     ...merged search CSVs
+
+[BldMetrics] Checking item in data path: JupyterLab
+[BldMetrics]   Searching...
+[BldMetrics]     Load CSV: JupyterLab/readthedocs_traffic_analytics_jupyterlab_2024-01-11_2024-04-10.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]     Load CSV: JupyterLab/readthedocs_search_analytics_jupyterlab_2024-01-11_2024-04-10.csv
+[BldMetrics]       Search data found
+[BldMetrics]     Skip file: JupyterLab/.DS_Store
+[BldMetrics]     Load CSV: JupyterLab/readthedocs_traffic_analytics_jupyterlab_2023-12-01_2024-02-29.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]     Load CSV: JupyterLab/readthedocs_search_analytics_jupyterlab_2023-12-06_2024-03-05.csv
+[BldMetrics]       Search data found
+[BldMetrics]     Load CSV: JupyterLab/readthedocs_traffic_analytics_jupyterlab_2023-12-06_2024-03-05.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]     Load CSV: JupyterLab/readthedocs_traffic_analytics_jupyterlab_2023-12-05_2024-03-04.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]     Load CSV: JupyterLab/readthedocs_search_analytics_jupyterlab_2023-12-05_2024-03-04.csv
+[BldMetrics]       Search data found
+[BldMetrics]     Load CSV: JupyterLab/readthedocs_search_analytics_jupyterlab_2023-10-20_2024-01-18.csv
+[BldMetrics]       Search data found
+[BldMetrics]     Load CSV: JupyterLab/readthedocs_traffic_analytics_jupyterlab_2023-10-20_2024-01-18.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]   Begin metrics merge...
+[BldMetrics]     ...merged traffic CSVs
+[BldMetrics]     ...merged search CSVs
+
+[BldMetrics] Checking item in data path: Terminado
+[BldMetrics]   Searching...
+[BldMetrics]     Load CSV: Terminado/readthedocs_traffic_analytics_terminado_2023-12-27_2024-03-26.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]     Load CSV: Terminado/readthedocs_search_analytics_terminado_2023-12-27_2024-03-26.csv
+[BldMetrics]       Search data found
+[BldMetrics]   Begin metrics merge...
+[BldMetrics]     ...merged traffic CSVs
+[BldMetrics]     ...merged search CSVs
+
+[BldMetrics] Checking item in data path: Jupyter Server
+[BldMetrics]   Searching...
+[BldMetrics]     Load CSV: Jupyter Server/readthedocs_traffic_analytics_jupyter-server_2023-12-27_2024-03-26.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]     Skip file: Jupyter Server/.DS_Store
+[BldMetrics]     Load CSV: Jupyter Server/readthedocs_search_analytics_jupyter-server_2023-12-27_2024-03-26.csv
+[BldMetrics]       Search data found
+[BldMetrics]   Begin metrics merge...
+[BldMetrics]     ...merged traffic CSVs
+[BldMetrics]     ...merged search CSVs
+
+[BldMetrics] Checking item in data path: Traitlets
+[BldMetrics]   Searching...
+[BldMetrics]     Load CSV: Traitlets/readthedocs_traffic_analytics_traitlets_2023-12-27_2024-03-26.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]     Load CSV: Traitlets/readthedocs_search_analytics_traitlets_2023-12-27_2024-03-26.csv
+[BldMetrics]       Search data found
+[BldMetrics]   Begin metrics merge...
+[BldMetrics]     ...merged traffic CSVs
+[BldMetrics]     ...merged search CSVs
+
+[BldMetrics] Checking item in data path: Jupyter
+[BldMetrics]   Searching...
+[BldMetrics]     Load CSV: Jupyter/readthedocs_search_analytics_jupyter_2023-12-27_2024-03-26.csv
+[BldMetrics]       Search data found
+[BldMetrics]     Load CSV: Jupyter/readthedocs_traffic_analytics_jupyter_2023-12-27_2024-03-26.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]   Begin metrics merge...
+[BldMetrics]     ...merged traffic CSVs
+[BldMetrics]     ...merged search CSVs
+
+[BldMetrics] Checking item in data path: ipykernel
+[BldMetrics]   Searching...
+[BldMetrics]     Load CSV: ipykernel/readthedocs_search_analytics_ipykernel_2023-12-27_2024-03-26.csv
+[BldMetrics]       Search data found
+[BldMetrics]     Load CSV: ipykernel/readthedocs_traffic_analytics_ipykernel_2023-12-27_2024-03-26.csv
+[BldMetrics]       Traffic data found
+[BldMetrics]   Begin metrics merge...
+[BldMetrics]     ...merged traffic CSVs
+[BldMetrics]     ...merged search CSVs
+
+[BldMetrics] ---- Begin output generation ----
+[BldMetrics] Making output folder for: nbformat
+[BldMetrics]   Write merged traffic csv file
+[BldMetrics]   Write merged search csv file
+[BldMetrics] Making output folder for: Enterprise Gateway
+[BldMetrics]   Write merged traffic csv file
+[BldMetrics]   Write merged search csv file
+[BldMetrics] Making output folder for: ipywidgets
+[BldMetrics]   Write merged traffic csv file
+[BldMetrics]   Write merged search csv file
+[BldMetrics] Making output folder for: Jupyter Client
+[BldMetrics]   Write merged traffic csv file
+[BldMetrics]   Write merged search csv file
+[BldMetrics] Making output folder for: Jupyter Events
+[BldMetrics]   Write merged traffic csv file
+[BldMetrics] Making output folder for: Lumino
+[BldMetrics]   Write merged traffic csv file
+[BldMetrics]   Write merged search csv file
+[BldMetrics] Making output folder for: JupyterHub
+[BldMetrics]   Write merged traffic csv file
+[BldMetrics]   Write merged search csv file
+[BldMetrics] Making output folder for: Jupyter Notebook
+[BldMetrics]   Write merged traffic csv file
+[BldMetrics]   Write merged search csv file
+[BldMetrics] Making output folder for: Lab Server
+[BldMetrics]   Write merged traffic csv file
+[BldMetrics]   Write merged search csv file
+[BldMetrics] Making output folder for: nbconvert
+[BldMetrics]   Write merged traffic csv file
+[BldMetrics]   Write merged search csv file
+[BldMetrics] Making output folder for: JupyterLab
+[BldMetrics]   Write merged traffic csv file
+[BldMetrics]   Write merged search csv file
+[BldMetrics] Making output folder for: Terminado
+[BldMetrics]   Write merged traffic csv file
+[BldMetrics]   Write merged search csv file
+[BldMetrics] Making output folder for: Jupyter Server
+[BldMetrics]   Write merged traffic csv file
+[BldMetrics]   Write merged search csv file
+[BldMetrics] Making output folder for: Traitlets
+[BldMetrics]   Write merged traffic csv file
+[BldMetrics]   Write merged search csv file
+[BldMetrics] Making output folder for: Jupyter
+[BldMetrics]   Write merged traffic csv file
+[BldMetrics]   Write merged search csv file
+[BldMetrics] Making output folder for: ipykernel
+[BldMetrics]   Write merged traffic csv file
+[BldMetrics]   Write merged search csv file
