@@ -83,7 +83,7 @@ class RowColumnView:
             index = self._headers.index(item)
             return [row[index] for row in self._rows]
         elif isinstance(item, int):
-            return self._rows[int]
+            return self._rows[item]
         else:
             raise ValueError("Must provide a string column name or row index!")
 
