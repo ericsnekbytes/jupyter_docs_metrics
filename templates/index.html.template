@@ -32,7 +32,7 @@
             <!-- Strikethrough/disable the button if no link available -->
             <div class="download_btn btn_disabled"><s>Get search CSV</s></div>
             % endif
-            <div class="download_btn"><a href="./jupyter_docs_metrics_v1.ipynb" download>Get Notebook</a></div>
+            <div class="download_btn"><a href="./jupyter_docs_metrics_v2.ipynb" download>Get Notebook</a></div>
             <div class="download_area_extras">
                 % if item.latest_traffic_data_date or item.latest_search_data_date:
                 <div class="info_label">Last Data:</div>
