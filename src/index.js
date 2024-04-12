@@ -15,7 +15,6 @@ function updateDataAgeDisplay() {
     }
     for (item of document.getElementsByClassName('latest_search_date_info')) {
         try {
-            console.log(item)
             let dateItems = item.dataset.ageInfo.split(',');
             
             let elapsed = new Date() - new Date(dateItems[0], dateItems[1] - 1, dateItems[2]);
