@@ -9,6 +9,7 @@ import logging
 import os
 import re
 import shutil
+import sys
 import traceback
 
 from pprint import pprint
@@ -21,6 +22,11 @@ from mako.template import Template
 from doc_metrics import csv_to_rows_of_strings, RowColumnView, Metrics
 
 
+STATUS_OK = 0
+STATUS_WARNINGS = 1
+STATUS_ERRORS = 2
+WARNING = 'WARNING'
+ERROR = 'ERROR'
 DATA_DIR = 'subproject_csvs'
 OUTPUT_DIR = 'metrics_output'
 LOGFILE = 'metrics_build.log'
@@ -149,6 +155,7 @@ def build_metrics():
             raise Exception('[E] Error removing old output files') from err
 
     # Start looking for subproject folders in the data dir
+    problems = []  # A simple list with string tuples describing warnings/errors
     for proj_path in os.listdir(DATA_DIR):
         proj_dir = os.path.join(os.path.abspath(DATA_DIR), proj_path)
         logger.info(f'\n[BldMetrics] Checking item in data path: {proj_path}')
@@ -194,6 +201,7 @@ def build_metrics():
                 tgt_path = os.path.join(dirpath, target)
                 if not target.lower().endswith('.csv'):
                     logger.warning(f'[BldMetrics]     Skip file: {os.path.relpath(os.path.join(dirpath, target), DATA_DIR)}')
+                    problems.append((WARNING, 'SKIPPED_FILE', tgt_path))
                     continue
 
                 # Load the CSV and check if it's valid
@@ -202,15 +210,17 @@ def build_metrics():
                     met = Metrics.build(path=tgt_path)
                     if not (met.is_traffic() or met.is_search()):
                         logger.error(f'[BldMetrics]       [E] Bad CSV format: {tgt_path}')
+                        problems.append((ERROR, 'BAD_CSV_FMT', tgt_path))
 
                         continue
                     if met.is_empty():
                         if met.is_traffic():
-                            logger.error(f'[BldMetrics]       [E] Bad traffic CSV (Empty data rows): {tgt_path}')
+                            logger.warning(f'[BldMetrics]       [W] Bad traffic CSV (Empty data rows): {tgt_path}')
                             proj_metadata['traffic_empty'] = True
                         if met.is_search():
-                            logger.error(f'[BldMetrics]       [E] Bad search CSV (Empty data rows): {tgt_path}')
+                            logger.warning(f'[BldMetrics]       [W] Bad search CSV (Empty data rows): {tgt_path}')
                             proj_metadata['search_empty'] = True
+                        problems.append((WARNING, 'EMPTY_CSV', tgt_path))
 
                         continue
 
@@ -226,11 +236,13 @@ def build_metrics():
                     tb = traceback.format_exc()
                     logger.error('[BldMetrics]   [E] Exception occurred, details:\n' + tb)
                     logger.error(f'[BldMetrics]       [E] Error during file read: {tgt_path}')
+                    problems.append((ERROR, 'FILE_READ_ERR', tgt_path, tb))
 
                     continue
 
         if not (proj_traffic_csvs or proj_search_csvs):
             logger.warning('[BldMetrics]   Warning: No valid metrics were found for this project...')
+            problems.append((WARNING, 'MISSING_METRICS', os.path.basename(proj_dir)))
             continue
 
         # Merge/compile metrics by type
@@ -243,10 +255,12 @@ def build_metrics():
                 logger.info('[BldMetrics]     ...merged traffic CSVs')
             else:
                 logger.warning(f'[BldMetrics]     Warning: no traffic metrics!')
+                problems.append((WARNING, 'NO_TRAFFIC_DATA', os.path.basename(proj_dir)))
         except Exception as err:
             tb = traceback.format_exc()
             logger.error('[BldMetrics]   [E] Exception occurred, details:\n' + tb)
             logger.error(f'[BldMetrics]     [E] Error merging/building traffic CSVs: {proj_dir}')
+            problems.append((ERROR, 'ERR_MERGING_TRAFFIC_CSVS', os.path.basename(proj_dir), tb))
         try:
             # Build aggregated search data
             if proj_search_csvs:
@@ -255,10 +269,12 @@ def build_metrics():
                 logger.info('[BldMetrics]     ...merged search CSVs')
             else:
                 logger.warning(f'[BldMetrics]     Warning: no search metrics!')
+                problems.append((WARNING, 'NO_SEARCH_DATA', os.path.basename(proj_dir)))
         except Exception as err:
             tb = traceback.format_exc()
             logger.error('[BldMetrics]   [E] Exception occurred, details:\n' + tb)
             logger.error(f'[BldMetrics]     [E] Error merging/building search CSVs: {proj_dir}')
+            problems.append((ERROR, 'ERR_MERGING_SEARCH_CSVS', os.path.basename(proj_dir), tb))
 
     # Build outputs/reporting for each subproject
     logger.error('\n[BldMetrics] ---- Begin output generation ----')
@@ -269,6 +285,7 @@ def build_metrics():
         search_metrics = proj_metadata['search_data']
         if traffic_metrics is None and search_metrics is None:
             logger.warning(f'[BldMetrics] Skipping outputs for project without valid data: {proj_name}')
+            problems.append((WARNING, 'NO_METRICS', os.path.basename(proj_name)))
             continue
 
         # Ensure destination/output dirs exist before writing outputs to disk
@@ -306,6 +323,8 @@ def build_metrics():
     with open(r'index.html', 'w', encoding='utf8') as fhandle:
         fhandle.write(output_page)
 
+    return problems
+
 
 if __name__ == '__main__':
     # TODO Gather CLI options
@@ -314,7 +333,8 @@ if __name__ == '__main__':
     )
     parser.add_argument(
         '--strict',
-        help='Force failues on invalid data'
+        action='store_true',
+        help='Force failues on invalid data',
     )
     args = parser.parse_args()
 
@@ -331,4 +351,9 @@ if __name__ == '__main__':
     logger.addHandler(logfile_handler)
 
     # Start the build process
-    build_metrics()
+    problems = build_metrics()
+    exit_code = STATUS_OK
+    if args.strict and problems:
+        # There's at least 1 warning and/or error
+        exit_code = STATUS_ERRORS if 'ERRORS' in [item[0] for item in problems] else STATUS_WARNINGS
+    sys.exit(exit_code)
