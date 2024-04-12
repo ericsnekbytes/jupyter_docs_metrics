@@ -7,12 +7,12 @@ import datetime
 import json
 import logging
 import os
+import pprint
 import re
 import shutil
 import sys
 import traceback
 
-from pprint import pprint
 from types import SimpleNamespace
 
 from bokeh.plotting import figure, show, output_file, save, output_notebook, output_file
@@ -352,7 +352,10 @@ if __name__ == '__main__':
 
     # Start the build process
     problems = build_metrics()
+
     exit_code = STATUS_OK
+    logger.info(f'\n[BldMetrics] Summary of issues ({len(problems)}){":" + chr(10) if problems else ": (None)"}')
+    logger.info(pprint.pformat(problems))
     if args.strict and problems:
         # There's at least 1 warning and/or error
         exit_code = STATUS_ERRORS if 'ERRORS' in [item[0] for item in problems] else STATUS_WARNINGS
