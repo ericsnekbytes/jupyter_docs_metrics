@@ -61,6 +61,7 @@ class RowColumnView:
               mydata[51][mydata.col_index('Date')]
               mydata['Date'][51]
         - "ColumnName" in mydata  # Check if sheet has header/column name
+        - Get a copy of all rows/columns with rows(), columns()
         - Lazy load rows/columns with rowsi(), columni(), columnsi()
     """
 
