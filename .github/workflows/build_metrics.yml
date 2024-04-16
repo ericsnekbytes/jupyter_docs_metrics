@@ -11,6 +11,8 @@ jobs:
           name: build_metrics_pages
           path: |
             index.html
+            style
+            src
             metrics_output
             metrics_build.log
 
