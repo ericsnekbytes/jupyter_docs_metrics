@@ -23,8 +23,6 @@ from doc_metrics import csv_to_rows_of_strings, RowColumnView, Metrics
 
 
 STATUS_OK = 0
-STATUS_WARNINGS = 1
-STATUS_ERRORS = 2
 STATUS_FAILURE = 3
 WARNING = 'WARNING'
 ERROR = 'ERROR'
