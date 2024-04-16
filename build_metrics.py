@@ -25,6 +25,7 @@ from doc_metrics import csv_to_rows_of_strings, RowColumnView, Metrics
 STATUS_OK = 0
 STATUS_WARNINGS = 1
 STATUS_ERRORS = 2
+STATUS_FAILURE = 3
 WARNING = 'WARNING'
 ERROR = 'ERROR'
 DATA_DIR = 'subproject_csvs'
@@ -332,9 +333,14 @@ if __name__ == '__main__':
         description='Metrics builder for Jupyter ReadTheDocs site stats.'
     )
     parser.add_argument(
-        '--strict',
+        '--strict_errors',
         action='store_true',
-        help='Force failues on invalid data',
+        help='Force failure, only when errors occur',
+    )
+    parser.add_argument(
+        '--strict_warnings',
+        action='store_true',
+        help='Force failure when warnings OR errors occur',
     )
     args = parser.parse_args()
 
@@ -353,10 +359,19 @@ if __name__ == '__main__':
     # Start the build process
     problems = build_metrics()
 
+    # Manually set a return code if needed based on supplied terminal args
     exit_code = STATUS_OK
     logger.info(f'\n[BldMetrics] Summary of issues ({len(problems)}){":" + chr(10) if problems else ": (None)"}')
     logger.info(pprint.pformat(problems))
-    if args.strict and problems:
-        # There's at least 1 warning and/or error
-        exit_code = STATUS_ERRORS if 'ERRORS' in [item[0] for item in problems] else STATUS_WARNINGS
+    if problems and (args.strict_errors or args.strict_warnings):
+        # Only force a non-zero exit code when strict args are used
+        statuses = set([item[0] for item in problems])
+
+        if args.strict_warnings:
+            if (ERROR in statuses) or (WARNING in statuses):
+                exit_code = STATUS_FAILURE
+        elif args.strict_errors:
+            if ERROR in statuses:
+                exit_code = STATUS_FAILURE
+    logger.info('\n[BldMetrics] Finished.\n')
     sys.exit(exit_code)

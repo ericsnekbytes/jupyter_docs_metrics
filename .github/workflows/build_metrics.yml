@@ -1,0 +1,9 @@
+name: build-metrics
+run-name: ${{ github.actor }} ran build-metrics
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 build_metrics.py --strict_errors
