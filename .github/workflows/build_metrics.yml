@@ -6,7 +6,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/upload-artifact@v4
+      - run: |
+          echo "Commit SHA:"
+          echo $GITHUB_SHA
+      - run: python3 -c "import os; print(os.listdir())"
+      - run: python3 -m pip install bokeh mako
+      - run: python3 build_metrics.py --strict_errors
+      - name: Create metrics output artifact
+        uses: actions/upload-artifact@v4
         with:
           name: build_metrics_pages
           path: |
@@ -15,8 +22,3 @@ jobs:
             src
             metrics_output
             metrics_build.log
-
-      - run: echo $GITHUB_SHA
-      - run: python3 -c "import os; print(os.listdir())"
-      - run: python3 -m pip install bokeh mako
-      - run: python3 build_metrics.py --strict_errors
