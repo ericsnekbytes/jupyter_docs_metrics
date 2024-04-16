@@ -6,5 +6,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: build_metrics_pages
+          path: |
+            metrics_output
+            metrics_build.log
+
       - run: python3 -m pip install bokeh mako
       - run: python3 build_metrics.py --strict_errors
