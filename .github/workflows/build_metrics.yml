@@ -2,7 +2,7 @@ name: build-metrics
 run-name: ${{ github.actor }} ran build-metrics
 on: [push]
 jobs:
-  check-bats-version:
+  run-build-metrics:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
