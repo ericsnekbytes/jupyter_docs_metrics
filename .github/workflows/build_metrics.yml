@@ -16,5 +16,7 @@ jobs:
             metrics_output
             metrics_build.log
 
+      - run: echo $GITHUB_SHA
+      - run: python3 -c "import os; print(os.listdir())"
       - run: python3 -m pip install bokeh mako
       - run: python3 build_metrics.py --strict_errors
