@@ -366,9 +366,11 @@ if __name__ == '__main__':
         statuses = set([item[0] for item in problems])
 
         if args.strict_warnings:
+            logger.info('\n[BldMetrics] Terminal arg --strict_warnings is enabled')
             if (ERROR in statuses) or (WARNING in statuses):
                 exit_code = STATUS_FAILURE
         elif args.strict_errors:
+            logger.info('\n[BldMetrics] Terminal arg --strict_errors is enabled')
             if ERROR in statuses:
                 exit_code = STATUS_FAILURE
     logger.info('\n[BldMetrics] Finished.\n')
